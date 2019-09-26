@@ -1,0 +1,1640 @@
+/*
+ * (c) 2016 BlackBerry Limited. All rights reserved.
+ *
+ */
+
+/* Localizable strings within the BlackBerry Dynamics client library user interface.
+ * The order of strings in this file is based on the order in which they would
+ * normally be encountered during set-up, and then on the order in which they
+ * appear on the screen, from top to bottom.
+ */
+
+/* Welcome UI strings, for the first page that is displayed, before set-up. */
+
+/* Welcome UI : Navigation Title
+ * Also appears in the following:
+ * Provision UI : Navigation Title
+ * Provision Progress UI : Navigation Title
+ */
+"Setup" = "安装";
+
+/* Welcome UI : Next button label text */
+"Start" = "安装";
+
+/* Welcome UI : Next button Accessibility label */
+"_Start" = "安装";
+
+/* Welcome UI : Next button Accessibility hint */
+"__Start" = "移动至下一屏幕。";
+
+/* Welcome UI : Welcome Message
+ * In the following, WiFi should be Wi-Fi with a hyphen, but the UI will
+ * break the line at the hyphen, which looks bad.
+ * IT admin should be IT administrator, but administrator is a long word and
+ * causes an odd line break.
+ */
+"Welcome to BlackBerry Dynamics" =
+"欢迎使用 BlackBerry Dynamics！\n\n安装全程均需要移动数据或 WiFi。\n您将需要使用自己的电子邮件地址以及 IT 管理员在欢迎消息中提供的访问密钥。";
+
+/* Provision UI strings, for the page on which the user enters their
+ * e-mail address and activation key (aka PIN).
+ */
+
+/* Provision UI : Left button label text
+ * Also appears in the following:
+ * Set Password UI : Left button label text
+ * Unlock UI : Left button label text
+ * Select a mail service : Cancel button label
+ * Error Alert View : Button label
+ * Open URL : Button label text
+ * Open URL : Error Alert View : Button label
+ * Open WatchDox URL : Button Title
+ * macOS Uninstaller Script: Cancel Button
+ */
+"Cancel" = "取消";
+
+/* Provision UI : Right button label text */
+"Next" = "下一步";
+
+/* Company Name - BlackBerry */
+"BlackBerry" = "BlackBerry";
+
+/* Provision UI : Email Label text */
+"Email Address" = "电子邮件地址";
+
+/* Provision UI : Email accessibility label */
+"_EmailAddress" = "电子邮件地址";
+
+/* Provision UI : PIN Label text */
+"PIN" = "访问密钥";
+
+/* Provision UI : PIN Label text */
+"Unlock Key" = "解锁密钥";
+
+/* Provision UI : PIN Field 1 accessibility label */
+"_PinField1" = "访问密钥字段 1，共 3 个";
+
+/* Provision UI : PIN Field 2 accessibility label */
+"_PinField2" = "访问密钥字段 2，共 3 个";
+
+/* Provision UI : PIN Field 3 accessibility label */
+"_PinField3" = "访问密钥字段 3，共 3 个";
+
+/* Provision UI : Error Message - Invalid PIN */
+"Invalid PIN" = "无效的访问密钥";
+
+/* Provision UI : Error Message - Invalid unlock PIN */
+"Invalid unlock PIN" = "无效的解锁密钥";
+
+/* Provision UI : Error Message - No Coverage */
+"Network Required" =
+"安装过程需要移动数据或 Wi-Fi。请在数据连接可用时再次尝试。";
+
+/* Provision UI : Title */
+"Set-up failed" = "安装失败";
+
+/* Provision UI Desktop: Title */
+"Desktop Network Required Title" = "无互联网连接";
+
+/* Provision UI Desktop: Message */
+"Desktop Network Required Message" = "您的计算机当前处于脱机状态。请检查您的网络设置。";
+
+/* Provision Progress UI strings, for the page that is displayed during
+ * authorization processing.
+ */
+
+
+/* Provision Progress UI : Left button label text */
+"Back" = "返回";
+
+/* Provision Progress UI : Set Up Progress Label */
+"Setup Progress" = "进度";
+
+/* Provision Progress UI : Status Label text */
+"Status" = "状态";
+
+/* Provision Progress UI : State - Init
+ * In this state:
+ * Post to the GD NOC activation service
+ * Establish Push Connection
+ */
+"NOC Activation" = "基础设施激活";
+
+/* Provision Progress UI : State - NOC
+ * In this state:
+ * Post e-mail address and access key to the NOC
+ * NOC checks validity
+ * Returns: Various server addresses
+ */
+"NOC Provisioning" = "企业版激活";
+
+/* Provision Progress UI : State - Push Channel
+ * In this state:
+ * Initial Push Channel is established
+ */
+"Starting Push Channel" = "连接推送通道";
+
+/* Provision Progress UI : State - Data Secure
+ * In this state:
+ * Secure Data Transfer from enterprise GC
+ */
+"Secure Data" = "通过 AppKinetics 安全的数据传输";
+
+/* Provision Progress UI : State - Negotiate
+ * In this state:
+ * Secure communications set-up, part one
+ */
+"Negotiating Request" = "保护通信";
+
+/* Provision Progress UI : State - Data Request
+ * In this state:
+ * Secure communications set-up, part two
+ */
+"Data Request" = "通信已保护";
+
+/* Provision Progress UI : State - Downloading Policies
+ * In this state:
+ * Retrieve policies from enterprise GC
+ */
+"Downloading Policies" = "检索策略";
+
+/* Provision Progress UI : State - Policy Download Complete */
+"Policy Download Complete" = "策略已检索";
+
+/* Provision Progress UI : State - Provision Complete */
+"Provisioning Complete" = "企业版已激活";
+
+/* Provision Progress UI : State - Waiting */
+"Waiting..." = "请等待...";
+
+/* Provision Progress UI : State - Checking Permission */
+"Checking Permission" = "检查授权";
+
+/* Provision Progress UI : State - Checking Permission Complete */
+"Permission Verified" = "授权已验证";
+
+/* Provision Progress UI : Provision Fail Message */
+"Provisioning with enterprise failed" = "安装应用程序失败";
+
+/* Provision Progress UI : Provision accessibility label */
+"_ProvisionProgressUI" = "安装状态";
+
+/* Provision Progress UI : Provision accessibility hint */
+"__ProvisionProgressUI" = "显示当前安装状态。";
+
+/* Provision Progress UI : Provision Access Denied Message
+ * IT admin should be IT administrator, but administrator is a long word and
+ * causes an odd line break.
+ */
+"Provisioning Denied" =
+"电子邮件地址和访问密钥无法识别。\n\n请检查输入的数值是否正确，是否过期。如果问题仍存在，请通过自助服务或从 IT 管理员处获取新的访问密钥。";
+
+/* Provision Progress UI : NOC Activation failure message */
+"NOC Activation failed" = "基础设施激活失败";
+
+/* Provision Progress UI : NOC Provisining failure message */
+"NOC Provisioning Failed" = "企业版激活失败";
+
+/* Provision Progress UI : Starting Push Channel failure message */
+"Starting Push Channel Failed" = "连接推送通道失败";
+
+/* Provision Progress UI : Negotiating Request failure message */
+"Negotiating Request Failed" = "协商安全通信失败";
+
+/* Provision Progress UI : Data Request failure message */
+"Data Request Failed" = "安装安全通信失败";
+
+/* Provision Progress UI : Policy Exchange failure message */
+"Policy Exchange failed" = "策略检索失败";
+
+/* Provision Progress UI : Send Log */
+"Send Log" = "发送日志";
+
+/* Provision Progress UI : Retry */
+"Retry" = "重试";
+
+/* Provision Progress UI : SafetyNet validation failed */
+"SafetyNet validation failed" = "SafetyNet 验证失败";
+
+/* Provision Progress UI : Hardware attestation failed */
+"OS version not compliant" = "公司策略不允许使用当前版本的操作系统。\n\n请更新您的设备软件或联系您的管理员";
+
+/* Provision Progress UI : App integrity check failed */
+"App integrity check failed" = "应用程序完整性检查失败，请与管理员联系";
+
+/* Migration UI strings, for the screen on which user migration progress is 
+displayed. 
+*/
+
+/* Migration UI : Title text  */
+"Migration is in progress" = "正在进行迁移";
+ 
+/* Migration UI : Error Message - Title text */
+"Migration Failed" = "迁移失败";
+ 
+/* Migration UI : Error Message - Migration failure */
+"Problem with migration" = "迁移出现故障";
+ 
+/* Migration UI :  Error Message - No coverage */
+"Network Required Migration" = "迁移过程需要移动数据或 Wi-Fi 连接。\n\n请在有数据连接时再次尝试。";
+
+/* Set Password UI strings, for the screen on which the user sets their
+ * security password. The password must comply with the provisioning
+ * enterprise's security policies.
+ * The Set Password screen can appear in two contexts:
+ * Immediately after set-up has completed and the user sets their password for
+ * the first time, and
+ * As part of the preferences user interface, where the user can change their
+ * password.
+ */
+
+/* Set Password UI : Navigation Title - Set Password
+ * For use when the screen appears as part of the set-up UI
+ */
+"Set a New Password" = "设置新密码";
+
+/* Set Password UI : Navigation Title - Change Password
+ * For use when the screen appears as part of the GD Settings UI
+ * Touch ID disallowed : First button title
+ */
+"Change Password" = "更改密码";
+
+/* Password Requirements button label */
+"Password Requirements" = "密码要求";
+
+/* Set Password UI : Right button label text */
+"Done" = "完成";
+
+/* Set Password UI : Label text */
+"Go" = "前往";
+
+/* Set Password UI : Label text for setting password. */
+"Set password label text" = "您需要设置密码。";
+
+/* Set Password UI : Placeholder text string for confirm password textfield */
+"Confirm New Password" = "确认新密码";
+
+/* The following strings are used to present the rules that will apply to the
+ * user's password.
+ */
+
+/* Set Password UI : Password Guide Preface
+ * The following appears above the rules statements.
+ */
+"Your password must include:\n" = "您的密码必须：\n";
+
+/* Set Password UI : Password Guide - Repeat
+ * Note. The relative positions of repeated characters does not affect this
+ * policy. In other words the repeated characters could be adjacent or not
+ * adjacent.
+ */
+"- Disallow %d or more repeated characters\n" = "- 包含不超过 %d 个相同字符\n";
+
+/* Set Password UI : Password Guide - Sequential Number
+ * Note: There is no policy against sequential letters, for example: abcdef
+ */
+"- Do not allow sequential numbers\n" = "- 不包含连续号码（如 123 或 321）\n";
+
+/* Set Password UI : Password Guide - Personal Information
+ */
+"- Do not allow personal information\n" = "- 不包含个人信息\n";
+
+/* Set Password UI : Password Guide - Length */
+"- Require at least %d characters\n" = "- 包含至少 %d 个字符\n";
+
+/* Set Password UI : Password Guide - Special Character
+ * Note: Here, a special character is one that returns non-zero when passed to a
+ * standard ispunct() function. See the following page for a definition:
+ * http://pubs.opengroup.org/onlinepubs/000095399/basedefs/xbd_chap07.html
+ */
+"- Require at least one special character\n" = "- 包含至少一个特殊字符\n";
+
+/* Set Password UI : Password Guide - Number */
+"- Require both letters and numbers\n" = "- 同时包含字母和数字\n";
+
+/* Set Password UI : Password Guide - Uppercase */
+"- Require both upper and lower case\n" = "- 同时包含大写和小写字母\n";
+
+/* Set Password UI : Password Guide - Banned Passwords */
+"\nDo not allow banned passwords\n" = "\n您的密码不能为禁用密码。\n";
+
+/* End of password rules */
+
+/* Set Password UI : Placeholder text string for new password textfield */
+"New Password" = "新密码";
+
+/* Set Password UI : Placeholder text string for old password textfield */
+"Current Password" = "当前密码";
+
+/* The following are error messages for use when the password that the user
+ * entered does not comply with security policy. These are displayed on a
+ * dialog over the screen on which the user has attempted to enter the password.
+ * The title of the dialog is always "Error" or its localization.
+ */
+
+/* Set Password UI : Error Message - Password Change Failure
+ * This error is displayed if the old password was incorrect.
+ */
+"New password cannot be changed" = "无法更改密码。请重试。";
+
+/* Set Password UI : Error Message - Password Change Failure History */
+"Previously used pass error message" = "之前使用的密码。";
+
+/* Set Password UI : Error Message - Password Change Failure Too Soon */
+"Password changed less than 24h ago" = "今日密码已更改。";
+
+/* Set Password UI : Error Message - Password Change Failure within 24 hours */
+"Password cannot be changed within 24 hours." = "24 小时之内无法更改密码。\n密码设置：[time]";
+
+/* Set Password UI : Error Message - Sequential Numbers */
+"No number sequence allowed in password" = "密码包含连续号码（例如：123 或 321）";
+
+/* Set Password UI : Error Message - Personal Information */
+"Password cannot have personal information" = "密码包含个人信息";
+
+/* Set Password UI : Error Message - General Error */
+"Password is not strong enough." = "密码强度不够。";
+
+/* Set Password UI : Error Message - Short Password */
+"Password is too short." = "密码长度太短。";
+
+/* Set Password UI : Error Message - Letters and Numbers */
+"Password requires both numbers & letters" = "密码没有同时包含字母和数字。";
+
+/* Set Password UI : Error Message - Upper Case */
+"No upper and lower case letters in password" = "密码没有同时包含大写和小写字母。";
+
+/* Set Password UI : Error Message - Numeric Character */
+"No numeric character in password" = "密码没有包含任何数字。";
+
+/* Set Password UI : Error Message - Special Character */
+"No special character in password" = "密码应该包含至少一个特殊字符 (@, #, $)。";
+
+/* Set Password UI : Error Message - No Uppercase */
+"No uppercase character in password" = "密码不包含大写字母。";
+
+/* Set Password UI : Error Message - Repeated Characters */
+"Too many repeated characters" = "密码包含过多重复字符。";
+
+/* Set Password UI : Error Message - Banned Password */
+"Password is banned" = "该密码被禁用。";
+
+/* Set Password UI : Error Message - Not Matched */
+"Two passwords do not match" = "两个密码不匹配。请重试。";
+
+/* End of password compliance error messages */
+
+/* Set Password UI : Error Message - Password Set Failure */
+"New password cannot be set" = "无法设置新密码。";
+
+/* Set Password UI : Error Message - Empty Password */
+"Empty password is not allowed." = "密码为空。";
+
+/* Set Password UI : old password accessibility label */
+"_OldPassword" = "旧密码";
+
+/* Set Password UI : new password accessibility label */
+"_NewPassword" = "新密码";
+
+/* Set Password UI : confirm password accessibility label */
+"_ConfirmPassword" = "确认新密码";
+
+/* Auth delegation block UI : Navigation Title */
+"Cannot Authenticate" = "无法进行身份验证";
+
+/* Auth delegation block UI : Description */
+"AD is registered to another user" = "身份验证应用程序注册为另一用户。";
+
+/* Auth delegation block UI : Description whilst retreving download URL */
+"AD is registered to another user. Details: BundleID" = "身份验证应用程序注册为另一用户。\n\n检索应用程序详细信息：\n程序包 ID：%s";
+
+/* Auth delegation block UI : Description whilst retreving download URL got name and version */
+"AD is registered to another user. Details: BundleID, Name, Version" = "身份验证应用程序注册为另一用户。\n\n检索应用程序详细信息：\n程序包 ID：%s\n名称：%s\n版本：%s";
+
+/* Auth delegation block UI: Description retreived download URL */
+"AD is registered to another user. Details: BundleID, Name, Version, ObtainFrom" = "身份验证应用程序注册为另一用户。\n\n应用程序详细信息：\n程序包 ID：%s\n名称：%s\n版本：%s\n\n请从此处获取：\n%s";
+
+/* Auth delegation block UI : Description got no download URL */
+"AD is registered to another user. Details: BundleID, Name, Version, no URL" = "身份验证应用程序注册为另一用户。\n应用程序详细信息：\n程序包 ID：%s\n名称：%s\n版本：%s\n\n请联系您的 IT 管理员。";
+
+/* Block UI : Navigation Title
+ * Learn More : Application Blocked Title
+ */
+"Blocked" = "应用程序已锁定";
+
+/* Block UI : Description
+ * In principle, this is always blocked due to policy violation. In actuality,
+ * there are two scenarios in which a policy block could be put in place.
+ * Something may have happened on the device that makes it non-compliant.
+ * Also possible is that a policy update has taken place and the device is not
+ * compliant with the new policy, but was compliant with the old policy.
+ */
+"Application access blocked" = "此应用程序的访问权限已锁定。";
+
+/* Device Wipe UI : Navigation Title */
+"Invalid Device" = "应用程序拒绝访问";
+
+/* Device Wipe UI : Description */
+"Your device has been wiped!" = "此应用程序已被擦除。如果您需要再次访问，请联系您的 IT 管理员。";
+
+/* Lock UI : Navigation Title */
+"Locked" = "应用程序已锁定";
+
+/* InterApp Lock UI : Navigation Title */
+"Access Blocked" = "访问权限已锁定";
+
+/* InterApp Lock UI : Single Auth Delegate : Description */
+"AD is not installed" = "身份验证应用程序未安装。";
+
+/* InterApp Lock UI : Multi Auth Delegate : Description */
+"AD are not installed" = "身份验证应用程序未安装。";
+
+/* InterApp Lock UI : Single Auth Delegate : Description whilst retreving download URL */
+"AD is not installed. Details: BundleID" = "身份验证应用程序当前不可用。可能有几种原因：应用程序未安装、未激活或需要更新。\n\n检索应用程序详细信息：\n程序包 ID：%s";
+
+/* InterApp Lock UI : Multi-Auth Delegate : Description whilst retreving download URL */
+"AD are not installed. Details: BundleIDs" = "身份验证应用程序当前不可用。可能有几种原因：应用程序未安装、未激活或需要更新。\n\n检索应用程序详细信息：\n程序包 ID：%s";
+
+/* InterApp Lock UI : Single Auth Delegate : Description whilst retreving download URL got name and version */
+"AD is not installed. Details: BundleID, Name, Version" = "身份验证应用程序当前不可用。可能有几种原因：应用程序未安装、未激活或需要更新。\n\n检索应用程序详细信息：\n程序包 ID：%s\n名称：%s\n版本：%s";
+
+/* InterApp Lock UI : Multi Auth Delegate : Description whilst retreving download URL got name and version */
+"AD are not installed. Details: BundleIDs, Names, Versions" = "身份验证应用程序当前不可用。可能有几种原因：应用程序未安装、未激活或需要更新。\n\n检索应用程序详细信息：\n程序包 ID：%s\n名称：%s\n版本：%s";
+
+/* This alert should display a list of the bundle IDs,names and version numbers for all the authenticator apps */
+
+/* InterApp Lock UI : Single Auth Delegate : Description retreived download URL */
+"AD is not installed. Details: BundleID, Name, Version, ObtainFrom" = "身份验证应用程序当前不可用。可能有几种原因：应用程序未安装、未激活或需要更新。\n\n应用程序详细信息：\n程序包 ID：%s\n名称：%s\n版本：%s\n\n获取位置：\n%s";
+
+/* InterApp Lock UI : Multi-Auth Delegate : Description retreived download URL */
+"AD are not installed. Details: BundleIDs, Names, Versions, ObtainFrom" = "身份验证应用程序当前不可用。可能有几种原因：应用程序未安装、未激活或需要更新。\n\n应用程序详细信息：\n程序包 ID：%s\n名称：%s\n版本：%s\n\n获取位置：\n%s";
+
+/* This alert should display a list of the bundle IDs,names, version numbers and location from where to download all the authenticator apps */
+
+/* InterApp Lock UI : Single Auth Delegate : Description has no download URL */
+"AD is not installed. Details: BundleID, Name, Version, no URL" = "身份验证应用程序当前不可用。可能有几种原因：应用程序未安装、未激活或需要更新。\n\n应用程序详细信息：\n程序包 ID：%s\n名称：%s\n版本：%s\n\n请联系 IT 管理员。";
+
+/* InterApp Lock UI : Multi Auth Delegate : Description got no download URL */
+"AD are not installed. Details: BundleIDs, Names, Versions, no URLs" = "身份验证应用程序当前不可用。可能有几种原因：应用程序未安装、未激活或需要更新。\n\n应用程序详细信息：\n程序包 ID：%s\n名称：%s\n版本：%s\n\n请联系 IT 管理员。";
+
+/* InterApp Lock UI : Title text */
+"Authorization Unavailable" = "无法获得授权";
+
+/* InterApp Lock UI : Retry button text */
+"Try again" = "请再试";
+
+/* InterApp Lock UI : Retry message */
+"AD is unavailable. Details: BundleID, Name, Version, no URL" = "授权需要以下应用程序：\n\n名称：%s\n标识符：%s\n版本：%s\n\n在未安装、未激活或正在升级时，此应用程序将无法进行身份验证。由于某些临时情况，它也可能无法使用，在这种情况下，如果您再次尝试，将可以进行身份验证。";
+
+/* This alert should display a list of the bundle IDs,names, version numbers of all the authenticator apps */
+
+/* Wipe or Reset UI : Title */
+"Authentication failed" = "身份验证丢失";
+
+/* Wipe or Reset UI : Message */
+"Auth delegate authentication failed" =
+"选择“恢复”以恢复身份验证，此操作将需要您 IT 管理员提供的特殊代码。选择“擦除”删除您的数据，以重新安装身份验证。安装身份验证将需要使用新的访问密钥重新激活。";
+
+/* Recover */
+"InterApp lock description message" = "使用您的 IT 部门发送的代码解锁应用程序。\n\n注意：如果您没有代码，请联系您的 IT 组织寻求协助";
+
+/* Wipe or Reset UI : Right button label text */
+"Reset Password" = "恢复";
+
+/* Wipe or Reset UI : Left button label text */
+"Wipe" = "擦除";
+
+/* Please Wait UI : Navigation Title */
+"Authenticating" = "身份验证";
+
+/* Remote Lock UI : Navigation Title */
+"Remote Lock" = "应用程序远程锁定";
+
+/* Remote Lock UI : Right button label text
+ Unlock UI : Right button label text */
+"Unlock" = "解锁";
+
+/* Remote Lock UI : Help Message */
+"Remote lock help message" = "使用下述解锁代码联系您的 IT 管理员，以获取解锁此应用程序的临时密码。";
+
+/* Remote Lock UI : Password Field 1 accessibility label */
+"_PwdField1" = "解锁关键字段 1，共 4 个";
+
+/* Remote Lock UI : Password Field 2 accessibility label */
+"_PwdField2" = "解锁关键字段 2，共 4 个";
+
+/* Remote Lock UI : Password Field 3 accessibility label */
+"_PwdField3" = "解锁关键字段 3，共 4 个";
+
+/* Remote Lock UI : Password Field 4 accessibility label */
+"_PwdField4" = "解锁关键字段 4，共 4 个";
+
+/* Remote Lock UI : Error alertview message
+ * Unlock UI : Error alertview message
+ * Error Alert View : Title
+ */
+"Incorrect Password" = "密码错误";
+
+/* Unlock UI : Placeholder text string for password textfield */
+"Password" = "密码";
+
+/* Unlock UI : Label text for entering regular password */
+"Enter Password" = "输入密码";
+
+/* Unlock UI : enter password accessibility label */
+"_EnterPassword" = "输入密码";
+
+/* Unlock UI : Label text for entering PIN as password */
+"Enter PIN" = "输入访问密钥";
+
+/* Unlock UI : Label text for entering unlock key as password */
+"Enter Unlock Key" = "输入解锁密钥";
+
+/* Application Unlock : Title */
+"Application Unlock" = "应用程序解锁";
+
+/* Application Unlock : Unlock assistance */
+"Unlock key required" = "解锁密钥可向 BlackBerry 或 IT 管理员获取。";
+
+/* General UI : Clear button label */
+"Clear" = "清除";
+
+/* General UI : Next Button accessibility label */
+"_NextButton" = "下一步";
+
+/* General UI : Next Button accessibility hint */
+"__NextButton" = "移动至下一屏幕。";
+
+/* General UI : Cancel Button accessibility label */
+"_CancelButton" = "返回";
+
+/* General UI : Cancel Button accessibility hint */
+"__CancelButton" = "返回上一屏幕。";
+
+/* General UI : Close Button accessibility label */
+"_CloseButton" = "关闭";
+
+/* General UI : Close Button accessibility hint */
+"__CloseButton" = "退出当前屏幕。";
+
+/* General UI : Info Button accessibility label */
+"_InfoButton" = "信息";
+
+/* General UI : Info Button accessibility hint */
+"__InfoButton" = "显示这些选项的详细说明。";
+
+/* Help UI : webview accessibility label */
+"_HelpWebview" = "示例电子邮件";
+
+/* Error Alert View : Title
+ * Open URL : Error Alert View : Title
+ * Open WatchDox URL : Error Title
+ */
+"Error" = "错误";
+
+/* Error Alert View : Button label 
+ * Open WatchDox URL : Error Button Title
+ */
+"OK" = "确定";
+
+/* Error Alert View : Title */
+"Application Access Denied" = "应用程序拒绝访问";
+
+/* Error Alert View : Title */
+"Unauthorized User" = "未授权用户";
+
+/* Device Wipe/Block UI: App Denied */
+"Wipe/Block App Denied" = "应用程序未授权。\n%@ v%@\n请联系您的 IT 管理员。";
+
+/* Device Wipe/Block UI: Description Mobile Docs */
+"Wipe/Block key changed" = "身份验证应用程序失效。已擦除本应用程序存储的任何数据。请终止并重新启动本应用程序进行重试。";
+
+/* Device Wipe/Block UI: NEM mode Description */
+"Wipe/Block NEM Mode" = "应用程序处于模拟模式，无法在设备上运行。";
+
+/* Device Wipe/Block UI: Incompliant library Description */
+"Wipe/Block Incompliant lib version" = "应用程序基于 BlackBerry Dynamics 库版本 '%@'，未得到许可。请升级应用程序或在合规性策略中启用该版本。";
+
+/* Device Wipe/Block UI: Incompliant device Description */
+"Wipe/Block Incompliant device" = "设备硬件版本为 '%@' 但未得到许可。请在已许可的设备上安装应用程序或启用此硬件合规性策略。";
+
+/* Device Wipe/Block UI: Incompliant OS Description */
+"Wipe/Block OS Incompliant device" = "操作系统的当前版本为 '%@'，未得到许可。请联系您的管理员了解详细信息。";
+
+/* Device Wipe/Block UI: Rooted Description */
+"Wipe/Block Rooted" = "设备已越狱。";
+
+/* Device Wipe/Block UI: Connectivity in days Description */
+"Wipe/Block Connectivity in days" = "此应用程序在过去 %d 天中未使用。";
+
+/* Device Wipe/Block UI: Connectivity in hours Description */
+"Wipe/Block Connectivity in hours" = "此应用程序在过去 %d 小时中未使用。";
+
+/* Device Wipe/Block UI: Max password attempts exceeded Description */
+"Wipe/Block Max password attemnts exceeded" = "无效的密码尝试次数最多为 %d，本次尝试已超过次数。";
+
+/* Device Wipe/Block UI: Data has been wiped */
+"Wipe/Block data removed" = " IT 已删除与此应用程序相关的所有数据。";
+
+/* Device Wipe/Block UI: MDM policy is required but not yet installed */
+"Wipe/Block MDM required" = "应用程序需要此设备安装移动设备管理 (MDM) 策略。";
+
+/* Device Wipe/Block UI: MDM policy is required but agent is not up to date */
+"Wipe/Block MDM update required" = "应用程序需要此设备安装移动设备管理 (MDM) 策略，但 MDM 代理不是最新。";
+
+/* Deny App by App version : Blocked */
+"The version of [App Name] is blocked" = "%s 的版本 %s 已锁定。请联系您的 IT 部门获取详细信息。";
+
+/* Deny App by App version : Wiped */
+"The version of [App Name] has been wiped" = "%s 的版本 %s 已被擦除。请联系您的 IT 部门获取详细信息。";
+
+/* GDiOS Event : App Permission Failed */
+"Error application not allowed for user" = "不允许用户使用错误应用程序";
+
+/* GDiOS Event : Activation Failed */
+"Error device activation failed" = "错误设备激活失败";
+
+/* GDiOS Event : Provisioning Failed */
+"Error provisioning with enterprise failed" = "企业版错误设置失败";
+
+/* GDiOS Event : Push Connection Failed */
+"Error push connection failed to open" = "错误推送连接打开失败";
+
+/* GDiOS Event : Security Failed */
+"Error unlocking secure container" = "错误解锁保护容器";
+
+/* GDiOS Event : Provision Cancelled */
+"Error user cancelled provisioning" = "启动错误用户取消设置";
+
+/* GDiOS Event : OK */
+"Authorization OK" = "授权确定";
+
+/* GDiOS Event : Application Blocked */
+"Application access has been blocked" = "应用程序访问权限已锁定";
+
+/* GDiOS Event : Application Wiped */
+"Application has been wiped" = "应用程序已被擦除";
+
+/* GDiOS Event : Application Idle Lockout */
+"Application idle timeout activated" = "应用程序空闲超时激活";
+
+/* GDiOS Event : Application Remote Locked */
+"Application has been remote locked" = "应用程序已远程锁定";
+
+/* GDiOS Event: Password Change Required */
+"Password Change Required" = "密码更改要求";
+
+/* [Simulated] : Simulated Title Append
+ * Displayed when the application is running in Enterprise Simulation mode
+ */
+"[Simulated]" = "[已模拟]";
+
+/* Unlock UI : Label text for forgot password */
+"_ForgotPasswordLabel" = "忘记密码";
+
+/* Unlock UI : forgot password accessibility label */
+"_ForgotPasswordButton" = "忘记密码";
+
+/* Unlock UI : forgot password accessibility hint */
+"__ForgotPasswordButton" = "密码重置确认提示。";
+
+/* Confirm Alert View : Title */
+"Lock For Reset?" = "锁定以重置？";
+
+/* Confirm Alert View : Message */
+"Forgot password alert message" = "密码重置需要您的 IT 管理员提供特殊代码。密码重置请求提出后应用程序将锁定。";
+
+/* Forgot Password Learn More View : Message */
+"Forgot password learn more message" = "密码重置需要您的 IT 管理员提供特殊代码。";
+
+/* Confirm Alert View : Positive Button */
+"Reset" = "重置";
+
+/* Application is not installed Alert View : Message */
+"Application not responding message" = "该应用程序不响应。";
+
+/* Application is not activated Alert View : Message */
+"Application not active message" = "该应用程序尚未设置，或已被卸载并重新安装。";
+
+/* Unlock UI : Keyboard Guide */
+"Touch 'Next' to unlock." = "触摸“下一步”解锁。";
+
+/* EULA UI : accept EULA accessibility label */
+"_AcceptEULAButton" = "接受协议";
+
+/* EULA UI : accept EULA accessibility hint */
+"__AcceptEULAButton" = "接受协议。";
+
+/* EULA UI : decline EULA accessibility label */
+"_DeclineEULAButton" = "拒绝协议";
+
+/* EULA UI : accept EULA accessibility hint */
+"__DeclineEULAButton" = "拒绝协议。";
+
+/* EULA UI : UDID agreement text */
+"UDID Agreement" = "允许读取设备唯一标识符 (UDID)？\n\n应用程序数据之前受设备唯一标识符 (UDID) 保护。无 UDID 访问权限，您保存的数据将无法被检索，只能被擦除。";
+
+/* Migrate UI : UDID Access Warning : Title */
+"UDID Access Warning Title" = "UDID 访问拒绝";
+
+/* Migrate UI : UDID Access Warning : Message */
+"UDID Access Warning Message" = "重置应用程序并擦除其数据？";
+
+/* Migrate UI : UDID Access Warning : OK */
+"UDID Access Warning OK" = "擦除";
+
+/* Migrate UI : UDID Access Warning : Allow */
+"UDID Access Warning Allow" = "允许";
+
+/* Request Unlock Key : Description */
+"Remote lock wipe reason unlock description" = "请联系您的管理员获取解锁密钥。";
+
+/* Help UI : access key help message */
+"Access key help message" = "<br><div style=\"width:[OUTERWIDTH]px\"><style>DIV.PlainText { font-size:[FONTSIZE];font-family:monospace;background-color:#ffffff;color:#000000; -webkit-border-radius: 5px 5px 0px 0px; padding: [PADDING]px; background: -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,1.0)), to(rgba(255,255,255,0.0)), color-stop(.92,#ffffff));}</style>%@<br><br><font size=\"2\"><div style=\"padding:5px;margin:0px auto; width:[INNERWIDTH]px\" class=\"PlainText\">尊敬的<font color=808080><i>Your Name</i></font>：<br><br>您已获授权可... <br><br>&nbsp;&nbsp; 1. 下载您需要的应用程序<br>&nbsp;&nbsp;&nbsp;...<br>&nbsp;&nbsp; 2. 在<br>&nbsp;&nbsp;提示出现时输入下述信息（非敏感信息）：<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;电子邮箱地址：&nbsp; <span style=\"background:yellow;color:808080\"><i>email@company.com</i></span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;访问密钥： <span style=\"background:yellow;color:808080\"><i>xxxxx-xxxxx-xxxxx</i></span><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;您的访问密钥已过期：<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color=808080><i>到期日期</i></font><br><br>&nbsp;&nbsp;3. 如果 IT 安全策略需要...<br><br><br></div></font></div>";
+
+/* Help UI : unlock access key help message */
+"Unlock access key help message" = "<br><div style=\"width:[OUTERWIDTH]px\"><style>DIV.PlainText { font-size:[FONTSIZE];font-family:monospace;background-color:#ffffff;color:#000000; -webkit-border-radius: 5px 5px 0px 0px; padding: [PADDING]px; background: -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,1.0)), to(rgba(255,255,255,0.0)), color-stop(.92,#ffffff));}</style>%@<br><br><font size=\"2\"><div style=\"padding:5px;margin:0px auto; width:[INNERWIDTH]px\" class=\"PlainText\">尊敬的<font color=808080><i>Your Name</i></font>：<br><br>您已获授权可... <br><br>&nbsp;&nbsp;在<br>&nbsp;&nbsp; 提示出现时输入下述信息（非敏感信息）：<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;电子邮件地址：&nbsp; <span style=\"background:yellow;color:808080\"><i>email@company.com</i></span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;解锁访问密钥： <span style=\"background:yellow;color:808080\"><i>xxxxx-xxxxx-xxxxx</i></span><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;您的访问密钥已过期：<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color=808080><i>到期日期 </i></font><br><br>&nbsp;&nbsp;<br><br><br></div></font></div>";
+
+/* Help UI : access key help message non-html */
+"Access key help message non-html" = "尊敬的<Your Name>：\n\n您已获授权可... \n\n1. 下载您需要的应用程序 ...\n2. 在提示出现时输入下述信息（非敏感信息）：\n\n电子邮件地址：email@company.com\n访问密钥：xxxxx-xxxxx-xxxxx\n\n您的访问密钥已过期：<expiration date>\n\n3. 如果 IT 安全策略需要...";
+
+/* Information UI : title */
+"Information" = "信息";
+
+/* The following are error messages for use in Secure Document Transfer
+ * These are used by the secure Preview Controller & secure document
+ * interaction controller
+ */
+
+/* Preview Controller : no apps message */
+"Preview controller has no apps message" = "非适用应用程序。";
+
+/* Preview Controller : share denied title */
+"Preview controller share denied title" = "操作不允许。";
+
+/* Preview Controller : share denied message*/
+"Preview controller share denied" = "根据您的 IT 合规性策略，此操作不允许。";
+
+/* Document Interaction Controller : error sending file title */
+"Document interaction controller error title" = "文件传输错误";
+
+/* Document Interaction Controller : error sending message */
+"Document interaction controller error message" = "文件传输出现错误。";
+
+/* Document Interaction Controller : try again title */
+"Document interaction controller try again title" = "请重试";
+
+/* Document Interaction Controller : try again message */
+"Document interaction controller try again message" = "文件传输仍受到保护。请稍后重试。";
+
+/* Unlock UI : Incorrect Password with max */
+"Unlock PIN incorrect with max attempts" = "您输入的密码不正确。您还可输入 %d 次。";
+
+/* Unlock UI : Error alertview message
+ * Unlock UI : Incorrect Password
+ */
+"The password you entered is not correct." = "您输入的密码不正确。";
+
+/* EA password screen prompt */
+"Use your unlock password to allow." = "使用您的解锁密码允许安装。";
+
+/* EA password screen forgot pass prompt
+ * Unlock UI : Label text for forgot password
+ */
+"Forgot Password" = "忘记密码";
+
+/* EA password is requesting activation prompt */
+"is requesting setup." = "请求安装。";
+
+/* EA - access key prompt */
+"Set up using your Access Key" = "使用您的访问密钥设置";
+
+/* EA Learn more button label */
+"Learn More" = "了解更多";
+
+/* EA Report a Problem button label */
+"Report a Problem" = "报告问题";
+
+/* EA Secured By label */
+"Secured By" = "受标签保护";
+
+/* EA Setup using label */
+"Set up using" = "使用标签安装";
+
+/* EA activation options format string */
+"Application for %s:" = "%s 的应用程序：";
+
+/* EA Error Alert View : Unable to launch EA delegate */
+"Unable to launch EA delegate" = "无法启动 EA 委托";
+
+/* EA Error Alert View : format string with code */
+"Error returned %d" = "返回错误 %d";
+
+/* EA app selection screen */
+"EA app selection screen help." = "可以使用下述任一应用程序的密码或管理员提供的访问密钥设置 %s。";
+
+/* EA password screen prompt */
+"Enter the password for [App Name] to continue." = "输入 %s 的密码继续。";
+
+/* Easy Activation: 401 - Unauthorized:  The user cancelled the activation request.*/
+"Activation request was canceled" = "激活请求已取消。";
+
+/* Easy Activation: 403 - Forbidden - The user is not entitled to activate the specified application/version.*/
+"You are not entitled to setup the specified app" = "您无权安装指定的应用程序/版本。请联系您的 IT 部门获取权限。";
+
+/* Easy Activation: 404 - Not Found - The requesting application is not a recognized GD application.*/
+"EA app is not recognized" = "您正安装的应用程序无法识别。请联系您的 IT 部门获取更多信息。";
+
+/* Easy Activation: 423 - Activator is blocked - The requesting application is blocked by policy incomplience*/
+"EA app is locked" = "现在无法激活。请解决问题后再试一次。";
+
+/* CSR: 406 - Token matching failed.*/
+"CSR token matching failed" = "管理控制台拒绝。";
+
+/* Easy Activation: 500 - Unspecified error*/
+"EA request failed with unspecified error" = "安装失败。请重新尝试或使用您的访问密钥设置。";
+
+/* Easy Activation: 502 - Bad Gateway - The request failed due to a network communication failure with or between the backend servers.*/
+"EA unable to connect error" = "无法连接。请重新尝试";
+
+/* Easy Activation: 503 - Unavailable - The responding application is not configured to act as an activation delegate.*/
+"EA app is not configured correctly as delegate" = "安装失败。请使用您的访问密钥检查选择协助安装的应用程序已正确配置或安装。";
+
+/* EA Error Alert View : message error 506*/
+"EA app is remote locked" = "激活请求失败。请与您的 IT 部门联系，以使用您的访问密钥进行解锁或设置。";
+
+/* Easy Activation: 507 - Mismatch - Address mismatch because the catalogue doesn't have the correct AppLocalAddress.*/
+"EA - slave app is misconfigured" = "您正安装的应用程序配置错误。请联系您的 IT 部门获取更多信息。";
+
+/* Easy Activation Missing Application Title */
+"Missing Application" = "应用程序丢失";
+
+/* Easy Activation Missing Application Message */
+"EA app missing" = "%s 可能已被删除。请选择另一应用程序或使用访问密钥继续设置。";
+
+/* Learn More: Requesting Activation Title */
+"Setup Options" = "选择安装选项";
+
+/* Learn More: Requesting Activation */
+"Select an option to activate application." = "请使用 BlackBerry Dynamics 安装应用程序选项自动安装或从您的 IT 管理员处获取访问密钥。";
+
+/* Learn More: Access Key Screen Title */
+"Setup App" = "安装应用程序";
+
+/* Learn More: Access Key Screen */
+"Activate application" = "要安装应用程序，您将需要 IT 管理员在欢迎消息中提供给您的访问密钥和您的电子邮件地址。";
+
+/* Learn More : Lock Screen Title */
+"Complete Setup" = "完成安装";
+
+/* Learn More : EA Lock Screen */
+"EA unlock learn more description" = "如果您请求激活，请输入您的解锁密码。如果您没有请求，请取消。";
+
+/* Learn More : Application Blocked */
+"Application access has been blocked. Please contact IT" = "应用程序访问已锁定。请联系您的 IT 部门获取更多信息。";
+
+/*Unspecified error*/
+"Unspecified error" = "未指定的错误";
+
+/* Blocked/FIPS because of wrapping */
+"Wipe reason - FIPS cannot be enabled in this app" = "当前应用程序无法启用您组织要求的 FIPS 模式。请联系您的 IT 部门获取支持";
+
+/* Blocked/FIPS because of arch (64bit) */
+"Wipe reason - FIPS is not available for 64bit arch" = "您的设备与您组织要求的 FIPS 模式不兼容。请联系您的 IT 部门获取支持";
+
+/* Blocked/FIPS because it just failed for some reason to activate */
+"Wipe reason - FIPS failed to activate" = "您组织要求的 FIPS 模式无法激活。请联系您的 IT 部门获取支持";
+
+/* Mailto UI : Title */
+"Mail Service Restricted" = "电子邮件服务受限";
+
+/* Mailto Error Alert View : GFE send email service is unavailable */
+"Secure mail is not available in app" = "此应用程序不支持安全的电子邮件服务。请联系您的 IT 部门获取支持。";
+
+/* Mailto Error Alert View : User prompt that displays when Data Leakage Prevention is on */
+"Secure mail it restricted by policies" = "您当前的安全设置不允许此操作。请联系您的 IT 部门获取支持。";
+
+/* Mailto Error Alert View : User prompt that displays when Data Leakage Prevention is off.*/
+"Select mail service" = "请选择电子邮件服务。";
+
+/* Error Alert View : Button label */
+"BlackBerry Work (secure)" = "BlackBerry Work（安全）";
+
+/* Error Alert View : Button label */
+"Mail" = "电子邮件";
+
+/* Upload Logs UI : Title */
+"Upload Logs" = "上载日志";
+
+/* Upload Logs Alert View : Logs sent */
+"Log upload has been scheduled." = "已安排日志上载。";
+
+/* EA Access Key : Message */
+"Retrieving Access Key" = "获取访问密钥";
+
+/* CSR In Progress Key : Message */
+"Getting Certificate" = "获取证书";
+
+/* Open URL : Title */
+"Select Application to Open URL" = "选择应用程序以打开 URL";
+
+/* Open URL : Error Message - No applications*/
+"No Applications installed to open URL" = "未安装可打开 URL 的应用程序";
+
+/* MDM : Initiate MDM */
+"InitiateMDM" = "开始 MDM 注册";
+
+/* Initiate MDM : button accessibility label */
+"_InitiateMDM" = "开始 MDM 注册";
+
+/* Initiate MDM : button accessibility hint */
+"__InitiateMDM" = "开始 MDM 注册。";
+
+/* MDM : Install Good Agent or BES 12 Client */
+"InstallMdmAgent" = "安装 MDM 代理";
+
+/* MDM : Update Good Agent or BES 12 Client */
+"UpdateMdmAgent" = "更新 MDM 代理";
+
+/* Dictation : Alert title */
+"Dictation Blocked Title" = "听写功能禁用";
+
+/* Dictation : Blocked by IT Admin. */
+"Dictation Blocked Message" = "管理员已禁止听写访问。";
+
+/* Dictation: Dismiss Button */
+"Dictation Dismiss Button" = "确定";
+
+/* Custom Keyboard : Alert title */
+"Custom Keyboards Blocked Title" = "已禁用自定义键盘";
+
+/* Custom Keyboard : Blocked by IT Admin. */
+"Custom Keyboards Blocked Message" = "管理员已限制访问自定义键盘。";
+
+/* string for Authenticatinon user by TouchID */
+"Authenticate using your finger" = "使用您的指纹进行身份验证。\n";
+
+/* Touch ID allowed : Title */
+"IT Administrator has allowed Touch ID" = "IT 管理员已允许使用 Touch ID";
+
+/* Touch ID allowed : First button title */
+"Use Touch ID" = "使用 Touch ID";
+
+/*Touch ID allowed : Second button title */
+"Change Password and Use Touch ID"  = "更改密码并使用 Touch ID";
+
+/* Touch ID allowed : Cancel button title */
+"Don't Use Touch ID"  = "不使用 Touch ID";
+
+/* Touch ID disallowed : Title */
+"Touch ID disallowed title"  = "IT 管理员已更改密码策略并移除 Touch ID 使用";
+
+/* Touch ID disallowed : Cancel button title */
+"Don't Change Password"  = "不更改密码";
+
+/* Set Password UI : Touch ID label */
+"Touch ID"  = "Touch ID";
+
+/* GDMDM Event : Application Blocked */
+"Application access has been blocked (GDMDM)" = "应用程序需要此设备安装移动设备管理 (MDM) 策略。";
+
+/* URL Loading : Localized description for NSError NSURLErrorServerCertificateUntrusted */
+"Untrusted server certificate" = "此服务器的证书无效。您可能正在连接伪装成“%s”的服务器，这可能给您的保密信息带来风险。";
+
+/* URL Loading : Localized recovery suggestion for NSError NSURLErrorServerCertificateUntrusted */
+"Untrusted server recovery suggestion" = "您仍想要连接此服务器？";
+
+/* URL Loading : Localized description for NSError NSURLErrorNetworkConnectionLost */
+"Network connection lost" = "连接失败，因为网络连接断开。";
+
+/* URL Loading : Localized description for NSError NSURLErrorCannotConnectToHost */
+"Cannot connect to host" = "无法连接服务器。";
+
+/* URL Loading : Localized description for NSError NSURLErrorCancelled */
+"Cancelled operation" = "无法完成操作。";
+
+/* URL Loading : Localized description for NSError NSURLErrorUserCancelledAuthentication */
+"Authentication cancelled" = "连接失败，因为用户取消了必需的身份验证。";
+
+/* URL Loading : Localized description for NSError NSURLErrorUserAuthenticationRequired */
+"Authentication required" = "连接失败，因为必须进行身份验证。";
+
+/* URL Loading : Localized description for NSError NSURLErrorTimedOut */
+"Connection timeout" = "连接超时。";
+
+/* URL Loading : Localized description for NSError NSURLErrorUnknown */
+"Unknown error" = "出现未知错误。";
+
+/* URL Loading : Localized description for NSError NSURLErrorClientCertificateRejected */
+"Client certificate rejected" = "安全连接失败，因为客户证书被拒绝。";
+
+/* URL Loading : Localized description for NSError NSURLErrorClientCertificateRequired */
+"Client certificate required" = "安全连接失败，因为服务器需要客户证书。";
+
+/* Title text - Initial wearable framework screen*/
+"WF Start setup" = "开始安装";
+
+/* Body text - Initial wearable framework screen*/
+"WF Start body" = "我们已识别此应用程序提供了 Android Wear 应用程序。为使这些应用程序能够配合工作，我们需要在您的手机和手表之间建立安全的连接。";
+
+/* List items - Initial wearable framework screen*/
+"WF Start item1" = "请按下屏幕下方的“安装”按钮开始安装";
+"WF Start item2" = "请在手表的“通知流”中寻找通知，然后按下卡上的按键";
+"WF Start item3a" = "确认手机和手表上的代码";
+"WF Start item3b" = "确认手机或手表上的代码";
+"WF Start item4" = "完成";
+
+/* Button items - Wearable setup */
+"WF Button Later" = "稍后";
+"WF Button Setup" = "设置";
+"WF Button Correct" = "正确";
+"WF Button Wrong" = "错误";
+"WF Button Done" = "完成";
+
+/* Title Text - Connecting Watch */
+"WF Connecting watch" = "正在连接至您的手表...";
+
+/* Body Text - Connecting Watch */
+"WF Connecting Watch body" = "在您的流中寻找通知...";
+
+/* Title Text - Connection confirmation */
+"WF Confirmation Title" = "请求连接";
+
+/* Body Text - Connection confirmation */
+"WF Confirmation Body" = "确认连接代码匹配。";
+
+/* Body Text - Connection confirmation */
+"WF Confirmation Code" = "连接代码";
+
+/* Title Text - Watch pairing */
+"WF Waiting Watch" = "等待手表...";
+
+/* Body Title - Watch pairing */
+"WF Waiting Watch Body" = "等待手表确认。";
+"WF Waiting Watch Body2" = "请确保您在手表上按下了“选中标记”按键";
+
+/* Title Text - Done Screen */
+"WF Done Title" = "全部完成";
+
+/* Watch Requested title */
+"WF Setup Requested " = "请求安装。";
+
+/* Connecting with title */
+"WF Connecting title" = "连接";
+
+/*Waiting titles */
+"Waiting Phone Title" = "等待手机...";
+"Waiting Tablet Title" = "等待平板电脑...";
+"Waiting" = "稍等片刻...";
+
+/* connection lost */
+"WF Connection Lost Title" = "连接断开";
+"WF Connection Lost Text" = "无法连接您手表上的应用程序";
+
+/* Retry case */
+"WF Retry Prompt" = "点击重试";
+"WF Retrying" = "重试...";
+
+/* Error cases */
+"WF System update required" = "需要系统更新";
+"WF System update required details" = "您更新系统后，此应用程序方可运行";
+"WF Application update required" = "需要更新应用程序";
+"WF Application update required details" = "更新 Google Play Services 后，此应用程序方可运行";
+"WF Wearable Disabled Title" = "企业版管理员禁用";
+"WF Wearable Disabled details" = "您的企业版管理员禁止使用可穿戴应用程序";
+"WF Unsupported Error Title" = "错误";
+"WF Unsupported Error details" = "很抱歉，您的设备不支持可穿戴框架。请检查发行说明了解要求";
+"WF Code not match Title" = "代码不匹配";
+"WF Code not match Body" = "确认代码不匹配";
+"WF General Error Title" = "错误";
+"WF General Error details" = "出现意外错误";
+
+/* Device Block UI: Description */
+"Unauthorized version." = "您安装的应用程序版本未经授权。请联系您的管理员以启用该版本。";
+
+/* GDCoveredDataUnavailableAlert */
+"GDCoveredDataUnavailableAlert Title" = "覆盖的数据流量不可用";
+"GDCoveredDataUnavailableAlert messageKey" = "适用的任何数据费用将列入您的“个人数据计划”账目，且您的雇主不会将其退还。点击“同意”则继续，或将设备设置为“仅适用于脱机和使用 Wi-Fi”以禁用数据。";
+"GDCoveredDataUnavailableAlert dontShowAgain" = "同意且无需再次显示";
+"GDCoveredDataUnavailableAlert positiveButtonKey" = "同意";
+"GDCoveredDataUnavailableAlert cancelButtonKey" = "在设置中禁用数据流量";
+
+/* GDCoveredDataNoRoamingAlert */
+"GDCoveredDataNoRoamingAlert Title" = "覆盖的数据流量不可用";
+"GDCoveredDataNoRoamingAlert messageKey" = "适用的任何漫游费用将列入您的“个人数据计划”账目，且您的雇主不会将其退还。点击“同意”则继续，或将设备设置为“仅适用于脱机和使用 Wi-Fi”以禁用数据。";
+"GDCoveredDataNoRoamingAlert positiveButtonKey" = "同意";
+"GDCoveredDataNoRoamingAlert cancelButtonKey" = "在设置中禁用数据流量";
+
+/* GDRoamingDataBlockedAlert */
+"GDRoamingDataBlockedAlert Title" = "覆盖的数据流量不可用";
+"GDRoamingDataBlockedAlert messageKey" = "您的公司不允许在漫游时通过蜂窝数据使用此应用程序。";
+"GDRoamingDataBlockedAlert cancelButtonKey" = "脱机使用";
+
+/* GDCoveredDataLimitAlert */
+"GDCoveredDataLimitAlert Title" = "覆盖的数据流量上限";
+"GDCoveredDataLimitAlert messageKey" = "您公司的数据使用已达到数据流量上限。任何数据费用将列入您的“个人数据计划”账目，且您的雇主不会将其退还。点击“同意”则继续，或将设备设置为“仅适用于脱机和使用 Wi-Fi”以禁用数据。";
+"GDCoveredDataLimitAlert dontShowAgain" = "同意且无需再次显示";
+"GDCoveredDataLimitAlert positiveButtonKey" = "仅本次同意";
+"GDCoveredDataLimitAlert cancelButtonKey" = "在设置中禁用数据流量";
+
+/* GDCoveredRoamingDataLimitAlert */
+"GDCoveredRoamingDataLimitAlert Title" = "覆盖的漫游上限";
+"GDCoveredRoamingDataLimitAlert messageKey" = "您公司的漫游使用已达到上限。任何漫游费用将列入您的“个人数据计划”账目，且您的雇主不会将其退还。点击“同意”则继续，或将设备设置为“仅适用于脱机和使用 Wi-Fi”以禁用数据。";
+"GDCoveredRoamingDataLimitAlert dontShowAgain" = "同意且无需再次显示";
+"GDCoveredRoamingDataLimitAlert positiveButtonKey" = "仅本次同意";
+"GDCoveredRoamingDataLimitAlert cancelButtonKey" = "在设置中禁用数据流量";
+
+/* GDYouAreCoveredAlert */
+"GDYouAreCoveredAlert Title" = "# 已覆盖!";
+"GDYouAreCoveredAlert messageKey" = "根据数据使用策略，当您在您设备的状态栏中看到此 # 图标时，表示 %s 的数据使用费用由您的雇主支付，不会列入您的个人数据计划。当此图标不出现时，表示费用可能列入您的个人数据计划。";
+"GDYouAreCoveredAlert cancelButtonKey" = "确定";
+
+/* GDLeavingCoveredDataExitAlert */
+"GDLeavingCoveredDataExitAlert Title" = "离开覆盖的数据流量";
+"GDLeavingCoveredDataExitAlert messageKey" = "您正退出由您雇主购买的数据使用所覆盖的应用软件。如果继续，数据费用会列入您的个人数据计划。点击“同意”继续或点击“取消”返回应用程序。";
+"GDLeavingCoveredDataExitAlert dontShowAgain" = "同意且无需再次显示";
+"GDLeavingCoveredDataExitAlert positiveButtonKey" = "仅本次同意";
+"GDLeavingCoveredDataExitAlert cancelButtonKey" = "取消";
+
+/* GDSplitBillingTutorial */
+"GDSplitBillingTutorial messageKey" = "根据数据流量策略，当您在您设备的状态来中看到此图标时，%s 的数据使用费用由您的雇主覆盖。";
+"GDSplitBillingTutorial textCovered" = "覆盖";
+"GDSplitBillingTutorial textNotCovered" = "未覆盖";
+"GDSplitBillingTutorial nextButtonKey" = "下一步";
+"GDSplitBillingTutorial closeButtonKey" = "关闭";
+
+/* Disclaimer Message */
+"Disclaimer UI right button label text" = "接受";
+
+/* EA lock screen password prompt with Touch ID */
+"Touch ID EA Title" = "用于 [App Name] 的 Touch ID";
+"Use Touch ID or enter the password" = "Touch ID 或输入密码以继续设置 [App Name]。";
+"Touch ID positiveButtonKey" = "输入密码";
+"Touch ID cancelButtonKey" = "取消";
+"TouchID reason - require password on start" = "[App Name] 重启时 Touch ID 需要您的密码";
+
+/* Touch ID requires password due to settings change */
+"TouchID reason - policy or TouchID changed" = "由于设备 Touch ID 或密码设置更改，您需要输入密码。";
+
+/* Touch ID periodically requires password */
+"Fingerprint requires password after some period"  = "根据公司策略，您需要每 [period] 小时输入一次密码";
+
+/* Certificate Sharing UI */
+"Certificate Sharing Alert Title" = "需要证书";
+"Certificate Sharing Alert Message" = "贵组织需要您导入证书才能运行此应用。使用 %s 导入证书。如果未激活 %s，则可立即将其激活。";
+"Certificate Sharing Alert Next Button" = "下一步";
+"Certificate Sharing Alert Error Missing Certificates Title" = "缺少证书";
+"Certificate Sharing Alert Error Missing Certificates" = "并非所有必需证书都已导入。需要使用 %s 执行进一步操作。";
+"Certificate Sharing Alert Error Missing App Title" = "缺少应用";
+"Certificate Sharing Alert Error Missing App" = "未安装 %s。请安装 %s 或联系您的管理员。";
+"Certificate Sharing Alert Error Incompatible App Title" = "应用不兼容";
+"Certificate Sharing Alert Error Incompatible App" = "%s 不兼容。请升级 %s 或联系您的管理员。";
+"Certificate Sharing Alert Error App Locked Title" = "应用已锁定";
+"Certificate Sharing Alert Error App Locked" = "在预配使用基于应用的客户端证书的 BlackBerry Dynamics 应用之前，请先预配证书提供程序应用 (%s)。";
+"Certificate Sharing Alert Error Wrong User Title" = "未授权应用";
+"Certificate Sharing Alert Error Wrong User" = "%s 用户无法识别。请删除并重新配置 %s 或联系您的管理员。";
+"Certificate Sharing Alert Error Unknown Title" = "证书错误";
+"Certificate Sharing Alert Error Unknown" = "出现错误。请重试或联系您的管理员。";
+"Certificate Sharing Alert Retry Button" = "重试";
+"Certificate Sharing Expired Alert Title" = "证书已过期";
+"Certificate Sharing Alert Connecting Message" = "正在建立连接，请稍后...";
+
+/* Common-generic Certificate Import and Enrollment stuff */
+"Certificate Alert OK Button" = "确定";
+"Certificate Alert Success Title" = "成功";
+"Certificate Alert Skip Title" = "下一次";
+"Certificate Alert Later Message" = "可能要求您下一次完成此安装。";
+"Certificate Alert Next Button" = "下一步";
+"Certificate Alert Error Title" = "错误";
+"Certificate Alert Unavailable Title" = "不可用";
+"Certificate Alert Pending Title" = "待定";
+"Certificate Skip Setup Button" = "取消";
+"Certificate Okay Button" = "确定";
+
+/* Certificate import screen (PKCS12 file upload)*/
+"Certificate Import Password" = "输入密码";
+"Certificate Import Information" = "请输入您的管理员提供的密码。";
+"Certificate Import Information No Password Required" = "继续导入文件内容。";
+"Certificate Import: Success Message" = "您的个人证书现在可用于此应用程序。";
+"Certificate Import: Success Next Message" = "您的个人证书已成功导入。请进行另一项授权。";
+"Cert Import Alert Incorrect Password Title" = "密码错误";
+"Cert Import Alert Incorrect Password Message" = "您的密码未被接受。";
+"Certificate Alert Weak Cipher Title" = "不允许";
+"Certificate Alert Weak Cipher Message" = "无法导入证书。其加密不符合策略要求的美国联邦信息处理标准 (FIPS)。";
+
+/* Certificate enrolment screen (on demand enrolment) */
+"Certificate Enrolment Password" = "注册代码";
+"Certificate Enrolment Information" = "请输入您的管理员提供的注册代码。";
+"Certificate Enrolment Information No Password Required" = "继续注册。";
+"Certificate Enrolment Alert Success Message" = "您已经注册。";
+"Certificate Enrolment Alert Success Next Message" = "您已经注册。请进行另一项授权。";
+"Certificate Enrolment Alert Pending Message" = "正处理您的注册。如果稍后需要进一步操作，将出现提示。";
+"Certificate Enrolment Alert Pending Next Message" = "正在处理您的注册。请进行另一项授权。";
+"Cert Enrolment Alert Incorrect Password Title" = "代码错误";
+"Cert Enrolment Alert Incorrect Password Message" = "您的注册代码未被接受。如果此问题仍然存在，请联系您的管理员。";
+"Certificate Enrolment Alert Error Message" = "出现注册问题。如果此问题仍然存在，请联系您的管理员。";
+"Certificate Enrolment Alert Unavailable Message" = "由于服务不可用，因此注册无法进行。如果此问题仍然存在，请联系您的管理员。";
+"Certificate Enrolment Alert Removed Message" = "您的管理员已删除证书。请跳过本授权的注册。";
+"Certificate Enrolment Alert Removed Next Message" = "您的管理员已删除证书。请进行另一项授权。";
+"Optional Certificate Title" = "客户证书";
+"Required Certificate Title" = "需要客户证书";
+
+/* Certificate import screen (Device Credential Store) */
+"Certificate Import Info from Device Credential Store" = "继续从设备的凭证存储中识别您的个人证书。";
+"Certificate Import Info from Device Credential Store Post First Time setup" = "需要授权允许此应用程序使用来自设备凭据存储区中的个人证书。已识别正确的证书。";
+"Certificate Import: Incorrect Certificate Selection Post First time setup" = "已为此配置文件设置了个人证书，无法更改。请重试，如果问题仍然存在，请与管理员联系以寻求帮助。";
+"Certificate Import: Deny Option Selection" = "您需要选择个人证书。如果所需证书遗失，可能需要重新安装。请重试。";
+"Certificate Import: Incorrect Certificate Selection" = "T该证书不符合贵组织对该配置文件的要求。请识别或安装符合要求的个人证书，或与管理员联系寻求帮助。";
+"Certificate Import: Profile Certificate Match" = "此证书已被选择用于其他配置文件。是否要将此证书重新分配给 %s 配置文件？";
+"Certificate Import: Title In Use" = "正在使用此证书";
+"Option Yes" = "是";
+"Option No" = "否";
+
+/* Open WatchDox URL : Error Title */
+"Cannot Open URL" = "无法打开 URL";
+
+/* Open WatchDox URL : Error Message */
+"No secure application" = "您未安装可以打开此 URL 的安全应用程序。请安装启用 URL 的应用程序或联系您的 IT 管理员寻求协助。";
+
+/* Open WatchDox URL : Selection UI Title */
+"Open WatchDox URL with" = "借助工具打开 WatchDox URL";
+
+/* Open WatchDox URL : Selection UI Option Button Title */
+"Defined by system" = "由系统定义";
+
+/* Open URL : Selection UI Title */
+"Open URL with" = "URL 打开方式";
+
+/*Android Permission Required screen */
+"permissionrequiredheading" = "需要权限";
+"phonePermissionText" = "拨打并管理电话通话。";
+"permissionIntroText" = "该应用程序无法在无以下 Android 系统 %2$s! 的环境下运行。";
+"permissionIntroTextpara2" = "在 BlackBerry 安全基础设施中识别移动设备需要 %4$s!。";
+"gotoSettings" = "请前往 %1$s!的“应用程序设置”以启用 %3$s! %4$s!。";
+"singularPermission" = "权限";/*%2$s! wildcard*/
+"pluralPermission" = "权限";/*%2$s! wildcard*/
+"pluralPermission2" = "它们是";/*%4$s! wildcard*/
+"singularPermission2" = "它是";/*%4$s! wildcard*/
+"pluralthese" = "这些";/*%3$s! wildcard*/
+"singularthis" = "这个";/*%3$s! wildcard*/
+"gotoSettingsbutton" = "前往“设置”";
+"deny" ="拒绝";
+"allow" ="允许";
+
+/* Fingerprint dialog : Button */
+"CANCEL"  = "取消";
+
+/* Fingerprint dialog : Button */
+"RETRY"  = "重试";
+
+/* Fingerprint enroll dialog : Title */
+"No Fingerprints"  = "无指纹";
+
+/* Fingerprint enroll dialog : Content */
+"To log in with a fingerprint you must enroll at least one"  = "您必须注册至少一个指纹才可以使用指纹登录";
+
+/* Fingerprint enroll dialog for work profile: Title */
+"No Fingerprints in Work Profile"  = "工作配置文件中无指纹";
+
+/* Fingerprint enroll dialog for work profile : Content */
+"To log in with a fingerprint you must enroll at least one in your work profile"  = "要使用指纹登录，您必须至少在工作配置文件安全设置中注册一个指纹";
+
+/* Fingerprint enroll dialog : Button */
+"ENROLL"  = "注册";
+
+/* Fingerprint activation dialog : Title */
+"Activate fingerprint"  = "激活指纹";
+
+/* Fingerprint activation dialog : Content */
+"Fingerprint activation dialog message"  = "使用您设备上的传感器激活指纹登录";
+
+/* 
+ * Fingerprint login dialog : Title
+ * Unlock UI : Navigation Title 
+ */
+"Login"  = "登录";
+
+/* Fingerprint login dialog : Content */
+"Use the sensor on your device to login"  = "使用您设备上的传感器登录";
+
+/* Fingerprint login dialog : Button */
+"USE PASSWORD"  = "使用密码";
+
+/* Fingerprint login dialog : Content */
+"Authenticated"  = "身份已验证";
+
+/* Fingerprint login dialog : Content */
+"The fingerprint is not an enrolled one"  = "指纹与注册指纹不符";
+
+/* Fingerprint changed dialog : Title */
+"Fingerprints Changed"  = "指纹已更改";
+
+/* Fingerprint changed dialog : Content */
+"Fingerprint changed dialog message"  = "您上次身份验证后指纹已更改";
+
+/* Fingerprint authentication failed dialog : Title */
+"Authentication Failed"  = "身份验证失败";
+
+/* Fingerprint authentication failed dialog : Content */
+"Fingerprint is not recognized too many times"  = "尝试次数过多。请稍后重试。";
+
+/* Fingerprint time out dialog : Title */
+"Authentication Timed Out"  = "身份验证超时";
+
+/* Fingerprint time out dialog : Content */
+"Fingerprint time out dialog message"  = "输入您的密码或重试";
+
+/* Fingerprint settings page : Title */
+"Fingerprint Settings"  = "指纹设置";
+
+/* Fingerprint settings page : Content */
+"Fingerprint settings page message"  = "IT 策略允许使用您的指纹登录";
+
+/* Fingerprint settings page : Content */
+"Fingerprint log in"  = "指纹登录";
+
+/* Fingerprint dialog : Content */
+"Confirm fingerprint to continue"  = "确认指纹以继续";
+
+/* Fingerprint dialog : Content */
+"Fingerprint recognized"  = "指纹已识别";
+
+/* Fingerprint dialog : Content */
+"Fingerprint is not recognized dialog message" = "指纹未识别。请重试。";
+
+/* Fingerprint dialog : Content */
+"Touch sensor"  = "接触传感器";
+
+/* Fingerprint Crypto Failure error : Title */
+"Crypto Failure" = "加密失败";
+
+/* Fingerprint Authentication Failed : Content */
+"Fingerprint authentication failed" = "指纹认证失败";
+
+/* Fingerprint Crypto Failure error : Content */
+"Internal error: Retry or restart" = "内部错误：重试或重新启动";
+
+/* No Screen Lock dialog : Title */
+"No Screen Lock"  = "无屏幕锁定";
+
+/* No Screen Lock dialog : Content */
+"Screen lock is required for Fingerprint"  = "为使用指纹登录，您必须启用屏幕锁定";
+
+/* No Screen Lock dialog : Button */
+"ENABLE"  = "启用";
+
+/* Fingerprint requires password due to settings change */
+"Fingerprint requires password due settings changes"  = "由于设备指纹或密码设置已更改，您需要输入密码";
+
+/* Biometry type is not allowed: unlock */
+"Biometry is not allowed for unlock" = "不支持选定的生物识别选项。请将设备设置中的首选生物识别选项更改为指纹或输入密码。";
+
+/* Biometry type is not allowed: activation */
+/* Title */
+"Activation failure" = "激活失败";
+
+/* Biometry type is not allowed: activation */
+"Biometry is not allowed for activation" = "不支持选定的生物识别选项。请更改首选生物识别选项，然后重试。";
+
+/* Notification string for going from  a Password required auth state to No Password mode*/
+"Password no longer required" = "不再需要输入密码";
+
+/* Notification string for going from No Password to a Password Required state */
+"Password now required" = "现在需要输入密码";
+
+/* Log upload UI : Log upload status label */
+"Log uploader status" = "日志上载状态";
+
+/* Log upload UI : upload button */
+"Button Upload" = "上载";
+
+/* Log upload UI : cancel button */
+"Button Cancel" = "取消";
+
+/* Log upload UI : suspend button */
+"Button Suspend" = "挂起";
+
+/* Log upload UI : resume button */
+"Button Resume" = "恢复";
+
+/* Log upload UI : close button */
+"Button Close" = "关闭";
+
+/* Log upload UI : completed status label */
+"Completed" = "已完成";
+
+/* Log upload UI : suspended status label */
+"Suspended" = "已挂起";
+
+/* Log upload UI : cancelled status label */
+"Cancelled" = "已取消";
+
+/* Log upload UI : resumed status label */
+"Resumed" = "已恢复";
+
+/* Log upload UI : in progress status label */
+"In progress" = "正在进行";
+
+/* Log upload UI : progress delimiter, e.g. 54 of 123 */
+"of" = "的";
+
+/* Device Block UI: Description */
+"This version is unauthorized to use." = "未授权使用此版本。";
+
+/* Missing container alert info text */
+"Missing container alert text" = "未找到与此应用程序相关联的数据或已删除。您将需要再次安装此应用程序。";
+
+/* Keychain prompt: requires access body */
+"Keychain prompt: requires access body" = "%s 需要访问钥匙串中存储的安全标识符，才能继续处理。请在下次出现提示时，选择“总是允许”。";
+
+/* Keychain prompt: keychain locked body */
+"Keychain prompt: keychain locked body" = "%s 需要访问存储在钥匙串中的安全标识符。解锁钥匙串才能继续。";
+
+/* Login screen button */
+"Forgot password?" = "忘记密码？";
+
+/* Learn More : Application Blocked Title */
+"Application Wiped" = "应用程序已擦除";
+
+/* Keychain prompt: application will close title */
+"Application will now close" = "应用程序现将关闭";
+
+/* Provision UI : LearnMore/Hide button text */
+"Hide" = "隐藏";
+
+/* Keychain prompt: requires access title */
+"Keychain access required" = "需要访问钥匙串";
+
+/* Missing container alert title */
+/* NOTE: %s will be replaced with application name */
+"%s: Data not found" = "%s：未找到数据";
+
+/* Set Password UI : Error Message - Password Change Failure Wrond Old Password */
+"Old password input is incorrect." = "旧密码输入不正确。";
+
+/* App Blocked UI : button accessibility label */
+"_Recover" = "恢复(_R)";
+
+/* Missing keychain alert info text */
+"Missing keychain alert info text" = "未找到此应用程序的钥匙串或已删除。因此，已移除您的数据，您需要再次安装此应用程序。";
+
+/* Missing keychain alert title */
+/* NOTE: %s will be replaced with application name */
+"%s: Keychain not found" = "%s：未找到钥匙串";
+
+/* macOS Keychain prompt: application close body */
+/* NOTE: %s will be replaced with application name */
+"Keychain prompt: application close body" = "%s 不访问钥匙串中存储的安全标识符，便不能继续处理。";
+
+/* macOS Keychain Keys: Application Specific Tag */
+/* NOTE: %s will be replaced with application name */
+"kGDHashKeysTag" = "BlackBerry Dynamics 标识符：%@";
+
+/* macOS Keychain Keys: Description */
+"kGDHashKeysDescription" = "安全标识符";
+
+/* macOS Keychain Keys: Comment */
+"kGDHashKeysComment" = "受保护的应用程序依赖于此钥匙串。不要更改或删除。";
+
+/* macOS Keychain Keys: Service */
+"kGDHashKeysService" = "https://www.blackberry.com";
+
+/* macOS Keychain Keys: Shared Tag */
+"kGDHashKeysSharedTag" = "共享的 BlackBerry Dynamics 标识符";
+
+/* macOS Keychain Keys: Shared Account */
+"kGDHashKeysSharedAccount" = "BlackBerry Dynamics 共享帐户";
+
+/* macOS Uninstaller Script: Dialog Title */
+/* NOTE: $APP_BUNDLE_NAME will be replaced with application name */
+"$APP_BUNDLE_NAME Uninstaller" = "$APP_BUNDLE_NAME 卸载程序";
+
+/* macOS Uninstaller Script: Error Dialog Body */
+/* NOTE: $APP_BUNDLE_NAME will be replaced with application name 
+ * not used directly from bundle, just is copied to uninstall script
+ * key was changed to avoiding warnings which are raised 
+ * by localization validation Jenkins job
+ */
+"Uninstaller Script: Error Dialog Body" = "$APP_BUNDLE_NAME：错误 - 在当前目录中未找到应用程序。继续卸载？这将移除所有找到的依赖项";
+
+/* macOS Uninstaller Script: Continue Button */
+"Continue" = "继续";
+
+/* macOS Uninstaller Script: Uninstall Prompt Body */
+/* NOTE: $APP_BUNDLE_NAME will be replaced with application name */
+"$APP_BUNDLE_NAME: uninstall and remove all dependencies?" = "$APP_BUNDLE_NAME：卸载和移除所有依赖项？";
+
+/* macOS Uninstaller Script: Uninstall Button */
+"Uninstall" = "卸载";
+
+/* macOS Uninstaller Script: Uninstall Completed Message */
+"Uninstall complete" = "卸载完成";
+
+/* Provision Progress UI : State - TEE-TAM
+ * In this state:
+ * Request device preparation and trustlets from TAM
+ * Save trustlets to disk
+ */
+"TEE Activation" = "TEE 激活";
+
+/* Set Password UI : TEE active text */
+"TEE enabled" = "TEE 已启用";
+
+/* Log Upload UI : Connection Status Title */
+"Connection Status"  = "连接状态";
+
+/* Log Upload UI : Not Reachable Connection Status Text */
+"Unreachable Status"  = "无法连接";
+
+/* Log Upload UI : Via Cellular Connected Status Text */
+"Via Cellular Status"  = "通过移动网络";
+
+/* Log Upload UI : Via Wi-Fi Connected Status Text */
+"Via Wi-Fi Status"  = "通过 Wi-Fi";
+
+/* Touch ID allowed : Accept button title */
+"Accept"  = "接受";
+
+/* Touch ID allowed : Cancel button title */
+"Deny"  = "拒绝";
+
+/* Screen Recording and Sharing Prevention Alert : Dismiss Button */
+"Recording Detected Alert Dismiss Button" = "确定";
+
+/* Screen Recording or Sharing Prevention Alert : Title */
+"Recording Detected Alert Title" = "监测到录音或分享";
+
+/* Screen Recording or Sharing Prevention Alert : Message */
+"Recording Detected Alert Message" = "当此应用程序运行时，该屏幕不允许录音或分享。如要继续，您必须停止所有录音和分享功能。";
+
+/* Activation or Activation Progress UI : Recording or Sharing Status Label */
+"Recording or Sharing Status Label" = "录音";
+
+/* string for Authentication user by Face ID */
+"Authenticate using Face ID" = "使用 Face ID 进行验证。";
+
+/* Face ID allowed : Title */
+"IT Administrator has allowed Face ID" = "现在，政策允许使用 Face ID";
+
+/* Face ID allowed : First button title */
+"Use Face ID" = "使用 Face ID";
+
+/* Face ID disallowed : Title */
+"Face ID disallowed title"  = "政策不再允许使用 Face ID";
+
+/* Set Password UI : Face ID label */
+"Face ID"  = "Face ID";
+
+/* EA lock screen password prompt with Face ID */
+"Use Face ID or enter the password" = "使用 Face ID 或输入密码以继续设置 [App Name]。";
+"Face ID reason - require password on start" = "[App Name] 每次重启时需要输入密码";
+
+/* Face ID requires password due to settings change */
+"Face ID reason - policy or Face ID changed" = "由于设备 Face ID 或密码设置更改，您需要输入密码";
+
+/* Face ID periodically requires password */
+"Face ID requires password after some period"  = "根据策略，需要每 [period] 小时输入一次密码";
+
+/* Face ID allowed : Accept button title */
+"Face ID Accept"  = "接受";
+
+/* Face ID allowed : Cancel button title */
+"Face ID Deny"  = "拒绝";
+
+/* Value for NSFaceIDUsageDescription key displayed to user on first attempt to use Face ID */
+"NSFaceIDUsageDescription" = "在没有密码的情况下，启用身份验证。";
+
+/* Action : Alert title */
+"Action Blocked Title" = "已阻止";
+
+/* Action : Blocked by DLP policy*/
+"Action Blocked Message" = "策略不允许此操作";
+
+/* iOS UIPreviewAction Keys: Add to Reading List */
+"Add to Reading List" = "添加到阅读列表";
+
+/* iOS UIPreviewAction Keys: Open Link */
+"Open Link" = "打开链接";
+
+/* Android Warning Dialog message */
+"WARNING_IDLE_TIMER" = "您的会话将因没有活动而过期。请点击任意位置继续。";
+
+/* Android Warning Dialog title */
+"WARNING_IDLE_TIMER_TITLE" = "无活动警告";
+
+/* iOS BBDLockWarningUI: Inactivity Warning Alert Title*/
+"Inactivity Warning" = "无活动警告";
+
+/* iOS BBDLockWarningUI: Inactivity Warning Alert Message*/
+"Your session is about to expire due to inactivity. Please tap OK to continue." = "您的会话将因没有活动而过期。请点击“确定”继续。";
+
+/* iOS BBDPinnedInfrastructureAlertUI title */
+"Infrastructure connection failed" = "基础架构连接失败";
+
+/* iOS BBDPinnedInfrastructureAlertUI message */
+"Connection to infrastructure services could not be established." = "无法与基础架构服务建立连接。\n请联系 IT 管理员。";
+
+"deviceSettingsButton" = "设备设置";
+
+"<app name> does not fully support the version of Android on this device." = "%s 并不完全支持此设备上的 Android 版本。请尝试将应用程序更新到最新版本。";
+

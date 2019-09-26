@@ -1,0 +1,1640 @@
+/*
+ * (c) 2016 BlackBerry Limited. All rights reserved.
+ *
+ */
+
+/* Localizable strings within the BlackBerry Dynamics client library user interface.
+ * The order of strings in this file is based on the order in which they would
+ * normally be encountered during set-up, and then on the order in which they
+ * appear on the screen, from top to bottom.
+ */
+
+/* Welcome UI strings, for the first page that is displayed, before set-up. */
+
+/* Welcome UI : Navigation Title
+ * Also appears in the following:
+ * Provision UI : Navigation Title
+ * Provision Progress UI : Navigation Title
+ */
+"Setup" = "Installeer";
+
+/* Welcome UI : Next button label text */
+"Start" = "Installeer";
+
+/* Welcome UI : Next button Accessibility label */
+"_Start" = "Installeer";
+
+/* Welcome UI : Next button Accessibility hint */
+"__Start" = "Naar volgende scherm.";
+
+/* Welcome UI : Welcome Message
+ * In the following, WiFi should be Wi-Fi with a hyphen, but the UI will
+ * break the line at the hyphen, which looks bad.
+ * IT admin should be IT administrator, but administrator is a long word and
+ * causes an odd line break.
+ */
+"Welcome to BlackBerry Dynamics" =
+"Welkom bij BlackBerry Dynamics.\n\nTijdens het installatieproces is verbinding via mobiele gegevens of WiFi nodig.\nVoor de installatie hebt u uw e-mailadres nodig en de toegangscode die u kunt vinden in het welkomstbericht van uw IT-beheerder.";
+
+/* Provision UI strings, for the page on which the user enters their
+ * e-mail address and activation key (aka PIN).
+ */
+
+/* Provision UI : Left button label text
+ * Also appears in the following:
+ * Set Password UI : Left button label text
+ * Unlock UI : Left button label text
+ * Select a mail service : Cancel button label
+ * Error Alert View : Button label
+ * Open URL : Button label text
+ * Open URL : Error Alert View : Button label
+ * Open WatchDox URL : Button Title
+ * macOS Uninstaller Script: Cancel Button
+ */
+"Cancel" = "Annuleer";
+
+/* Provision UI : Right button label text */
+"Next" = "Volgende";
+
+/* Company Name - BlackBerry */
+"BlackBerry" = "BlackBerry";
+
+/* Provision UI : Email Label text */
+"Email Address" = "E-mailadres";
+
+/* Provision UI : Email accessibility label */
+"_EmailAddress" = "E-mailadres";
+
+/* Provision UI : PIN Label text */
+"PIN" = "Toegangscode";
+
+/* Provision UI : PIN Label text */
+"Unlock Key" = "Ontgrendelcode";
+
+/* Provision UI : PIN Field 1 accessibility label */
+"_PinField1" = "Toegangscode veld 1 van 3";
+
+/* Provision UI : PIN Field 2 accessibility label */
+"_PinField2" = "Toegangscode veld 2 van 3";
+
+/* Provision UI : PIN Field 3 accessibility label */
+"_PinField3" = "Toegangscode veld 3 van 3";
+
+/* Provision UI : Error Message - Invalid PIN */
+"Invalid PIN" = "Ongeldige toegangscode";
+
+/* Provision UI : Error Message - Invalid unlock PIN */
+"Invalid unlock PIN" = "Ongeldige ontgrendelcode";
+
+/* Provision UI : Error Message - No Coverage */
+"Network Required" =
+"Het installatieproces heeft toegang tot mobiele gegevens of WiFi nodig.\n\nProbeer het opnieuw wanneer een gegevensverbinding beschikbaar is.";
+
+/* Provision UI : Title */
+"Set-up failed" = "Installatie mislukt";
+
+/* Provision UI Desktop: Title */
+"Desktop Network Required Title" = "Geen internetverbinding";
+
+/* Provision UI Desktop: Message */
+"Desktop Network Required Message" = "Uw computer is momenteel offline. Controleer uw netwerkinstellingen.";
+
+/* Provision Progress UI strings, for the page that is displayed during
+ * authorization processing.
+ */
+
+
+/* Provision Progress UI : Left button label text */
+"Back" = "Terug";
+
+/* Provision Progress UI : Set Up Progress Label */
+"Setup Progress" = "Voortgang";
+
+/* Provision Progress UI : Status Label text */
+"Status" = "Status";
+
+/* Provision Progress UI : State - Init
+ * In this state:
+ * Post to the GD NOC activation service
+ * Establish Push Connection
+ */
+"NOC Activation" = "Infrastructuur-activering";
+
+/* Provision Progress UI : State - NOC
+ * In this state:
+ * Post e-mail address and access key to the NOC
+ * NOC checks validity
+ * Returns: Various server addresses
+ */
+"NOC Provisioning" = "Enterprise-activering";
+
+/* Provision Progress UI : State - Push Channel
+ * In this state:
+ * Initial Push Channel is established
+ */
+"Starting Push Channel" = "Verbinden met push-kanaal";
+
+/* Provision Progress UI : State - Data Secure
+ * In this state:
+ * Secure Data Transfer from enterprise GC
+ */
+"Secure Data" = "Veilige data-overdracht via AppKinetics";
+
+/* Provision Progress UI : State - Negotiate
+ * In this state:
+ * Secure communications set-up, part one
+ */
+"Negotiating Request" = "Communicatie wordt beveiligd";
+
+/* Provision Progress UI : State - Data Request
+ * In this state:
+ * Secure communications set-up, part two
+ */
+"Data Request" = "Communicatie is beveiligd";
+
+/* Provision Progress UI : State - Downloading Policies
+ * In this state:
+ * Retrieve policies from enterprise GC
+ */
+"Downloading Policies" = "Beleid wordt opgehaald";
+
+/* Provision Progress UI : State - Policy Download Complete */
+"Policy Download Complete" = "Beleid opgehaald";
+
+/* Provision Progress UI : State - Provision Complete */
+"Provisioning Complete" = "Enterprise-activering gereed";
+
+/* Provision Progress UI : State - Waiting */
+"Waiting..." = "Even geduld...";
+
+/* Provision Progress UI : State - Checking Permission */
+"Checking Permission" = "Rechten worden gecontroleerd";
+
+/* Provision Progress UI : State - Checking Permission Complete */
+"Permission Verified" = "Rechten geverifieerd";
+
+/* Provision Progress UI : Provision Fail Message */
+"Provisioning with enterprise failed" = "Installatie van app is mislukt";
+
+/* Provision Progress UI : Provision accessibility label */
+"_ProvisionProgressUI" = "Status van installatie";
+
+/* Provision Progress UI : Provision accessibility hint */
+"__ProvisionProgressUI" = "Toont de huidige status van de installatie.";
+
+/* Provision Progress UI : Provision Access Denied Message
+ * IT admin should be IT administrator, but administrator is a long word and
+ * causes an odd line break.
+ */
+"Provisioning Denied" =
+"Het e-mailadres en de toegangscode zijn niet herkend.\n\nControleer of de ingevoerde waarden correct en niet verlopen zijn. Als het probleem zich blijft voordoen, haal dan een nieuwe toegangscode op via selfservice of uw IT-beheerder.";
+
+/* Provision Progress UI : NOC Activation failure message */
+"NOC Activation failed" = "Activering infrastructuur mislukt";
+
+/* Provision Progress UI : NOC Provisining failure message */
+"NOC Provisioning Failed" = "Activering Enterprise mislukt";
+
+/* Provision Progress UI : Starting Push Channel failure message */
+"Starting Push Channel Failed" = "Kan geen verbinding maken met push-kanaal";
+
+/* Provision Progress UI : Negotiating Request failure message */
+"Negotiating Request Failed" = "Opzetten van beveiligde communicatie mislukt";
+
+/* Provision Progress UI : Data Request failure message */
+"Data Request Failed" = "Opzetten van beveiligde communicatie mislukt";
+
+/* Provision Progress UI : Policy Exchange failure message */
+"Policy Exchange failed" = "Ophalen van beleid mislukt";
+
+/* Provision Progress UI : Send Log */
+"Send Log" = "Log verzenden";
+
+/* Provision Progress UI : Retry */
+"Retry" = "Opnieuw proberen";
+
+/* Provision Progress UI : SafetyNet validation failed */
+"SafetyNet validation failed" = "SafetyNet-validatie mislukt";
+
+/* Provision Progress UI : Hardware attestation failed */
+"OS version not compliant" = "De huidige versie van het besturingssysteem is volgens het bedrijfsbeleid niet toegestaan.\n\nWerk uw apparaatsoftware bij of neem contact op met uw beheerder";
+
+/* Provision Progress UI : App integrity check failed */
+"App integrity check failed" = "Applicatie-integriteitscontrole mislukt, neem contact op met uw beheerder";
+
+/* Migration UI strings, for the screen on which user migration progress is 
+displayed. 
+*/
+
+/* Migration UI : Title text  */
+"Migration is in progress" = "De migratie wordt uitgevoerd";
+ 
+/* Migration UI : Error Message - Title text */
+"Migration Failed" = "Migratie mislukt";
+ 
+/* Migration UI : Error Message - Migration failure */
+"Problem with migration" = "Er is een probleem met de migratie";
+ 
+/* Migration UI :  Error Message - No coverage */
+"Network Required Migration" = "Het migratieproces heeft toegang tot mobiele gegevens of WiFi nodig.\n\nProbeer het opnieuw wanneer een gegevensverbinding beschikbaar is";
+
+/* Set Password UI strings, for the screen on which the user sets their
+ * security password. The password must comply with the provisioning
+ * enterprise's security policies.
+ * The Set Password screen can appear in two contexts:
+ * Immediately after set-up has completed and the user sets their password for
+ * the first time, and
+ * As part of the preferences user interface, where the user can change their
+ * password.
+ */
+
+/* Set Password UI : Navigation Title - Set Password
+ * For use when the screen appears as part of the set-up UI
+ */
+"Set a New Password" = "Nieuw wachtwoord instellen";
+
+/* Set Password UI : Navigation Title - Change Password
+ * For use when the screen appears as part of the GD Settings UI
+ * Touch ID disallowed : First button title
+ */
+"Change Password" = "Wijzig wachtwoord";
+
+/* Password Requirements button label */
+"Password Requirements" = "Wachtwoordvereisten";
+
+/* Set Password UI : Right button label text */
+"Done" = "Gereed";
+
+/* Set Password UI : Label text */
+"Go" = "Ga";
+
+/* Set Password UI : Label text for setting password. */
+"Set password label text" = "U moet een wachtwoord instellen.";
+
+/* Set Password UI : Placeholder text string for confirm password textfield */
+"Confirm New Password" = "Nieuw wachtwoord bevestigen";
+
+/* The following strings are used to present the rules that will apply to the
+ * user's password.
+ */
+
+/* Set Password UI : Password Guide Preface
+ * The following appears above the rules statements.
+ */
+"Your password must include:\n" = "Uw wachtwoord moet bestaan uit:\n";
+
+/* Set Password UI : Password Guide - Repeat
+ * Note. The relative positions of repeated characters does not affect this
+ * policy. In other words the repeated characters could be adjacent or not
+ * adjacent.
+ */
+"- Disallow %d or more repeated characters\n" = "- Niet meer dan %d dezelfde tekens.\n";
+
+/* Set Password UI : Password Guide - Sequential Number
+ * Note: There is no policy against sequential letters, for example: abcdef
+ */
+"- Do not allow sequential numbers\n" = "- Geen opeenvolgende cijfers (bijv. 123 of 321)\n";
+
+/* Set Password UI : Password Guide - Personal Information
+ */
+"- Do not allow personal information\n" = "- Geen persoonlijke gegevens\n";
+
+/* Set Password UI : Password Guide - Length */
+"- Require at least %d characters\n" = "- Minstens %d tekens\n";
+
+/* Set Password UI : Password Guide - Special Character
+ * Note: Here, a special character is one that returns non-zero when passed to a
+ * standard ispunct() function. See the following page for a definition:
+ * http://pubs.opengroup.org/onlinepubs/000095399/basedefs/xbd_chap07.html
+ */
+"- Require at least one special character\n" = "- Minimaal één speciaal teken\n";
+
+/* Set Password UI : Password Guide - Number */
+"- Require both letters and numbers\n" = "- Zowel letters als cijfers\n";
+
+/* Set Password UI : Password Guide - Uppercase */
+"- Require both upper and lower case\n" = "- Zowel hoofdletters als kleine letters\n";
+
+/* Set Password UI : Password Guide - Banned Passwords */
+"\nDo not allow banned passwords\n" = "\nUw wachtwoord mag niet datgene zijn dat wordt geblokkeerd.\n";
+
+/* End of password rules */
+
+/* Set Password UI : Placeholder text string for new password textfield */
+"New Password" = "Nieuwe wachtwoord";
+
+/* Set Password UI : Placeholder text string for old password textfield */
+"Current Password" = "Huidig wachtwoord";
+
+/* The following are error messages for use when the password that the user
+ * entered does not comply with security policy. These are displayed on a
+ * dialog over the screen on which the user has attempted to enter the password.
+ * The title of the dialog is always "Error" or its localization.
+ */
+
+/* Set Password UI : Error Message - Password Change Failure
+ * This error is displayed if the old password was incorrect.
+ */
+"New password cannot be changed" = "Wachtwoord kan niet worden gewijzigd. Probeer het opnieuw.";
+
+/* Set Password UI : Error Message - Password Change Failure History */
+"Previously used pass error message" = "Wachtwoord is reeds eerder gebruikt.";
+
+/* Set Password UI : Error Message - Password Change Failure Too Soon */
+"Password changed less than 24h ago" = "Wachtwoord is vandaag al een keer gewijzigd.";
+
+/* Set Password UI : Error Message - Password Change Failure within 24 hours */
+"Password cannot be changed within 24 hours." = "Wachtwoord kan niet binnen 24 uur worden gewijzigd.\nWatchwoord ingesteld om: [time]";
+
+/* Set Password UI : Error Message - Sequential Numbers */
+"No number sequence allowed in password" = "Wachtwoord bevat opeenvolgende cijfers (bijv. 123 of 321).";
+
+/* Set Password UI : Error Message - Personal Information */
+"Password cannot have personal information" = "Wachtwoord bevat persoonlijke gegevens";
+
+/* Set Password UI : Error Message - General Error */
+"Password is not strong enough." = "Wachtwoord is niet sterk genoeg.";
+
+/* Set Password UI : Error Message - Short Password */
+"Password is too short." = "Wachtwoord is te kort.";
+
+/* Set Password UI : Error Message - Letters and Numbers */
+"Password requires both numbers & letters" = "Wachtwoord moet zowel letters als cijfers bevatten.";
+
+/* Set Password UI : Error Message - Upper Case */
+"No upper and lower case letters in password" = "Wachtwoord moet zowel kleine als hoofdletters bevatten.";
+
+/* Set Password UI : Error Message - Numeric Character */
+"No numeric character in password" = "Wachtwoord bevat geen cijfers.";
+
+/* Set Password UI : Error Message - Special Character */
+"No special character in password" = "Het wachtwoord moet minstens één speciaal teken bevatten (@, #, $).";
+
+/* Set Password UI : Error Message - No Uppercase */
+"No uppercase character in password" = "Wachtwoord bevat geen hoofdletters.";
+
+/* Set Password UI : Error Message - Repeated Characters */
+"Too many repeated characters" = "Wachtwoord bevat te veel dezelfde tekens.";
+
+/* Set Password UI : Error Message - Banned Password */
+"Password is banned" = "Het wachtwoord wordt geblokkeerd.";
+
+/* Set Password UI : Error Message - Not Matched */
+"Two passwords do not match" = "De twee wachtwoorden komen niet overeen. Probeer het opnieuw.";
+
+/* End of password compliance error messages */
+
+/* Set Password UI : Error Message - Password Set Failure */
+"New password cannot be set" = "Instellen nieuw wachtwoord mislukt.";
+
+/* Set Password UI : Error Message - Empty Password */
+"Empty password is not allowed." = "Wachtwoord is leeg.";
+
+/* Set Password UI : old password accessibility label */
+"_OldPassword" = "Oude wachtwoord";
+
+/* Set Password UI : new password accessibility label */
+"_NewPassword" = "Nieuwe wachtwoord";
+
+/* Set Password UI : confirm password accessibility label */
+"_ConfirmPassword" = "Nieuw wachtwoord bevestigen";
+
+/* Auth delegation block UI : Navigation Title */
+"Cannot Authenticate" = "Kan niet verifiëren.";
+
+/* Auth delegation block UI : Description */
+"AD is registered to another user" = "De authenticatie-app staat op naam van een andere gebruiker.";
+
+/* Auth delegation block UI : Description whilst retreving download URL */
+"AD is registered to another user. Details: BundleID" = "De authenticatie-app staat op naam van een andere gebruiker.\n\nApplicatiegegevens ophalen:\nBundel-ID: %s";
+
+/* Auth delegation block UI : Description whilst retreving download URL got name and version */
+"AD is registered to another user. Details: BundleID, Name, Version" = "De authenticatie-app staat op naam van een andere gebruiker.\n\nApp-details worden opgehaald:\nBundel-ID: %s\nNaam: %s\nVersie: %s";
+
+/* Auth delegation block UI: Description retreived download URL */
+"AD is registered to another user. Details: BundleID, Name, Version, ObtainFrom" = "De authenticatie-app staat op naam van een andere gebruiker.\n\nApp-details:\nBundel-ID: %s\nNaam: %s\nVersie: %s\n\nDownload van:\n%s";
+
+/* Auth delegation block UI : Description got no download URL */
+"AD is registered to another user. Details: BundleID, Name, Version, no URL" = "De authenticatie-app staat op naam van een andere gebruiker.\n\nApp-details:\nBundel-ID: %s\nNaam: %s\nVersie: %s\n\nNeem contact op met uw IT-beheerder.";
+
+/* Block UI : Navigation Title
+ * Learn More : Application Blocked Title
+ */
+"Blocked" = "App geblokkeerd";
+
+/* Block UI : Description
+ * In principle, this is always blocked due to policy violation. In actuality,
+ * there are two scenarios in which a policy block could be put in place.
+ * Something may have happened on the device that makes it non-compliant.
+ * Also possible is that a policy update has taken place and the device is not
+ * compliant with the new policy, but was compliant with the old policy.
+ */
+"Application access blocked" = "Toegang tot deze app is geblokkeerd.";
+
+/* Device Wipe UI : Navigation Title */
+"Invalid Device" = "Toegang tot app ontzegd";
+
+/* Device Wipe UI : Description */
+"Your device has been wiped!" = "Deze app is gewist. Neem contact op met uw IT-beheerder als u weer toegang nodig hebt.";
+
+/* Lock UI : Navigation Title */
+"Locked" = "Applicatie vergrendeld";
+
+/* InterApp Lock UI : Navigation Title */
+"Access Blocked" = "Toegang geblokkeerd";
+
+/* InterApp Lock UI : Single Auth Delegate : Description */
+"AD is not installed" = "De authenticatie-app is niet geïnstalleerd.";
+
+/* InterApp Lock UI : Multi Auth Delegate : Description */
+"AD are not installed" = "De authenticatie-apps zijn niet geïnstalleerd.";
+
+/* InterApp Lock UI : Single Auth Delegate : Description whilst retreving download URL */
+"AD is not installed. Details: BundleID" = "De verificatieapplicatie is momenteel niet beschikbaar. Dit kan verschillende oorzaken hebben, zoals: de applicatie is niet geïnstalleerd, is nog niet geactiveerd of moet worden bijgewerkt.\n\nApplicatiedetails worden opgehaald:\nBundel-ID: %s";
+
+/* InterApp Lock UI : Multi-Auth Delegate : Description whilst retreving download URL */
+"AD are not installed. Details: BundleIDs" = "De verificatieapplicaties zijn momenteel niet beschikbaar. Dit kan verschillende oorzaken hebben, zoals: de applicaties zijn niet geïnstalleerd, zijn nog niet geactiveerd of moeten worden bijgewerkt.\n\nApplicatiedetails worden opgehaald:\nBundel-ID: %s";
+
+/* InterApp Lock UI : Single Auth Delegate : Description whilst retreving download URL got name and version */
+"AD is not installed. Details: BundleID, Name, Version" = "De verificatieapplicatie is momenteel niet beschikbaar. Dit kan verschillende oorzaken hebben, zoals: de applicaties is niet geïnstalleerd, is nog niet geactiveerd of moet worden bijgewerkt.\n\nApplicatiedetails worden opgehaald:\nBundel-ID: %s\nNaam: %s\nVersie: %s";
+
+/* InterApp Lock UI : Multi Auth Delegate : Description whilst retreving download URL got name and version */
+"AD are not installed. Details: BundleIDs, Names, Versions" = "De verificatie-applicaties zijn momenteel niet beschikbaar. Dit kan verschillende oorzaken hebben, zoals: de applicaties zijn niet geïnstalleerd, zijn nog niet geactiveerd of moeten worden bijgewerkt.\n\nApplicatie-details worden opgehaald:\nBundel-ID: %s\nNaam: %s\nVersie: %s";
+
+/* This alert should display a list of the bundle IDs,names and version numbers for all the authenticator apps */
+
+/* InterApp Lock UI : Single Auth Delegate : Description retreived download URL */
+"AD is not installed. Details: BundleID, Name, Version, ObtainFrom" = "De verificatieapplicatie is momenteel niet beschikbaar. Dit kan verschillende oorzaken hebben, zoals: de applicaties zijn niet geïnstalleerd, zijn nog niet geactiveerd of moeten worden bijgewerkt.\n\nApplicatie-details:\nBundel-ID: %s\nNaam: %s\nVersie: %s\n\nVerkrijgen via:\n%s";
+
+/* InterApp Lock UI : Multi-Auth Delegate : Description retreived download URL */
+"AD are not installed. Details: BundleIDs, Names, Versions, ObtainFrom" = "De verificatie-applicaties zijn momenteel niet beschikbaar. Dit kan verschillende oorzaken hebben, zoals: de applicaties zijn niet geïnstalleerd, zijn nog niet geactiveerd of moeten worden bijgewerkt.\n\nApplicatie-details:\nBundel-ID: %s\nNaam: %s\nVersie: %s\n\nVerkrijgen via:\n%s";
+
+/* This alert should display a list of the bundle IDs,names, version numbers and location from where to download all the authenticator apps */
+
+/* InterApp Lock UI : Single Auth Delegate : Description has no download URL */
+"AD is not installed. Details: BundleID, Name, Version, no URL" = "De verificatieapplicatie is momenteel niet beschikbaar. Dit kan verschillende oorzaken hebben, zoals: de applicaties is niet geïnstalleerd, is nog niet geactiveerd of moet worden bijgewerkt.\n\nApplicatiedetails:\nBundel-ID: %s\nNaam: %s\nVersie: %s\n\nNeem contact op met uw IT-beheerder.";
+
+/* InterApp Lock UI : Multi Auth Delegate : Description got no download URL */
+"AD are not installed. Details: BundleIDs, Names, Versions, no URLs" = "De verificatie-applicatie zijn momenteel niet beschikbaar. Dit kan verschillende oorzaken hebben, zoals: de applicaties zijn niet geïnstalleerd, zijn nog niet geactiveerd of moeten worden bijgewerkt.\n\nApplicatie-details:\nBundel-ID: %s\nNaam: %s\nVersie: %s\n\nNeem contact op met uw IT-beheerder.";
+
+/* InterApp Lock UI : Title text */
+"Authorization Unavailable" = "Machtiging niet beschikbaar";
+
+/* InterApp Lock UI : Retry button text */
+"Try again" = "Probeer het opnieuw";
+
+/* InterApp Lock UI : Retry message */
+"AD is unavailable. Details: BundleID, Name, Version, no URL" = "Voor de volgende applicatie is een machtiging vereist:\n\nNaam: %s\nIdentificatie: %s\nVersie: %s\n\nDeze applicatie is voor machtiging niet beschikbaar als deze niet is geïnstalleerd, geactiveerd of geüpgraded. Deze kan ook niet beschikbaar zijn als gevolg van een tijdelijke toestand en kan weer beschikbaar worden als u het opnieuw probeert.";
+
+/* This alert should display a list of the bundle IDs,names, version numbers of all the authenticator apps */
+
+/* Wipe or Reset UI : Title */
+"Authentication failed" = "Authenticatie verloren gegaan";
+
+/* Wipe or Reset UI : Message */
+"Auth delegate authentication failed" =
+"Selecteer Terughalen om authenticatie terug te halen. Hiervoor hebt u een speciale code van uw IT-beheerder nodig. Selecteer Wissen om uw data te wissen en de authenticatie opnieuw in te stellen. Als u de authenticatie opnieuw wilt instellen, heeft u een nieuwe toegangscode nodig om de activering opnieuw uit te voeren.";
+
+/* Recover */
+"InterApp lock description message" = "Gebruik de ontvangen code van IT om de app te ontgrendelen.\n\nOpmerking: Als u de code niet hebt ontvangen, neemt u contact op met uw IT-afdeling voor ondersteuning";
+
+/* Wipe or Reset UI : Right button label text */
+"Reset Password" = "Terughalen";
+
+/* Wipe or Reset UI : Left button label text */
+"Wipe" = "Wissen";
+
+/* Please Wait UI : Navigation Title */
+"Authenticating" = "Bezig met authenticatie";
+
+/* Remote Lock UI : Navigation Title */
+"Remote Lock" = "App is op afstand geblokkeerd";
+
+/* Remote Lock UI : Right button label text
+ Unlock UI : Right button label text */
+"Unlock" = "Ontgrendelen";
+
+/* Remote Lock UI : Help Message */
+"Remote lock help message" = "Neem contact op met uw IT-beheerder voor een tijdelijk wachtwoord om deze app te ontgrendelen op basis van de volgende ontgrendelcode.";
+
+/* Remote Lock UI : Password Field 1 accessibility label */
+"_PwdField1" = "Ontgrendelcode veld 1 van 4";
+
+/* Remote Lock UI : Password Field 2 accessibility label */
+"_PwdField2" = "Ontgrendelcode veld 2 van 4";
+
+/* Remote Lock UI : Password Field 3 accessibility label */
+"_PwdField3" = "Ontgrendelcode veld 3 van 4";
+
+/* Remote Lock UI : Password Field 4 accessibility label */
+"_PwdField4" = "Ontgrendelcode veld 4 van 4";
+
+/* Remote Lock UI : Error alertview message
+ * Unlock UI : Error alertview message
+ * Error Alert View : Title
+ */
+"Incorrect Password" = "Ongeldig wachtwoord";
+
+/* Unlock UI : Placeholder text string for password textfield */
+"Password" = "Wachtwoord";
+
+/* Unlock UI : Label text for entering regular password */
+"Enter Password" = "Wachtwoord invoeren";
+
+/* Unlock UI : enter password accessibility label */
+"_EnterPassword" = "Wachtwoord invoeren";
+
+/* Unlock UI : Label text for entering PIN as password */
+"Enter PIN" = "Toegangscode invoeren";
+
+/* Unlock UI : Label text for entering unlock key as password */
+"Enter Unlock Key" = "Ontgrendelcode invoeren";
+
+/* Application Unlock : Title */
+"Application Unlock" = "Applicatie ontgrendelen";
+
+/* Application Unlock : Unlock assistance */
+"Unlock key required" = "U kunt een ontgrendelingssleutel aanvragen via BlackBerry of een IT-beheerder.";
+
+/* General UI : Clear button label */
+"Clear" = "Wissen";
+
+/* General UI : Next Button accessibility label */
+"_NextButton" = "Volgende";
+
+/* General UI : Next Button accessibility hint */
+"__NextButton" = "Naar volgende scherm.";
+
+/* General UI : Cancel Button accessibility label */
+"_CancelButton" = "Terug";
+
+/* General UI : Cancel Button accessibility hint */
+"__CancelButton" = "Terug naar laatste scherm.";
+
+/* General UI : Close Button accessibility label */
+"_CloseButton" = "Sluiten";
+
+/* General UI : Close Button accessibility hint */
+"__CloseButton" = "Huidige scherm afsluiten.";
+
+/* General UI : Info Button accessibility label */
+"_InfoButton" = "Informatie";
+
+/* General UI : Info Button accessibility hint */
+"__InfoButton" = "Geeft een gedetailleerde uitleg van deze opties.";
+
+/* Help UI : webview accessibility label */
+"_HelpWebview" = "Voorbeeld van e-mail";
+
+/* Error Alert View : Title
+ * Open URL : Error Alert View : Title
+ * Open WatchDox URL : Error Title
+ */
+"Error" = "Fout";
+
+/* Error Alert View : Button label 
+ * Open WatchDox URL : Error Button Title
+ */
+"OK" = "OK";
+
+/* Error Alert View : Title */
+"Application Access Denied" = "Toegang tot app ontzegd";
+
+/* Error Alert View : Title */
+"Unauthorized User" = "Ongeautoriseerde gebruiker";
+
+/* Device Wipe/Block UI: App Denied */
+"Wipe/Block App Denied" = "App niet geautoriseerd.\n%@ v%@\nNeem contact op met uw IT-beheerder.";
+
+/* Device Wipe/Block UI: Description Mobile Docs */
+"Wipe/Block key changed" = "De authenticatie-app is mislukt. Alle in deze app opgeslagen gegevens zijn gewist. Stop de app en herstart hem om het opnieuw te proberen.";
+
+/* Device Wipe/Block UI: NEM mode Description */
+"Wipe/Block NEM Mode" = "De app is in simulatiemodus en kan niet op een apparaat draaien.";
+
+/* Device Wipe/Block UI: Incompliant library Description */
+"Wipe/Block Incompliant lib version" = "De applicatie is gebaseerd op de BlackBerry Dynamics Library-versie %@ en is niet toegestaan. Upgrade de applicatie of schakel deze versie in het compliancebeleid in.";
+
+/* Device Wipe/Block UI: Incompliant device Description */
+"Wipe/Block Incompliant device" = "De hardwareversie van het apparaat is '%@' en is niet toegestaan. Installeer de app op een toegestaan apparaat of schakel dit hardware nalevingsbeleid in.";
+
+/* Device Wipe/Block UI: Incompliant OS Description */
+"Wipe/Block OS Incompliant device" = "De huidige versie van het besturingssysteem '%@' is niet toegestaan. Neem contact op met de beheerder voor meer informatie.";
+
+/* Device Wipe/Block UI: Rooted Description */
+"Wipe/Block Rooted" = "Er is een jailbreak op dit apparaat uitgevoerd.";
+
+/* Device Wipe/Block UI: Connectivity in days Description */
+"Wipe/Block Connectivity in days" = "Deze applicatie is niet gebruikt in de afgelopen %d dagen.";
+
+/* Device Wipe/Block UI: Connectivity in hours Description */
+"Wipe/Block Connectivity in hours" = "Deze applicatie is niet gebruikt in de afgelopen %d uur.";
+
+/* Device Wipe/Block UI: Max password attempts exceeded Description */
+"Wipe/Block Max password attemnts exceeded" = "Het maximum aantal inlogpogingen met een ongeldig wachtwoord is %d en is overschreden.";
+
+/* Device Wipe/Block UI: Data has been wiped */
+"Wipe/Block data removed" = " IT heeft alle gegevens met betrekking tot deze applicatie verwijderd.";
+
+/* Device Wipe/Block UI: MDM policy is required but not yet installed */
+"Wipe/Block MDM required" = "Voor de app moet een MDM-beleid (Mobile Device Management) zijn geïnstalleerd op dit apparaat.";
+
+/* Device Wipe/Block UI: MDM policy is required but agent is not up to date */
+"Wipe/Block MDM update required" = "De applicatie vereist dat er een MDM-beleid (Mobile Device Management) op dit apparaat is geïnstalleerd, maar uw MDM-agent is niet bijgewerkt.";
+
+/* Deny App by App version : Blocked */
+"The version of [App Name] is blocked" = "Versie %s van %s  is geblokkeerd. Neem contact op met IT voor meer informatie.";
+
+/* Deny App by App version : Wiped */
+"The version of [App Name] has been wiped" = "Versie %s van %s is verwijderd. Neem contact op met IT voor meer informatie.";
+
+/* GDiOS Event : App Permission Failed */
+"Error application not allowed for user" = "Fout, app niet toegestaan voor gebruiker";
+
+/* GDiOS Event : Activation Failed */
+"Error device activation failed" = "Fout, activeren van apparaat mislukt";
+
+/* GDiOS Event : Provisioning Failed */
+"Error provisioning with enterprise failed" = "Fout, rechten voor enterprise mislukt";
+
+/* GDiOS Event : Push Connection Failed */
+"Error push connection failed to open" = "Fout, push-verbinding mislukt";
+
+/* GDiOS Event : Security Failed */
+"Error unlocking secure container" = "Fout, ontgrendelen beveiligde container mislukt";
+
+/* GDiOS Event : Provision Cancelled */
+"Error user cancelled provisioning" = "Opstartfout, gebruiker annuleerde rechtentoewijzing";
+
+/* GDiOS Event : OK */
+"Authorization OK" = "Autorisatie OK";
+
+/* GDiOS Event : Application Blocked */
+"Application access has been blocked" = "Toegang tot app is geblokkeerd";
+
+/* GDiOS Event : Application Wiped */
+"Application has been wiped" = "App is gewist";
+
+/* GDiOS Event : Application Idle Lockout */
+"Application idle timeout activated" = "Time-out app nietsdoen geactiveerd";
+
+/* GDiOS Event : Application Remote Locked */
+"Application has been remote locked" = "App is op afstand geblokkeerd";
+
+/* GDiOS Event: Password Change Required */
+"Password Change Required" = "Wachtwoord moet worden gewijzigd";
+
+/* [Simulated] : Simulated Title Append
+ * Displayed when the application is running in Enterprise Simulation mode
+ */
+"[Simulated]" = "[Gesimuleerd]";
+
+/* Unlock UI : Label text for forgot password */
+"_ForgotPasswordLabel" = "Wachtwoord vergeten";
+
+/* Unlock UI : forgot password accessibility label */
+"_ForgotPasswordButton" = "Wachtwoord vergeten";
+
+/* Unlock UI : forgot password accessibility hint */
+"__ForgotPasswordButton" = "Vraagt om bevestiging van wachtwoord-reset.";
+
+/* Confirm Alert View : Title */
+"Lock For Reset?" = "Vergrendelen om te resetten?";
+
+/* Confirm Alert View : Message */
+"Forgot password alert message" = "Voor het resetten van het wachtwoord moet u een speciale code krijgen van uw IT-beheerder. De app wordt vergrendeld zodra u een reset aanvraagt.";
+
+/* Forgot Password Learn More View : Message */
+"Forgot password learn more message" = "Voor het resetten van het wachtwoord hebt u een speciale code van uw IT-beheerder nodig.";
+
+/* Confirm Alert View : Positive Button */
+"Reset" = "Resetten";
+
+/* Application is not installed Alert View : Message */
+"Application not responding message" = "De toepassing heeft niet gereageerd.";
+
+/* Application is not activated Alert View : Message */
+"Application not active message" = "De toepassing is nog niet ingesteld, of is verwijderd of opnieuw geïnstalleerd.";
+
+/* Unlock UI : Keyboard Guide */
+"Touch 'Next' to unlock." = "'Volgende' voor ontgrendelen.";
+
+/* EULA UI : accept EULA accessibility label */
+"_AcceptEULAButton" = "Overeenkomst accepteren";
+
+/* EULA UI : accept EULA accessibility hint */
+"__AcceptEULAButton" = "Accepteert de overeenkomst.";
+
+/* EULA UI : decline EULA accessibility label */
+"_DeclineEULAButton" = "Overeenkomst afwijzen";
+
+/* EULA UI : accept EULA accessibility hint */
+"__DeclineEULAButton" = "Wijst de overeenkomst af.";
+
+/* EULA UI : UDID agreement text */
+"UDID Agreement" = "Mag de unieke apparaatidentificatie (UDID) worden uitgelezen?\n\nDe gegevens van de app waren beschermd met de unieke apparaatidentificatie (UDID). Zonder toegang tot de UDID kunnen uw opgeslagen data niet worden opgehaald en moeten ze worden gewist.";
+
+/* Migrate UI : UDID Access Warning : Title */
+"UDID Access Warning Title" = "UDID-toegang niet toegestaan";
+
+/* Migrate UI : UDID Access Warning : Message */
+"UDID Access Warning Message" = "App resetten en data van app wissen?";
+
+/* Migrate UI : UDID Access Warning : OK */
+"UDID Access Warning OK" = "Wissen";
+
+/* Migrate UI : UDID Access Warning : Allow */
+"UDID Access Warning Allow" = "Toestaan";
+
+/* Request Unlock Key : Description */
+"Remote lock wipe reason unlock description" = "Neem contact op met de beheerder voor een ontgrendelcode.";
+
+/* Help UI : access key help message */
+"Access key help message" = "<br><div style=\"width:[OUTERWIDTH]px\"><style>DIV.PlainText { font-size:[FONTSIZE];font-family:monospace;background-color:#ffffff;color:#000000; -webkit-border-radius: 5px 5px 0px 0px; padding: [PADDING]px; background: -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,1.0)), to(rgba(255,255,255,0.0)), color-stop(.92,#ffffff));}</style>%@<br><br><font size=\"2\"><div style=\"padding:5px;margin:0px auto; width:[INNERWIDTH]px\" class=\"PlainText\">Beste <font color=808080><i>Uw naam</i></font>,<br><br>U hebt toegang gekregen tot... <br><br>&nbsp;&nbsp; 1. Download de vereiste app<br>&nbsp;&nbsp;&nbsp;...<br>&nbsp;&nbsp; 2. Voer de volgende gegevens in <br>&nbsp;&nbsp; wanneer gevraagd (hoofd/kleine letters maakt niet uit):<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; E-MAILADRES:&nbsp; <span style=\"background:yellow;color:808080\"><i>email@company.com</i></span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; TOEGANGSCODE: <span style=\"background:yellow;color:808080\"><i>xxxxx-xxxxx-xxxxx</i></span><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Uw toegangscode vervalt op:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color=808080><i>vervaldatum</i></font><br><br>&nbsp;&nbsp; 3. Indien vereist door IT-beveiligingsbeleid...<br><br><br></div></font></div>";
+
+/* Help UI : unlock access key help message */
+"Unlock access key help message" = "<br><div style=\"width:[OUTERWIDTH]px\"><style>DIV.PlainText { font-size:[FONTSIZE];font-family:monospace;background-color:#ffffff;color:#000000; -webkit-border-radius: 5px 5px 0px 0px; padding: [PADDING]px; background: -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,1.0)), to(rgba(255,255,255,0.0)), color-stop(.92,#ffffff));}</style>%@<br><br><font size=\"2\"><div style=\"padding:5px;margin:0px auto; width:[INNERWIDTH]px\" class=\"PlainText\">Beste <font color=808080><i>Uw naam</i></font>,<br><br>U hebt toegang gekregen tot... <br><br>&nbsp;&nbsp; Voer de volgende gegevens in <br>&nbsp;&nbsp; wanneer gevraagd (hoofd/kleine letters maakt niet uit):<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; E-MAILADRES:&nbsp; <span style=\"background:yellow;color:808080\"><i>email@company.com</i></span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ONTGRENDELCODE: <span style=\"background:yellow;color:808080\"><i>xxxxx-xxxxx-xxxxx</i></span><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Uw ontgrendelcode vervalt op:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color=808080><i>vervaldatum</i></font><br><br>&nbsp;&nbsp;<br><br><br></div></font></div>";
+
+/* Help UI : access key help message non-html */
+"Access key help message non-html" = "Beste <Your Name>,\n\nU hebt toegang gekregen tot ... \n\n1. Download de vereiste app ...\n2. Voer de volgende gegevens is wanneer gevraagd (hoofd/kleine letters maakt niet uit):\n\nE-MAILADRES:  email@company.com\nTOEGANGSCODE: xxxxx-xxxxx-xxxxx\n\nUw toegangscode vervalt op: <expiration date>\n\n3. Als vereist door IT-beveiligingsbeleid, ...";
+
+/* Information UI : title */
+"Information" = "Informatie";
+
+/* The following are error messages for use in Secure Document Transfer
+ * These are used by the secure Preview Controller & secure document
+ * interaction controller
+ */
+
+/* Preview Controller : no apps message */
+"Preview controller has no apps message" = "Geen geschikte applicaties.";
+
+/* Preview Controller : share denied title */
+"Preview controller share denied title" = "Bewerking niet toegestaan.";
+
+/* Preview Controller : share denied message*/
+"Preview controller share denied" = "Deze bewerking is niet toegestaan op basis van uw IT-nalevingsbeleid.";
+
+/* Document Interaction Controller : error sending file title */
+"Document interaction controller error title" = "Fout bij bestandsoverdracht";
+
+/* Document Interaction Controller : error sending message */
+"Document interaction controller error message" = "Er is een fout opgetreden bij de bestandsoverdracht.";
+
+/* Document Interaction Controller : try again title */
+"Document interaction controller try again title" = "Probeer het opnieuw";
+
+/* Document Interaction Controller : try again message */
+"Document interaction controller try again message" = "Bestandsoverdracht is nog steeds beveiligd. Probeer het later opnieuw.";
+
+/* Unlock UI : Incorrect Password with max */
+"Unlock PIN incorrect with max attempts" = "U hebt een ongeldig wachtwoord ingevoerd. U hebt nog %d pogingen over.";
+
+/* Unlock UI : Error alertview message
+ * Unlock UI : Incorrect Password
+ */
+"The password you entered is not correct." = "U hebt een ongeldig wachtwoord ingevoerd.";
+
+/* EA password screen prompt */
+"Use your unlock password to allow." = "Gebruik uw ontgrendelwachtwoord om toestemming te geven voor installatie.";
+
+/* EA password screen forgot pass prompt
+ * Unlock UI : Label text for forgot password
+ */
+"Forgot Password" = "Wachtwoord vergeten";
+
+/* EA password is requesting activation prompt */
+"is requesting setup." = "moet worden ingesteld.";
+
+/* EA - access key prompt */
+"Set up using your Access Key" = "Stel in met uw toegangscode";
+
+/* EA Learn more button label */
+"Learn More" = "Meer info";
+
+/* EA Report a Problem button label */
+"Report a Problem" = "Probleem rapporteren";
+
+/* EA Secured By label */
+"Secured By" = "Beveiligd door";
+
+/* EA Setup using label */
+"Set up using" = "Stel in met";
+
+/* EA activation options format string */
+"Application for %s:" = "App voor %s:";
+
+/* EA Error Alert View : Unable to launch EA delegate */
+"Unable to launch EA delegate" = "Kan activeringsgemachtigde module niet starten";
+
+/* EA Error Alert View : format string with code */
+"Error returned %d" = "Fout geretourneerd: %d";
+
+/* EA app selection screen */
+"EA app selection screen help." = "%s kan worden ingesteld met het wachtwoord voor een van de volgende applicaties of met de toegangscode van een beheerder.";
+
+/* EA password screen prompt */
+"Enter the password for [App Name] to continue." = "Voer het wachtwoord voor %s in om door te gaan.";
+
+/* Easy Activation: 401 - Unauthorized:  The user cancelled the activation request.*/
+"Activation request was canceled" = "Activeringsverzoek geannuleerd.";
+
+/* Easy Activation: 403 - Forbidden - The user is not entitled to activate the specified application/version.*/
+"You are not entitled to setup the specified app" = "U hebt geen toestemming om de betreffende applicatie/versie te installeren. Neem contact op met uw IT-afdeling voor toegang.";
+
+/* Easy Activation: 404 - Not Found - The requesting application is not a recognized GD application.*/
+"EA app is not recognized" = "De applicatie die u probeert te installeren wordt niet herkend. Neem contact op met uw IT-afdeling voor meer informatie.";
+
+/* Easy Activation: 423 - Activator is blocked - The requesting application is blocked by policy incomplience*/
+"EA app is locked" = "Activering kan nu niet worden uitgevoerd. Probeer het opnieuw nadat het probleem is opgelost.";
+
+/* CSR: 406 - Token matching failed.*/
+"CSR token matching failed" = "Geweigerd door beheerconsole.";
+
+/* Easy Activation: 500 - Unspecified error*/
+"EA request failed with unspecified error" = "Installatie mislukt. Probeer het opnieuw of gebruik uw toegangscode om in te stellen.";
+
+/* Easy Activation: 502 - Bad Gateway - The request failed due to a network communication failure with or between the backend servers.*/
+"EA unable to connect error" = "Kan geen verbinding maken. Probeer het opnieuw.";
+
+/* Easy Activation: 503 - Unavailable - The responding application is not configured to act as an activation delegate.*/
+"EA app is not configured correctly as delegate" = "Installatie mislukt. Controleer of de app voor installatieondersteuning correct is geconfigureerd of gebruik uw toegangscode.";
+
+/* EA Error Alert View : message error 506*/
+"EA app is remote locked" = "Activeringsverzoek mislukt. Neem contact op met uw IT-afdeling om via uw toegangscode te ontgrendelen of in te stellen";
+
+/* Easy Activation: 507 - Mismatch - Address mismatch because the catalogue doesn't have the correct AppLocalAddress.*/
+"EA - slave app is misconfigured" = "De applicatie die u probeert te installeren is verkeerd geconfigureerd. Neem contact op met uw IT-afdeling voor meer informatie.";
+
+/* Easy Activation Missing Application Title */
+"Missing Application" = "Applicatie ontbreekt";
+
+/* Easy Activation Missing Application Message */
+"EA app missing" = "%s is mogelijk verwijderd. Kies een andere applicatie of gebruik een toegangscode om door te gaan met de installatie.";
+
+/* Learn More: Requesting Activation Title */
+"Setup Options" = "Installatieoptie selecteren";
+
+/* Learn More: Requesting Activation */
+"Select an option to activate application." = "Automatische installatie met de BlackBerry Dynamics-installatieapplicatie of vraag een toegangscode aan bij uw IT-beheerder.";
+
+/* Learn More: Access Key Screen Title */
+"Setup App" = "App installeren";
+
+/* Learn More: Access Key Screen */
+"Activate application" = "U hebt uw e-mailadres en toegangscode uit het welkomstbericht van uw IT-beheerder nodig om uw app te installeren.";
+
+/* Learn More : Lock Screen Title */
+"Complete Setup" = "Installatie voltooien";
+
+/* Learn More : EA Lock Screen */
+"EA unlock learn more description" = "Als u deze activering hebt aangevraagd, voert u nu uw ontgrendelingswachtwoord in. Annuleer nu, als u dit verzoek niet hebt ingediend.";
+
+/* Learn More : Application Blocked */
+"Application access has been blocked. Please contact IT" = "App-toegang is geblokkeerd. Neem contact op met uw IT-afdeling voor meer info.";
+
+/*Unspecified error*/
+"Unspecified error" = "Onbekende fout";
+
+/* Blocked/FIPS because of wrapping */
+"Wipe reason - FIPS cannot be enabled in this app" = "FIPS-modus is vereist door uw organisatie en kan niet worden ingeschakeld in de huidige applicatie. Neem contact op met uw IT voor ondersteuning";
+
+/* Blocked/FIPS because of arch (64bit) */
+"Wipe reason - FIPS is not available for 64bit arch" = "FIPS-modus is vereist door uw organisatie en is niet compatibel met uw apparaat. Neem contact op met uw IT voor ondersteuning";
+
+/* Blocked/FIPS because it just failed for some reason to activate */
+"Wipe reason - FIPS failed to activate" = "FIPS-modus is vereist door uw organisatie en kan niet worden geactiveerd. Neem contact op met uw IT voor ondersteuning";
+
+/* Mailto UI : Title */
+"Mail Service Restricted" = "Mail-service beperkt";
+
+/* Mailto Error Alert View : GFE send email service is unavailable */
+"Secure mail is not available in app" = "Geen beveiligde mailservice beschikbaar voor deze applicatie. Neem contact op met uw IT-afdeling voor ondersteuning.";
+
+/* Mailto Error Alert View : User prompt that displays when Data Leakage Prevention is on */
+"Secure mail it restricted by policies" = "Deze handeling wordt niet toegestaan door uw huidige beveiligingsinstellingen. Neem contact op met uw IT-afdeling.";
+
+/* Mailto Error Alert View : User prompt that displays when Data Leakage Prevention is off.*/
+"Select mail service" = "Selecteer een mailservice.";
+
+/* Error Alert View : Button label */
+"BlackBerry Work (secure)" = "BlackBerry Work (veilig)";
+
+/* Error Alert View : Button label */
+"Mail" = "Mailen";
+
+/* Upload Logs UI : Title */
+"Upload Logs" = "Logboeken uploaden";
+
+/* Upload Logs Alert View : Logs sent */
+"Log upload has been scheduled." = "Logboek uploaden is gepland.";
+
+/* EA Access Key : Message */
+"Retrieving Access Key" = "Toegangscode ophalen";
+
+/* CSR In Progress Key : Message */
+"Getting Certificate" = "Certificaat ophalen";
+
+/* Open URL : Title */
+"Select Application to Open URL" = "Selecteer app om URL te openen";
+
+/* Open URL : Error Message - No applications*/
+"No Applications installed to open URL" = "Geen apps geïnstalleerd om URL te openen";
+
+/* MDM : Initiate MDM */
+"InitiateMDM" = "Start MDM-aanmelding";
+
+/* Initiate MDM : button accessibility label */
+"_InitiateMDM" = "Start MDM-aanmelding";
+
+/* Initiate MDM : button accessibility hint */
+"__InitiateMDM" = "Hiermee wordt de MDM-aanmelding gestart.";
+
+/* MDM : Install Good Agent or BES 12 Client */
+"InstallMdmAgent" = "Installeer MDM-agent";
+
+/* MDM : Update Good Agent or BES 12 Client */
+"UpdateMdmAgent" = "Werk MDM-agent bij";
+
+/* Dictation : Alert title */
+"Dictation Blocked Title" = "Dicteren uitgeschakeld";
+
+/* Dictation : Blocked by IT Admin. */
+"Dictation Blocked Message" = "Beheerder heeft beperkt toegang tot dicteren.";
+
+/* Dictation: Dismiss Button */
+"Dictation Dismiss Button" = "OK";
+
+/* Custom Keyboard : Alert title */
+"Custom Keyboards Blocked Title" = "Aangepaste toetsenborden uitgeschakeld";
+
+/* Custom Keyboard : Blocked by IT Admin. */
+"Custom Keyboards Blocked Message" = "Beheerder heeft beperkte toegang tot aangepaste toetsenborden.";
+
+/* string for Authenticatinon user by TouchID */
+"Authenticate using your finger" = "Verifieer met uw vinger.\n";
+
+/* Touch ID allowed : Title */
+"IT Administrator has allowed Touch ID" = "IT-beheerder heeft Touch ID toegestaan";
+
+/* Touch ID allowed : First button title */
+"Use Touch ID" = "Gebruik Touch ID";
+
+/*Touch ID allowed : Second button title */
+"Change Password and Use Touch ID"  = "Wijzig wachtwoord en gebruik Touch ID";
+
+/* Touch ID allowed : Cancel button title */
+"Don't Use Touch ID"  = "Gebruik Touch ID niet";
+
+/* Touch ID disallowed : Title */
+"Touch ID disallowed title"  = "IT-beheerder heeft het wachtwoordbeleid gewijzigd en gebruik van Touch ID uitgeschakeld";
+
+/* Touch ID disallowed : Cancel button title */
+"Don't Change Password"  = "Wijzig wachtwoord niet";
+
+/* Set Password UI : Touch ID label */
+"Touch ID"  = "Touch ID";
+
+/* GDMDM Event : Application Blocked */
+"Application access has been blocked (GDMDM)" = "Voor de app moet een MDM-beleid (Mobile Device Management) zijn geïnstalleerd op dit apparaat.";
+
+/* URL Loading : Localized description for NSError NSURLErrorServerCertificateUntrusted */
+"Untrusted server certificate" = "Het certificaat voor deze server is ongeldig. Mogelijk maakt u verbinding met een server die zich voordoet als %s waardoor uw vertrouwelijke informatie risico loopt.";
+
+/* URL Loading : Localized recovery suggestion for NSError NSURLErrorServerCertificateUntrusted */
+"Untrusted server recovery suggestion" = "Wilt u toch verbinding maken met de server?";
+
+/* URL Loading : Localized description for NSError NSURLErrorNetworkConnectionLost */
+"Network connection lost" = "De verbinding is mislukt, omdat de netwerkverbinding is verbroken.";
+
+/* URL Loading : Localized description for NSError NSURLErrorCannotConnectToHost */
+"Cannot connect to host" = "Kan geen verbinding maken met de server.";
+
+/* URL Loading : Localized description for NSError NSURLErrorCancelled */
+"Cancelled operation" = "De bewerking kan niet worden voltooid.";
+
+/* URL Loading : Localized description for NSError NSURLErrorUserCancelledAuthentication */
+"Authentication cancelled" = "Kan geen verbinding maken omdat de gebruiker het vereiste verificatieproces heeft geannuleerd.";
+
+/* URL Loading : Localized description for NSError NSURLErrorUserAuthenticationRequired */
+"Authentication required" = "Kan geen verbinding maken omdat verificatie is vereist.";
+
+/* URL Loading : Localized description for NSError NSURLErrorTimedOut */
+"Connection timeout" = "Er is een time-out opgetreden bij het verbinden.";
+
+/* URL Loading : Localized description for NSError NSURLErrorUnknown */
+"Unknown error" = "Er is een onbekende fout opgetreden.";
+
+/* URL Loading : Localized description for NSError NSURLErrorClientCertificateRejected */
+"Client certificate rejected" = "De beveiligde verbinding is mislukt omdat het clientcertificaat is geweigerd.";
+
+/* URL Loading : Localized description for NSError NSURLErrorClientCertificateRequired */
+"Client certificate required" = "De beveiligde verbinding is mislukt omdat de server een clientcertificaat vereist.";
+
+/* Title text - Initial wearable framework screen*/
+"WF Start setup" = "Aan de slag";
+
+/* Body text - Initial wearable framework screen*/
+"WF Start body" = "Deze applicatie gebruikt een Android Wear-applicatie. Er is een beveiligde verbinding nodig tussen uw telefoon en horloge om deze applicaties te laten samenwerken.";
+
+/* List items - Initial wearable framework screen*/
+"WF Start item1" = "Druk op Stel in onder aan het scherm om te starten.";
+"WF Start item2" = "U ontvangt een melding op het meldingenscherm van uw horloge. Druk op de melding";
+"WF Start item3a" = "Bevestig de code op telefoon en horloge";
+"WF Start item3b" = "Bevestig de code op telefoon of horloge";
+"WF Start item4" = "Gereed";
+
+/* Button items - Wearable setup */
+"WF Button Later" = "Later";
+"WF Button Setup" = "Stel in";
+"WF Button Correct" = "Juist";
+"WF Button Wrong" = "Fout";
+"WF Button Done" = "Gereed";
+
+/* Title Text - Connecting Watch */
+"WF Connecting watch" = "Verbinden met horloge...";
+
+/* Body Text - Connecting Watch */
+"WF Connecting Watch body" = "Zoek de melding in uw stream...";
+
+/* Title Text - Connection confirmation */
+"WF Confirmation Title" = "Verbinding aangevraagd";
+
+/* Body Text - Connection confirmation */
+"WF Confirmation Body" = "Bevestig dat de verbindingscode klopt.";
+
+/* Body Text - Connection confirmation */
+"WF Confirmation Code" = "Verbindingscode";
+
+/* Title Text - Watch pairing */
+"WF Waiting Watch" = "Wachten op horloge...";
+
+/* Body Title - Watch pairing */
+"WF Waiting Watch Body" = "Wachten op bevestiging van horloge.";
+"WF Waiting Watch Body2" = "Zorg ervoor dat u op het vinkje op uw horloge hebt gedrukt.";
+
+/* Title Text - Done Screen */
+"WF Done Title" = "U bent klaar";
+
+/* Watch Requested title */
+"WF Setup Requested " = "Installatie aangevraagd.";
+
+/* Connecting with title */
+"WF Connecting title" = "Verbinden met";
+
+/*Waiting titles */
+"Waiting Phone Title" = "Wachten op telefoon...";
+"Waiting Tablet Title" = "Wachten op tablet...";
+"Waiting" = "Een ogenblik geduld...";
+
+/* connection lost */
+"WF Connection Lost Title" = "Verbinding verbroken";
+"WF Connection Lost Text" = "Kan geen verbinding maken met de app op uw horloge";
+
+/* Retry case */
+"WF Retry Prompt" = "Tik om opnieuw te proberen";
+"WF Retrying" = "Opnieuw proberen...";
+
+/* Error cases */
+"WF System update required" = "Systeemupdate vereist";
+"WF System update required details" = "Update het systeem als u deze app wilt uitvoeren";
+"WF Application update required" = "Update van app vereist";
+"WF Application update required details" = "Google Play Services moet worden bijgewerkt om deze app uit te voeren";
+"WF Wearable Disabled Title" = "Uitgeschakeld door ondernemingsbeheerder";
+"WF Wearable Disabled details" = "Het gebruik van draagbare apps is uitgeschakeld door uw ondernemingsbeheerder";
+"WF Unsupported Error Title" = "Fout";
+"WF Unsupported Error details" = "Het Wearable Framework werkt niet op uw apparaat. Raadpleeg de vereisten in de releaseopmerkingen.";
+"WF Code not match Title" = "Code komt niet overeen";
+"WF Code not match Body" = "Bevestigingscode komt niet overeen";
+"WF General Error Title" = "Fout";
+"WF General Error details" = "Er is een onverwachte fout opgetreden";
+
+/* Device Block UI: Description */
+"Unauthorized version." = "De geïnstalleerde applicatieversie is nog niet geautoriseerd. Neem contact op met uw beheerder om deze versie te activeren.";
+
+/* GDCoveredDataUnavailableAlert */
+"GDCoveredDataUnavailableAlert Title" = "Gedekte mobiele gegevens niet beschikbaar";
+"GDCoveredDataUnavailableAlert messageKey" = "Eventuele datakosten worden in rekening gebracht op uw eigen data-abonnement en worden mogelijk niet vergoed door uw werkgever. Ga akkoord om door te gaan of schakel mobiele data uit in de apparaatinstellingen om de app alleen offline of met WiFi te gebruiken.";
+"GDCoveredDataUnavailableAlert dontShowAgain" = "Akkoord en niet opnieuw weergeven";
+"GDCoveredDataUnavailableAlert positiveButtonKey" = "Akkoord";
+"GDCoveredDataUnavailableAlert cancelButtonKey" = "Schakel mobiele gegevens uit in instellingen";
+
+/* GDCoveredDataNoRoamingAlert */
+"GDCoveredDataNoRoamingAlert Title" = "Gedekte mobiele gegevens niet beschikbaar";
+"GDCoveredDataNoRoamingAlert messageKey" = "Eventuele roamingkosten worden in rekening gebracht op uw eigen data-abonnement en worden mogelijk niet vergoed door uw werkgever. Ga akkoord om door te gaan of schakel mobiele data  uit om de app alleen offline of met WiFi te gebruiken.";
+"GDCoveredDataNoRoamingAlert positiveButtonKey" = "Akkoord";
+"GDCoveredDataNoRoamingAlert cancelButtonKey" = "Schakel mobiele gegevens uit in instellingen";
+
+/* GDRoamingDataBlockedAlert */
+"GDRoamingDataBlockedAlert Title" = "Gedekte mobiele gegevens niet beschikbaar";
+"GDRoamingDataBlockedAlert messageKey" = "Uw bedrijf staat de applicatie niet toe om mobiele data te gebruiken tijdens roaming.";
+"GDRoamingDataBlockedAlert cancelButtonKey" = "Offline gebruiken";
+
+/* GDCoveredDataLimitAlert */
+"GDCoveredDataLimitAlert Title" = "Limiet gedekte mobiele gegevens";
+"GDCoveredDataLimitAlert messageKey" = "De datalimiet van uw bedrijf is bereikt. Eventuele datakosten worden in rekening gebracht op uw eigen data-abonnement en worden mogelijk niet vergoed door uw werkgever. Ga akkoord om door te gaan of schakel mobiele data uit om de app alleen offline of met WiFi te gebruiken.";
+"GDCoveredDataLimitAlert dontShowAgain" = "Akkoord en niet opnieuw weergeven";
+"GDCoveredDataLimitAlert positiveButtonKey" = "Eenmalig akkoord";
+"GDCoveredDataLimitAlert cancelButtonKey" = "Schakel mobiele gegevens uit in instellingen";
+
+/* GDCoveredRoamingDataLimitAlert */
+"GDCoveredRoamingDataLimitAlert Title" = "Gedekte roaminglimiet";
+"GDCoveredRoamingDataLimitAlert messageKey" = "De roaminglimiet van uw bedrijf is bereikt. Eventuele roamingkosten worden in rekening gebracht op uw eigen data-abonnement en worden mogelijk niet vergoed door uw werkgever. Ga akkoord om door te gaan of schakel mobiele data uit om de app offline te gebruiken.";
+"GDCoveredRoamingDataLimitAlert dontShowAgain" = "Akkoord en niet opnieuw weergeven";
+"GDCoveredRoamingDataLimitAlert positiveButtonKey" = "Eenmalig akkoord";
+"GDCoveredRoamingDataLimitAlert cancelButtonKey" = "Schakel mobiele gegevens uit in instellingen";
+
+/* GDYouAreCoveredAlert */
+"GDYouAreCoveredAlert Title" = "# Gedekt!";
+"GDYouAreCoveredAlert messageKey" = "Datagebruik voor %s wordt gedekt door het beleid van uw werkgever en wordt niet in rekening gebracht op uw persoonlijke data-abonnement wanneer u het pictogram # ziet in de statusbalk van uw apparaat. Wanneer u dit pictogram niet ziet, worden kosten mogelijk in rekening gebracht op uw eigen data-abonnement.";
+"GDYouAreCoveredAlert cancelButtonKey" = "OK";
+
+/* GDLeavingCoveredDataExitAlert */
+"GDLeavingCoveredDataExitAlert Title" = "Gedekte mobiele gegevens verlaten...";
+"GDLeavingCoveredDataExitAlert messageKey" = "U verlaat een app waarvoor uw werkgever een datapakket heeft gekocht. Als u doorgaat, worden mogelijk kosten in rekening gebracht op uw eigen data-abonnement. Ga akkoord om door te gaan of annuleer om terug te gaan naar de app.";
+"GDLeavingCoveredDataExitAlert dontShowAgain" = "Akkoord en niet opnieuw weergeven";
+"GDLeavingCoveredDataExitAlert positiveButtonKey" = "Eenmalig akkoord";
+"GDLeavingCoveredDataExitAlert cancelButtonKey" = "Annuleren";
+
+/* GDSplitBillingTutorial */
+"GDSplitBillingTutorial messageKey" = "Als u dit pictogram in de statusbalk van uw apparaat ziet, wordt datagebruik voor %s wordt gedekt door uw werkgever op basis van een beleid.";
+"GDSplitBillingTutorial textCovered" = "Gedekt";
+"GDSplitBillingTutorial textNotCovered" = "Niet gedekt";
+"GDSplitBillingTutorial nextButtonKey" = "Volgende";
+"GDSplitBillingTutorial closeButtonKey" = "Sluiten";
+
+/* Disclaimer Message */
+"Disclaimer UI right button label text" = "Accepteer";
+
+/* EA lock screen password prompt with Touch ID */
+"Touch ID EA Title" = "Touch ID voor [App Name]";
+"Use Touch ID or enter the password" = "Touch ID of voer wachtwoord in om door te gaan met de installatie van [App Name].";
+"Touch ID positiveButtonKey" = "Wachtwoord invoeren";
+"Touch ID cancelButtonKey" = "Annuleren";
+"TouchID reason - require password on start" = "Touch ID vereist uw wachtwoord als [App Name] opnieuw wordt gestart";
+
+/* Touch ID requires password due to settings change */
+"TouchID reason - policy or TouchID changed" = "Uw wachtwoord is vereist omdat de Touch ID of wachtwoordinstellingen van het apparaat zijn gewijzigd.";
+
+/* Touch ID periodically requires password */
+"Fingerprint requires password after some period"  = "Volgens het bedrijfsbeleid moet u elke [period] uur uw wachtwoord invoeren";
+
+/* Certificate Sharing UI */
+"Certificate Sharing Alert Title" = "Certificaat vereist";
+"Certificate Sharing Alert Message" = "Voor uw organisatie is het vereist dat u certificaten importeert om deze app uit te voeren. Importeer certificaten met %s. Als %s niet is geactiveerd, kunt u dit nu activeren.";
+"Certificate Sharing Alert Next Button" = "Volgende";
+"Certificate Sharing Alert Error Missing Certificates Title" = "Ontbrekende certificaten";
+"Certificate Sharing Alert Error Missing Certificates" = "Niet alle vereiste certificaten werden geïmporteerd. Er is verdere actie vereist met %s.";
+"Certificate Sharing Alert Error Missing App Title" = "Ontbrekende app";
+"Certificate Sharing Alert Error Missing App" = "%s is niet geïnstalleerd. Installeer %s of neem contact op met uw beheerder.";
+"Certificate Sharing Alert Error Incompatible App Title" = "Incompatibele app";
+"Certificate Sharing Alert Error Incompatible App" = "%s is niet compatibel. Voer een upgrade uit van %s of neem contact op met uw beheerder.";
+"Certificate Sharing Alert Error App Locked Title" = "Vergrendelde app";
+"Certificate Sharing Alert Error App Locked" = "Verstrek de certificaatprovider-app (%s) voordat u BlackBerry Dynamics-apps verstrekt die clientcertificaten op basis van apps gebruiken.";
+"Certificate Sharing Alert Error Wrong User Title" = "Ongeautoriseerde app";
+"Certificate Sharing Alert Error Wrong User" = "%s-gebruiker wordt niet herkend. Verwijder en verstrek %s opnieuw, of neem contact op met uw beheerder.";
+"Certificate Sharing Alert Error Unknown Title" = "Certificaatfout";
+"Certificate Sharing Alert Error Unknown" = "Er heeft zich een fout voorgedaan. Probeer het opnieuw of neem contact op met uw beheerder.";
+"Certificate Sharing Alert Retry Button" = "Opnieuw proberen";
+"Certificate Sharing Expired Alert Title" = "Certificaat verlopen";
+"Certificate Sharing Alert Connecting Message" = "Een ogenblik geduld tot de verbinding tot stand wordt gebracht...";
+
+/* Common-generic Certificate Import and Enrollment stuff */
+"Certificate Alert OK Button" = "OK";
+"Certificate Alert Success Title" = "Geslaagd";
+"Certificate Alert Skip Title" = "Een andere keer";
+"Certificate Alert Later Message" = "Mogelijk moet u de installatie later voltooien.";
+"Certificate Alert Next Button" = "Volgende";
+"Certificate Alert Error Title" = "Fout";
+"Certificate Alert Unavailable Title" = "Niet beschikbaar";
+"Certificate Alert Pending Title" = "In behandeling";
+"Certificate Skip Setup Button" = "Annuleren";
+"Certificate Okay Button" = "OK";
+
+/* Certificate import screen (PKCS12 file upload)*/
+"Certificate Import Password" = "Wachtwoord invoeren";
+"Certificate Import Information" = "Voer het wachtwoord in dat de beheerder heeft verstrekt.";
+"Certificate Import Information No Password Required" = "Ga verder met het importeren van de bestandsinhoud.";
+"Certificate Import: Success Message" = "Uw persoonlijke certificaat kan nu met deze app worden gebruikt.";
+"Certificate Import: Success Next Message" = "Uw persoonlijk certificaat is geïmporteerd. Er is nog een instantie die uw aandacht vereist.";
+"Cert Import Alert Incorrect Password Title" = "Onjuist wachtwoord";
+"Cert Import Alert Incorrect Password Message" = "Uw wachtwoord is niet geaccepteerd.";
+"Certificate Alert Weak Cipher Title" = "Niet toegestaan";
+"Certificate Alert Weak Cipher Message" = "Het certificaat kan niet worden geïmporteerd. De codering is niet conform de Federal Information Processing Standard (FIPS), hetgeen door het beleid is vereist.";
+
+/* Certificate enrolment screen (on demand enrolment) */
+"Certificate Enrolment Password" = "Aanmeldcode";
+"Certificate Enrolment Information" = "Voer de aanmeldcode in die de beheerder heeft verstrekt.";
+"Certificate Enrolment Information No Password Required" = "Ge verder met aanmelden.";
+"Certificate Enrolment Alert Success Message" = "U bent aangemeld.";
+"Certificate Enrolment Alert Success Next Message" = "U bent aangemeld. Er is nog een instantie die uw aandacht vereist.";
+"Certificate Enrolment Alert Pending Message" = "Uw aanmelding wordt verwerkt. U krijgt een melding als verdere actie nodig is.";
+"Certificate Enrolment Alert Pending Next Message" = "Uw aanmelding wordt verwerkt. Er is nog een instantie die uw aandacht vereist.";
+"Cert Enrolment Alert Incorrect Password Title" = "Verkeerde code";
+"Cert Enrolment Alert Incorrect Password Message" = "Uw aanmeldcode is niet geaccepteerd. Neem contact op met uw beheerder als het probleem zich blijft voordoen.";
+"Certificate Enrolment Alert Error Message" = "Er is een probleem met de aanmelding. Neem contact op met uw beheerder als het probleem zich blijft voordoen.";
+"Certificate Enrolment Alert Unavailable Message" = "U kunt zich niet aanmelden omdat de service niet beschikbaar is. Neem contact op met uw beheerder als het probleem zich blijft voordoen.";
+"Certificate Enrolment Alert Removed Message" = "Certificaat verwijderd door uw beheerder. Aanmelding voor deze instantie wordt overgeslagen.";
+"Certificate Enrolment Alert Removed Next Message" = "Certificaat verwijderd door uw beheerder. Er is nog een instantie die uw aandacht vereist.";
+"Optional Certificate Title" = "Clientcertificaat";
+"Required Certificate Title" = "Vereist clientcertificaat";
+
+/* Certificate import screen (Device Credential Store) */
+"Certificate Import Info from Device Credential Store" = "Ga door met de identificatie van uw persoonlijke certificaat vanuit de gegevensopslag van uw apparaat.";
+"Certificate Import Info from Device Credential Store Post First Time setup" = "Voor het gebruik van een persoonlijk certificaat vanuit de credential store van het apparaat is een machtiging vereist. Het correcte certificaat is geïdentificeerd.";
+"Certificate Import: Incorrect Certificate Selection Post First time setup" = "Voor dit profiel is al een persoonlijk certificaat ingesteld en u kunt dit niet wijzigen. Probeer het opnieuw en als het probleem blijft optreden, neemt u contact op met uw beheerder voor hulp.";
+"Certificate Import: Deny Option Selection" = "U dient een persoonlijk certificaat te selecteren. Als het vereiste certificaat ontbreekt, moet u het mogelijk installeren. Probeer het opnieuw.";
+"Certificate Import: Incorrect Certificate Selection" = "Het certificaat voldoet niet aan de vereisten van uw organisatie voor dit profiel. Zoek of installeer een compatibel persoonlijk certificaat, of neem contact op met uw beheerder voor hulp.";
+"Certificate Import: Profile Certificate Match" = "Dit certificaat is reeds geselecteerd voor gebruik met een ander profiel. Wilt u dit certificaat opnieuw toewijzen aan het profiel %s?";
+"Certificate Import: Title In Use" = "Certificaat in gebruik";
+"Option Yes" = "Ja";
+"Option No" = "Nee";
+
+/* Open WatchDox URL : Error Title */
+"Cannot Open URL" = "Kan URL niet openen";
+
+/* Open WatchDox URL : Error Message */
+"No secure application" = "U hebt geen veilige app geïnstalleerd om de URL mee te openen. Installeer een geschikte app of neem contact op met uw IT-beheerder voor ondersteuning.";
+
+/* Open WatchDox URL : Selection UI Title */
+"Open WatchDox URL with" = "WatchDox-URL openen met";
+
+/* Open WatchDox URL : Selection UI Option Button Title */
+"Defined by system" = "Gedefinieerd door systeem";
+
+/* Open URL : Selection UI Title */
+"Open URL with" = "Open URL met";
+
+/*Android Permission Required screen */
+"permissionrequiredheading" = "Machtiging vereist";
+"phonePermissionText" = "Plaats en beheer oproepen.";
+"permissionIntroText" = "Deze applicatie werkt niet zonder het volgende Android-systeem %2$s!.";
+"permissionIntroTextpara2" = "%4$s! vereist voor identificatie van het mobiele apparaat op de BlackBerry beveiligde infrastructuur.";
+"gotoSettings" = "Ga naar Applicatie-instellingen voor %1$s! om %3$s! %4$s! in te schakelen.";
+"singularPermission" = "machtigingen";/*%2$s! wildcard*/
+"pluralPermission" = "machtigingen";/*%2$s! wildcard*/
+"pluralPermission2" = "Ze zijn";/*%4$s! wildcard*/
+"singularPermission2" = "Het is";/*%4$s! wildcard*/
+"pluralthese" = "deze";/*%3$s! wildcard*/
+"singularthis" = "deze";/*%3$s! wildcard*/
+"gotoSettingsbutton" = "Ga naar Instellingen";
+"deny" ="Weiger";
+"allow" ="Toestaan";
+
+/* Fingerprint dialog : Button */
+"CANCEL"  = "ANNULEREN";
+
+/* Fingerprint dialog : Button */
+"RETRY"  = "OPNIEUW";
+
+/* Fingerprint enroll dialog : Title */
+"No Fingerprints"  = "Geen vingerafdrukken";
+
+/* Fingerprint enroll dialog : Content */
+"To log in with a fingerprint you must enroll at least one"  = "U moet ten minste één vingerafdruk registreren om te kunnen inloggen met vingerafdruk";
+
+/* Fingerprint enroll dialog for work profile: Title */
+"No Fingerprints in Work Profile"  = "Geen vingerafdrukken in werkprofiel";
+
+/* Fingerprint enroll dialog for work profile : Content */
+"To log in with a fingerprint you must enroll at least one in your work profile"  = "Om met een vingerafdruk te kunnen inloggen, moet u ten minste één vingerafdruk in uw Work-profielbeveiligingsinstellingen registreren";
+
+/* Fingerprint enroll dialog : Button */
+"ENROLL"  = "REGISTREREN";
+
+/* Fingerprint activation dialog : Title */
+"Activate fingerprint"  = "Vingerafdruk activeren";
+
+/* Fingerprint activation dialog : Content */
+"Fingerprint activation dialog message"  = "Gebruik de sensor op uw apparaat om inloggen met vingerafdruk te activeren";
+
+/* 
+ * Fingerprint login dialog : Title
+ * Unlock UI : Navigation Title 
+ */
+"Login"  = "Inloggen";
+
+/* Fingerprint login dialog : Content */
+"Use the sensor on your device to login"  = "Gebruik de sensor op uw apparaat om in te loggen";
+
+/* Fingerprint login dialog : Button */
+"USE PASSWORD"  = "WACHTWOORD GEBRUIKEN";
+
+/* Fingerprint login dialog : Content */
+"Authenticated"  = "Geverifieerd";
+
+/* Fingerprint login dialog : Content */
+"The fingerprint is not an enrolled one"  = "De vingerafdruk is niet geregistreerd";
+
+/* Fingerprint changed dialog : Title */
+"Fingerprints Changed"  = "Vingerafdrukken gewijzigd";
+
+/* Fingerprint changed dialog : Content */
+"Fingerprint changed dialog message"  = "Vingerafdrukken zijn gewijzigd sinds uw laatste verificatie";
+
+/* Fingerprint authentication failed dialog : Title */
+"Authentication Failed"  = "Verificatie mislukt";
+
+/* Fingerprint authentication failed dialog : Content */
+"Fingerprint is not recognized too many times"  = "Te veel pogingen. Probeer het later opnieuw.";
+
+/* Fingerprint time out dialog : Title */
+"Authentication Timed Out"  = "Time-out bij verificatie";
+
+/* Fingerprint time out dialog : Content */
+"Fingerprint time out dialog message"  = "Voer uw wachtwoord in of probeer het opnieuw";
+
+/* Fingerprint settings page : Title */
+"Fingerprint Settings"  = "Vingerafdrukinstellingen";
+
+/* Fingerprint settings page : Content */
+"Fingerprint settings page message"  = "IT-beleid staat inloggen met vingerafdruk toe";
+
+/* Fingerprint settings page : Content */
+"Fingerprint log in"  = "Inloggen met vingerafdruk";
+
+/* Fingerprint dialog : Content */
+"Confirm fingerprint to continue"  = "Bevestig vingerafdruk om verder te gaan";
+
+/* Fingerprint dialog : Content */
+"Fingerprint recognized"  = "Vingerafdruk herkend";
+
+/* Fingerprint dialog : Content */
+"Fingerprint is not recognized dialog message" = "Vingerafdruk niet herkend. Probeer het opnieuw.";
+
+/* Fingerprint dialog : Content */
+"Touch sensor"  = "Raak de sensor aan";
+
+/* Fingerprint Crypto Failure error : Title */
+"Crypto Failure" = "Crypto-fout";
+
+/* Fingerprint Authentication Failed : Content */
+"Fingerprint authentication failed" = "Fout met vingerafdruk";
+
+/* Fingerprint Crypto Failure error : Content */
+"Internal error: Retry or restart" = "Interne fout: probeer het opnieuw of start opnieuw op";
+
+/* No Screen Lock dialog : Title */
+"No Screen Lock"  = "Geen schermvergrendeling";
+
+/* No Screen Lock dialog : Content */
+"Screen lock is required for Fingerprint"  = "U moet schermvergrendeling inschakelen om te kunnen inloggen met vingerafdruk";
+
+/* No Screen Lock dialog : Button */
+"ENABLE"  = "SCHAKEL IN";
+
+/* Fingerprint requires password due to settings change */
+"Fingerprint requires password due settings changes"  = "Uw wachtwoord is vereist, omdat de vingerafdruk of wachtwoordinstellingen van het apparaat zijn gewijzigd.";
+
+/* Biometry type is not allowed: unlock */
+"Biometry is not allowed for unlock" = "De geselecteerde biometrische optie wordt niet ondersteund. Wijzig de geselecteerde biometrische optie in apparaatinstellingen naar Vingerafdruk of voer uw wachtwoord in.";
+
+/* Biometry type is not allowed: activation */
+/* Title */
+"Activation failure" = "Activatiefout";
+
+/* Biometry type is not allowed: activation */
+"Biometry is not allowed for activation" = "De geselecteerde biometrische optie wordt niet ondersteund. Wijzig de gewenste biometrische optie en probeer het opnieuw.";
+
+/* Notification string for going from  a Password required auth state to No Password mode*/
+"Password no longer required" = "Wachtwoord niet meer vereist";
+
+/* Notification string for going from No Password to a Password Required state */
+"Password now required" = "Wachtwoord is nu vereist";
+
+/* Log upload UI : Log upload status label */
+"Log uploader status" = "Log uploadstatus";
+
+/* Log upload UI : upload button */
+"Button Upload" = "Uploaden";
+
+/* Log upload UI : cancel button */
+"Button Cancel" = "Annuleren";
+
+/* Log upload UI : suspend button */
+"Button Suspend" = "Onderbreken";
+
+/* Log upload UI : resume button */
+"Button Resume" = "Hervatten";
+
+/* Log upload UI : close button */
+"Button Close" = "Sluiten";
+
+/* Log upload UI : completed status label */
+"Completed" = "Voltooid";
+
+/* Log upload UI : suspended status label */
+"Suspended" = "Onderbroken";
+
+/* Log upload UI : cancelled status label */
+"Cancelled" = "Geannuleerd";
+
+/* Log upload UI : resumed status label */
+"Resumed" = "Hervat";
+
+/* Log upload UI : in progress status label */
+"In progress" = "Bezig";
+
+/* Log upload UI : progress delimiter, e.g. 54 of 123 */
+"of" = "van";
+
+/* Device Block UI: Description */
+"This version is unauthorized to use." = "Deze versie niet geautoriseerd voor gebruik.";
+
+/* Missing container alert info text */
+"Missing container alert text" = "De gegevens bij deze applicatie kunnen niet worden gevonden of zijn verwijderd. U moet de applicatie opnieuw instellen.";
+
+/* Keychain prompt: requires access body */
+"Keychain prompt: requires access body" = "%s vereist toegang om de identificators die zijn opgeslagen in de sleutelketen te beveiligen om door te kunnen gaan. Selecteer Altijd toestaan in het volgende venster.";
+
+/* Keychain prompt: keychain locked body */
+"Keychain prompt: keychain locked body" = "Voor %s is toegang tot de identificators vereist die in de sleutelketen zijn opgeslagen. Ontgrendel de sleutelketen om door te gaan.";
+
+/* Login screen button */
+"Forgot password?" = "Wachtwoord vergeten?";
+
+/* Learn More : Application Blocked Title */
+"Application Wiped" = "Applicatie gewist";
+
+/* Keychain prompt: application will close title */
+"Application will now close" = "De applicatie wordt nu gesloten";
+
+/* Provision UI : LearnMore/Hide button text */
+"Hide" = "Verbergen";
+
+/* Keychain prompt: requires access title */
+"Keychain access required" = "Toegang tot sleutelketen vereist";
+
+/* Missing container alert title */
+/* NOTE: %s will be replaced with application name */
+"%s: Data not found" = "%s: gegevens niet gevonden";
+
+/* Set Password UI : Error Message - Password Change Failure Wrond Old Password */
+"Old password input is incorrect." = "Invoer van oud wachtwoord is incorrect.";
+
+/* App Blocked UI : button accessibility label */
+"_Recover" = "_Herstellen";
+
+/* Missing keychain alert info text */
+"Missing keychain alert info text" = "De sleutelketen van deze applicatie kan niet worden gevonden of is verwijderd. Als gevolg daarvan zijn uw gegevens verwijderd en moet u deze applicatie opnieuw instellen.";
+
+/* Missing keychain alert title */
+/* NOTE: %s will be replaced with application name */
+"%s: Keychain not found" = "%s: sleutelketen niet gevonden";
+
+/* macOS Keychain prompt: application close body */
+/* NOTE: %s will be replaced with application name */
+"Keychain prompt: application close body" = "%s kan niet doorgaan zonder toegang tot de beveiligde identificators die zijn opgeslagen in de sleutelketen.";
+
+/* macOS Keychain Keys: Application Specific Tag */
+/* NOTE: %s will be replaced with application name */
+"kGDHashKeysTag" = "BlackBerry Dynamics-id's: %@";
+
+/* macOS Keychain Keys: Description */
+"kGDHashKeysDescription" = "Identificators beveiligen";
+
+/* macOS Keychain Keys: Comment */
+"kGDHashKeysComment" = "De beveiligde applicatie is afhankelijk van deze sleutelketen. Wijzig of verwijder deze niet.";
+
+/* macOS Keychain Keys: Service */
+"kGDHashKeysService" = "https://www.blackberry.com";
+
+/* macOS Keychain Keys: Shared Tag */
+"kGDHashKeysSharedTag" = "Gedeelde BlackBerry Dynamics-identificators";
+
+/* macOS Keychain Keys: Shared Account */
+"kGDHashKeysSharedAccount" = "BlackBerry Dynamics gedeeld account";
+
+/* macOS Uninstaller Script: Dialog Title */
+/* NOTE: $APP_BUNDLE_NAME will be replaced with application name */
+"$APP_BUNDLE_NAME Uninstaller" = "Verwijderprogramma voor $APP_BUNDLE_NAME";
+
+/* macOS Uninstaller Script: Error Dialog Body */
+/* NOTE: $APP_BUNDLE_NAME will be replaced with application name 
+ * not used directly from bundle, just is copied to uninstall script
+ * key was changed to avoiding warnings which are raised 
+ * by localization validation Jenkins job
+ */
+"Uninstaller Script: Error Dialog Body" = "$APP_BUNDLE_NAME: fout - de applicatie kan niet in de huidige map worden gevonden. Doorgaan met installatie ongedaan maken? Hierdoor worden alle gevonden afhankelijkheden verwijderd.";
+
+/* macOS Uninstaller Script: Continue Button */
+"Continue" = "Doorgaan";
+
+/* macOS Uninstaller Script: Uninstall Prompt Body */
+/* NOTE: $APP_BUNDLE_NAME will be replaced with application name */
+"$APP_BUNDLE_NAME: uninstall and remove all dependencies?" = "$APP_BUNDLE_NAME: installatie van alle afhankelijkheden ongedaan maken en deze verwijderen?";
+
+/* macOS Uninstaller Script: Uninstall Button */
+"Uninstall" = "Installatie ongedaan maken";
+
+/* macOS Uninstaller Script: Uninstall Completed Message */
+"Uninstall complete" = "Installatie ongedaan gemaakt";
+
+/* Provision Progress UI : State - TEE-TAM
+ * In this state:
+ * Request device preparation and trustlets from TAM
+ * Save trustlets to disk
+ */
+"TEE Activation" = "TEE-activering";
+
+/* Set Password UI : TEE active text */
+"TEE enabled" = "TEE ingeschakeld";
+
+/* Log Upload UI : Connection Status Title */
+"Connection Status"  = "Verbindingsstatus";
+
+/* Log Upload UI : Not Reachable Connection Status Text */
+"Unreachable Status"  = "niet bereikbaar";
+
+/* Log Upload UI : Via Cellular Connected Status Text */
+"Via Cellular Status"  = "via mobiele data";
+
+/* Log Upload UI : Via Wi-Fi Connected Status Text */
+"Via Wi-Fi Status"  = "via Wi-Fi";
+
+/* Touch ID allowed : Accept button title */
+"Accept"  = "Accepteer";
+
+/* Touch ID allowed : Cancel button title */
+"Deny"  = "Weiger";
+
+/* Screen Recording and Sharing Prevention Alert : Dismiss Button */
+"Recording Detected Alert Dismiss Button" = "OK";
+
+/* Screen Recording or Sharing Prevention Alert : Title */
+"Recording Detected Alert Title" = "Opnemen of delen gedetecteerd";
+
+/* Screen Recording or Sharing Prevention Alert : Message */
+"Recording Detected Alert Message" = "Opnemen of delen van het scherm is niet toegestaan als de applicatie wordt uitgevoerd. Om door te gaan, moet u alle opname- en deelactiviteiten stoppen.";
+
+/* Activation or Activation Progress UI : Recording or Sharing Status Label */
+"Recording or Sharing Status Label" = "Opnemen";
+
+/* string for Authentication user by Face ID */
+"Authenticate using Face ID" = "Verifiëren met Face ID.";
+
+/* Face ID allowed : Title */
+"IT Administrator has allowed Face ID" = "Face ID is volgens het beleid niet toegestaan";
+
+/* Face ID allowed : First button title */
+"Use Face ID" = "Face ID gebruiken";
+
+/* Face ID disallowed : Title */
+"Face ID disallowed title"  = "Face ID is volgens het beleid niet langer toegestaan";
+
+/* Set Password UI : Face ID label */
+"Face ID"  = "Face ID";
+
+/* EA lock screen password prompt with Face ID */
+"Use Face ID or enter the password" = "Gebruik Face ID of voer uw wachtwoord in om door te gaan met het instellen van [App Name].";
+"Face ID reason - require password on start" = "Wachtwoord vereist als [App Name] opnieuw wordt gestart";
+
+/* Face ID requires password due to settings change */
+"Face ID reason - policy or Face ID changed" = "Uw wachtwoord is vereist omdat de Face ID of wachtwoordinstellingen van het apparaat zijn gewijzigd";
+
+/* Face ID periodically requires password */
+"Face ID requires password after some period"  = "Volgens het beleid moet u elke [period] uur uw wachtwoord invoeren";
+
+/* Face ID allowed : Accept button title */
+"Face ID Accept"  = "Accepteer";
+
+/* Face ID allowed : Cancel button title */
+"Face ID Deny"  = "Weiger";
+
+/* Value for NSFaceIDUsageDescription key displayed to user on first attempt to use Face ID */
+"NSFaceIDUsageDescription" = "Hiermee wordt geverifieerd zonder wachtwoord.";
+
+/* Action : Alert title */
+"Action Blocked Title" = "Geblokkeerd";
+
+/* Action : Blocked by DLP policy*/
+"Action Blocked Message" = "Actie wordt geblokkeerd door beleid";
+
+/* iOS UIPreviewAction Keys: Add to Reading List */
+"Add to Reading List" = "Zet in leeslijst";
+
+/* iOS UIPreviewAction Keys: Open Link */
+"Open Link" = "Open koppeling";
+
+/* Android Warning Dialog message */
+"WARNING_IDLE_TIMER" = "Uw sessie verloopt binnenkort door inactiviteit. Tik op het scherm om door te gaan.";
+
+/* Android Warning Dialog title */
+"WARNING_IDLE_TIMER_TITLE" = "Inactiviteitswaarschuwing";
+
+/* iOS BBDLockWarningUI: Inactivity Warning Alert Title*/
+"Inactivity Warning" = "Inactiviteitswaarschuwing";
+
+/* iOS BBDLockWarningUI: Inactivity Warning Alert Message*/
+"Your session is about to expire due to inactivity. Please tap OK to continue." = "Uw sessie verloopt binnenkort door inactiviteit. Tik op OK om door te gaan.";
+
+/* iOS BBDPinnedInfrastructureAlertUI title */
+"Infrastructure connection failed" = "Infrastructuurverbinding mislukt";
+
+/* iOS BBDPinnedInfrastructureAlertUI message */
+"Connection to infrastructure services could not be established." = "Verbinding met infrastructuurservices kon niet tot stand worden gebracht.\nNeem contact op met uw IT-beheerder.";
+
+"deviceSettingsButton" = "Apparaatinstellingen";
+
+"<app name> does not fully support the version of Android on this device." = "%s ondersteunt de Android-versie op dit apparaat slechts gedeeltelijk. Update de applicatie naar de nieuwste versie.";
+

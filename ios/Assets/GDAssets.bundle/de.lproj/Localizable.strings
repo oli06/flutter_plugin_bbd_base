@@ -1,0 +1,1640 @@
+/*
+ * (c) 2016 BlackBerry Limited. All rights reserved.
+ *
+ */
+
+/* Localizable strings within the BlackBerry Dynamics client library user interface.
+ * The order of strings in this file is based on the order in which they would
+ * normally be encountered during set-up, and then on the order in which they
+ * appear on the screen, from top to bottom.
+ */
+
+/* Welcome UI strings, for the first page that is displayed, before set-up. */
+
+/* Welcome UI : Navigation Title
+ * Also appears in the following:
+ * Provision UI : Navigation Title
+ * Provision Progress UI : Navigation Title
+ */
+"Setup" = "Einrichten";
+
+/* Welcome UI : Next button label text */
+"Start" = "Einrichten";
+
+/* Welcome UI : Next button Accessibility label */
+"_Start" = "Einrichten";
+
+/* Welcome UI : Next button Accessibility hint */
+"__Start" = "Wechselt zum nächsten Bildschirm.";
+
+/* Welcome UI : Welcome Message
+ * In the following, WiFi should be Wi-Fi with a hyphen, but the UI will
+ * break the line at the hyphen, which looks bad.
+ * IT admin should be IT administrator, but administrator is a long word and
+ * causes an odd line break.
+ */
+"Welcome to BlackBerry Dynamics" =
+"Willkommen bei BlackBerry Dynamics!\n\nWährend des Einrichtungsvorgangs benötigen Sie eine mobile Daten- oder WLAN-Verbindung.\nSie benötigen außerdem Ihre E-Mail-Adresse sowie den Zugangsschlüssel aus der Willkommens-E-Mail Ihres IT-Administrators.";
+
+/* Provision UI strings, for the page on which the user enters their
+ * e-mail address and activation key (aka PIN).
+ */
+
+/* Provision UI : Left button label text
+ * Also appears in the following:
+ * Set Password UI : Left button label text
+ * Unlock UI : Left button label text
+ * Select a mail service : Cancel button label
+ * Error Alert View : Button label
+ * Open URL : Button label text
+ * Open URL : Error Alert View : Button label
+ * Open WatchDox URL : Button Title
+ * macOS Uninstaller Script: Cancel Button
+ */
+"Cancel" = "Abbrechen";
+
+/* Provision UI : Right button label text */
+"Next" = "Weiter";
+
+/* Company Name - BlackBerry */
+"BlackBerry" = "BlackBerry";
+
+/* Provision UI : Email Label text */
+"Email Address" = "E-Mail-Adresse";
+
+/* Provision UI : Email accessibility label */
+"_EmailAddress" = "E-Mail-Adresse";
+
+/* Provision UI : PIN Label text */
+"PIN" = "Zugangsschlüssel";
+
+/* Provision UI : PIN Label text */
+"Unlock Key" = "Entsperrschlüssel";
+
+/* Provision UI : PIN Field 1 accessibility label */
+"_PinField1" = "Zugangsschlüssel - Feld 1 von 3";
+
+/* Provision UI : PIN Field 2 accessibility label */
+"_PinField2" = "Zugangsschlüssel - Feld 2 von 3";
+
+/* Provision UI : PIN Field 3 accessibility label */
+"_PinField3" = "Zugangsschlüssel - Feld 3 von 3";
+
+/* Provision UI : Error Message - Invalid PIN */
+"Invalid PIN" = "Ungültiger Zugangsschlüssel";
+
+/* Provision UI : Error Message - Invalid unlock PIN */
+"Invalid unlock PIN" = "Ungültiger Entsperrschlüssel";
+
+/* Provision UI : Error Message - No Coverage */
+"Network Required" =
+"Für den Einrichtungsvorgang ist eine mobile Daten- oder WLAN-Verbindung erforderlich.\n\nVersuchen Sie es erneut, wenn eine Datenverbindung verfügbar ist.";
+
+/* Provision UI : Title */
+"Set-up failed" = "Einrichtung fehlgeschlagen";
+
+/* Provision UI Desktop: Title */
+"Desktop Network Required Title" = "Keine Internetverbindung";
+
+/* Provision UI Desktop: Message */
+"Desktop Network Required Message" = "Ihr Computer ist derzeit offline. Überprüfen Sie Ihre Netzwerkeinstellungen.";
+
+/* Provision Progress UI strings, for the page that is displayed during
+ * authorization processing.
+ */
+
+
+/* Provision Progress UI : Left button label text */
+"Back" = "Zurück";
+
+/* Provision Progress UI : Set Up Progress Label */
+"Setup Progress" = "Fortschritt";
+
+/* Provision Progress UI : Status Label text */
+"Status" = "Status";
+
+/* Provision Progress UI : State - Init
+ * In this state:
+ * Post to the GD NOC activation service
+ * Establish Push Connection
+ */
+"NOC Activation" = "Infrastruktur-Aktivierung";
+
+/* Provision Progress UI : State - NOC
+ * In this state:
+ * Post e-mail address and access key to the NOC
+ * NOC checks validity
+ * Returns: Various server addresses
+ */
+"NOC Provisioning" = "Enterprise-Aktivierung";
+
+/* Provision Progress UI : State - Push Channel
+ * In this state:
+ * Initial Push Channel is established
+ */
+"Starting Push Channel" = "Verbindung mit Push-Kanal";
+
+/* Provision Progress UI : State - Data Secure
+ * In this state:
+ * Secure Data Transfer from enterprise GC
+ */
+"Secure Data" = "Sichere Datenübertragung über AppKinetics";
+
+/* Provision Progress UI : State - Negotiate
+ * In this state:
+ * Secure communications set-up, part one
+ */
+"Negotiating Request" = "Kommunikation wird gesichert";
+
+/* Provision Progress UI : State - Data Request
+ * In this state:
+ * Secure communications set-up, part two
+ */
+"Data Request" = "Kommunikation wurde gesichert";
+
+/* Provision Progress UI : State - Downloading Policies
+ * In this state:
+ * Retrieve policies from enterprise GC
+ */
+"Downloading Policies" = "Richtlinien werden abgerufen";
+
+/* Provision Progress UI : State - Policy Download Complete */
+"Policy Download Complete" = "Richtlinien wurden abgerufen";
+
+/* Provision Progress UI : State - Provision Complete */
+"Provisioning Complete" = "Enterprise-Aktivierung fertig";
+
+/* Provision Progress UI : State - Waiting */
+"Waiting..." = "Warten...";
+
+/* Provision Progress UI : State - Checking Permission */
+"Checking Permission" = "Berechtigung wird überprüft";
+
+/* Provision Progress UI : State - Checking Permission Complete */
+"Permission Verified" = "Berechtigung wurde überprüft";
+
+/* Provision Progress UI : Provision Fail Message */
+"Provisioning with enterprise failed" = "Fehler beim Einrichten der Anwendung";
+
+/* Provision Progress UI : Provision accessibility label */
+"_ProvisionProgressUI" = "Einrichtungsstatus";
+
+/* Provision Progress UI : Provision accessibility hint */
+"__ProvisionProgressUI" = "Zeigt den aktuellen Einrichtungsstatus an.";
+
+/* Provision Progress UI : Provision Access Denied Message
+ * IT admin should be IT administrator, but administrator is a long word and
+ * causes an odd line break.
+ */
+"Provisioning Denied" =
+"Die E-Mail-Adresse und der Zugangsschlüssel wurden nicht erkannt.\n\nVergewissern Sie sich, dass die eingegebenen Werte korrekt und nicht abgelaufen sind. Wenn das Problem weiterhin besteht, rufen Sie selbstständig oder mit Unterstützung Ihres IT-Administrators einen neuen Zugangsschlüssel ab.";
+
+/* Provision Progress UI : NOC Activation failure message */
+"NOC Activation failed" = "Infrastruktur-Aktivierung fehlgeschlagen";
+
+/* Provision Progress UI : NOC Provisining failure message */
+"NOC Provisioning Failed" = "Enterprise-Aktivierung fehlgeschlagen";
+
+/* Provision Progress UI : Starting Push Channel failure message */
+"Starting Push Channel Failed" = "Fehler bei Verbindung zu Push-Kanal";
+
+/* Provision Progress UI : Negotiating Request failure message */
+"Negotiating Request Failed" = "Aushandlung der sicheren Kommunikation fehlgeschlagen";
+
+/* Provision Progress UI : Data Request failure message */
+"Data Request Failed" = "Einrichten der sicheren Kommunikation fehlgeschlagen";
+
+/* Provision Progress UI : Policy Exchange failure message */
+"Policy Exchange failed" = "Richtlinienaustausch fehlgeschlagen";
+
+/* Provision Progress UI : Send Log */
+"Send Log" = "Protokoll senden";
+
+/* Provision Progress UI : Retry */
+"Retry" = "Wiederholen";
+
+/* Provision Progress UI : SafetyNet validation failed */
+"SafetyNet validation failed" = "SafetyNet-Validierung fehlgeschlagen";
+
+/* Provision Progress UI : Hardware attestation failed */
+"OS version not compliant" = "Die aktuelle Version des Betriebssystems ist nach der Unternehmenspolitik nicht zulässig.\n\nAktualisieren Sie die Gerätesoftware oder kontaktieren Sie Ihren Administrator";
+
+/* Provision Progress UI : App integrity check failed */
+"App integrity check failed" = "Prüfen der Anwendungsintegrität fehlgeschlagen, bitte wenden Sie sich an Ihren Administrator";
+
+/* Migration UI strings, for the screen on which user migration progress is 
+displayed. 
+*/
+
+/* Migration UI : Title text  */
+"Migration is in progress" = "Migration im Gang";
+ 
+/* Migration UI : Error Message - Title text */
+"Migration Failed" = "Migration fehlgeschlagen";
+ 
+/* Migration UI : Error Message - Migration failure */
+"Problem with migration" = "Bei der Migration ist ein Fehler aufgetreten";
+ 
+/* Migration UI :  Error Message - No coverage */
+"Network Required Migration" = "Für den Einrichtungsvorgang ist eine mobile Daten- oder WLAN-Verbindung erforderlich.\n\nVersuchen Sie es erneut, wenn eine Datenverbindung verfügbar ist.";
+
+/* Set Password UI strings, for the screen on which the user sets their
+ * security password. The password must comply with the provisioning
+ * enterprise's security policies.
+ * The Set Password screen can appear in two contexts:
+ * Immediately after set-up has completed and the user sets their password for
+ * the first time, and
+ * As part of the preferences user interface, where the user can change their
+ * password.
+ */
+
+/* Set Password UI : Navigation Title - Set Password
+ * For use when the screen appears as part of the set-up UI
+ */
+"Set a New Password" = "Ein neues Kennwort festlegen";
+
+/* Set Password UI : Navigation Title - Change Password
+ * For use when the screen appears as part of the GD Settings UI
+ * Touch ID disallowed : First button title
+ */
+"Change Password" = "Kennwort ändern";
+
+/* Password Requirements button label */
+"Password Requirements" = "Kennwortanforderungen";
+
+/* Set Password UI : Right button label text */
+"Done" = "Fertig";
+
+/* Set Password UI : Label text */
+"Go" = "Los";
+
+/* Set Password UI : Label text for setting password. */
+"Set password label text" = "Sie müssen ein Kennwort festlegen.";
+
+/* Set Password UI : Placeholder text string for confirm password textfield */
+"Confirm New Password" = "Neues Kennwort bestätigen";
+
+/* The following strings are used to present the rules that will apply to the
+ * user's password.
+ */
+
+/* Set Password UI : Password Guide Preface
+ * The following appears above the rules statements.
+ */
+"Your password must include:\n" = "Ihr Kennwort muss folgende Anforderungen erfüllen:\n";
+
+/* Set Password UI : Password Guide - Repeat
+ * Note. The relative positions of repeated characters does not affect this
+ * policy. In other words the repeated characters could be adjacent or not
+ * adjacent.
+ */
+"- Disallow %d or more repeated characters\n" = "- Maximal %d identische Zeichen\n";
+
+/* Set Password UI : Password Guide - Sequential Number
+ * Note: There is no policy against sequential letters, for example: abcdef
+ */
+"- Do not allow sequential numbers\n" = "- Keine aufeinanderfolgenden Ziffern (z. B. 123 oder 321)\n";
+
+/* Set Password UI : Password Guide - Personal Information
+ */
+"- Do not allow personal information\n" = "- Keine persönlichen Informationen\n";
+
+/* Set Password UI : Password Guide - Length */
+"- Require at least %d characters\n" = "- Mindestens %d Zeichen\n";
+
+/* Set Password UI : Password Guide - Special Character
+ * Note: Here, a special character is one that returns non-zero when passed to a
+ * standard ispunct() function. See the following page for a definition:
+ * http://pubs.opengroup.org/onlinepubs/000095399/basedefs/xbd_chap07.html
+ */
+"- Require at least one special character\n" = "- Mindestens ein Sonderzeichen\n";
+
+/* Set Password UI : Password Guide - Number */
+"- Require both letters and numbers\n" = "- Sowohl Buchstaben als auch Ziffern\n";
+
+/* Set Password UI : Password Guide - Uppercase */
+"- Require both upper and lower case\n" = "- Groß- und Kleinbuchstaben\n";
+
+/* Set Password UI : Password Guide - Banned Passwords */
+"\nDo not allow banned passwords\n" = "\nIhr Passwort darf nicht dem verbotenen entsprechen.\n";
+
+/* End of password rules */
+
+/* Set Password UI : Placeholder text string for new password textfield */
+"New Password" = "Neues Kennwort";
+
+/* Set Password UI : Placeholder text string for old password textfield */
+"Current Password" = "Aktuelles Kennwort";
+
+/* The following are error messages for use when the password that the user
+ * entered does not comply with security policy. These are displayed on a
+ * dialog over the screen on which the user has attempted to enter the password.
+ * The title of the dialog is always "Error" or its localization.
+ */
+
+/* Set Password UI : Error Message - Password Change Failure
+ * This error is displayed if the old password was incorrect.
+ */
+"New password cannot be changed" = "Das Kennwort kann nicht geändert werden. Versuchen Sie es erneut.";
+
+/* Set Password UI : Error Message - Password Change Failure History */
+"Previously used pass error message" = "Das Kennwort wurde zuvor verwendet.";
+
+/* Set Password UI : Error Message - Password Change Failure Too Soon */
+"Password changed less than 24h ago" = "Das Kennwort wurde heute bereits geändert.";
+
+/* Set Password UI : Error Message - Password Change Failure within 24 hours */
+"Password cannot be changed within 24 hours." = "Das Kennwort kann innerhalb von 24 Stunden nicht geändert werden.\nKennwort festgelegt: [time]";
+
+/* Set Password UI : Error Message - Sequential Numbers */
+"No number sequence allowed in password" = "Das Kennwort enthält aufeinanderfolgende Ziffern (z. B. 123 oder 321).";
+
+/* Set Password UI : Error Message - Personal Information */
+"Password cannot have personal information" = "Das Kennwort enthält persönliche Informationen.";
+
+/* Set Password UI : Error Message - General Error */
+"Password is not strong enough." = "Das Kennwort ist nicht stark genug.";
+
+/* Set Password UI : Error Message - Short Password */
+"Password is too short." = "Das Kennwort ist zu kurz.";
+
+/* Set Password UI : Error Message - Letters and Numbers */
+"Password requires both numbers & letters" = "Das Kennwort enthält nicht sowohl Buchstaben als auch Ziffern.";
+
+/* Set Password UI : Error Message - Upper Case */
+"No upper and lower case letters in password" = "Das Kennwort enthält keine Groß- und Kleinbuchstaben.";
+
+/* Set Password UI : Error Message - Numeric Character */
+"No numeric character in password" = "Das Kennwort enthält keine Ziffern.";
+
+/* Set Password UI : Error Message - Special Character */
+"No special character in password" = "Das Kennwort muss mindestens ein Sonderzeichen enthalten (@, #, $).";
+
+/* Set Password UI : Error Message - No Uppercase */
+"No uppercase character in password" = "Das Kennwort enthält keine Großbuchstaben.";
+
+/* Set Password UI : Error Message - Repeated Characters */
+"Too many repeated characters" = "Das Kennwort enthält zu viele wiederholte Zeichen.";
+
+/* Set Password UI : Error Message - Banned Password */
+"Password is banned" = "Das Passwort wurde verboten.";
+
+/* Set Password UI : Error Message - Not Matched */
+"Two passwords do not match" = "Die beiden Kennwörter stimmen nicht überein. Versuchen Sie es erneut.";
+
+/* End of password compliance error messages */
+
+/* Set Password UI : Error Message - Password Set Failure */
+"New password cannot be set" = "Das neue Kennwort kann nicht festgelegt werden.";
+
+/* Set Password UI : Error Message - Empty Password */
+"Empty password is not allowed." = "Das Kennwort ist leer.";
+
+/* Set Password UI : old password accessibility label */
+"_OldPassword" = "Altes Kennwort";
+
+/* Set Password UI : new password accessibility label */
+"_NewPassword" = "Neues Kennwort";
+
+/* Set Password UI : confirm password accessibility label */
+"_ConfirmPassword" = "Neues Kennwort bestätigen";
+
+/* Auth delegation block UI : Navigation Title */
+"Cannot Authenticate" = "Authentifizierung nicht möglich";
+
+/* Auth delegation block UI : Description */
+"AD is registered to another user" = "Die Authentifizierungsanwendung ist für einen anderen Benutzer registriert.";
+
+/* Auth delegation block UI : Description whilst retreving download URL */
+"AD is registered to another user. Details: BundleID" = "Die Authentifizierungsanwendung ist für einen anderen Benutzer registriert.\n\nAbrufen der Anwendungsdetails:\nBundle-ID: %s";
+
+/* Auth delegation block UI : Description whilst retreving download URL got name and version */
+"AD is registered to another user. Details: BundleID, Name, Version" = "Die Authentifizierungsanwendung ist für einen anderen Benutzer registriert.\n\nAbrufen der Anwendungsdetails:\nBundle-ID: %s\nName: %s\nVersion: %s";
+
+/* Auth delegation block UI: Description retreived download URL */
+"AD is registered to another user. Details: BundleID, Name, Version, ObtainFrom" = "Die Authentifizierungsanwendung ist für einen anderen Benutzer registriert.\n\nAnwendungsdetails:\nBundle-ID: %s\nName: %s\nVersion: %s\n\nVon folgender Quelle einzuholen:\n%s";
+
+/* Auth delegation block UI : Description got no download URL */
+"AD is registered to another user. Details: BundleID, Name, Version, no URL" = "Die Authentifizierungsanwendung ist für einen anderen Benutzer registriert.\n\nAnwendungsdetails:\nBundle-ID: %s\nName: %s\nVersion: %s\n\nWenden Sie sich an Ihren IT-Administrator.";
+
+/* Block UI : Navigation Title
+ * Learn More : Application Blocked Title
+ */
+"Blocked" = "Anwendung gesperrt";
+
+/* Block UI : Description
+ * In principle, this is always blocked due to policy violation. In actuality,
+ * there are two scenarios in which a policy block could be put in place.
+ * Something may have happened on the device that makes it non-compliant.
+ * Also possible is that a policy update has taken place and the device is not
+ * compliant with the new policy, but was compliant with the old policy.
+ */
+"Application access blocked" = "Der Zugriff auf diese Anwendung wurde gesperrt.";
+
+/* Device Wipe UI : Navigation Title */
+"Invalid Device" = "Zugriff auf Anwendung verweigert";
+
+/* Device Wipe UI : Description */
+"Your device has been wiped!" = "Diese Anwendung wurde gelöscht. Wenden Sie sich an Ihren IT-Administrator, wenn Sie wieder darauf zugreifen möchten.";
+
+/* Lock UI : Navigation Title */
+"Locked" = "Anwendung gesperrt";
+
+/* InterApp Lock UI : Navigation Title */
+"Access Blocked" = "Zugriff gesperrt";
+
+/* InterApp Lock UI : Single Auth Delegate : Description */
+"AD is not installed" = "Die Authentifizierungsanwendung ist nicht installiert.";
+
+/* InterApp Lock UI : Multi Auth Delegate : Description */
+"AD are not installed" = "Die Authentifizierungsanwendungen sind nicht installiert.";
+
+/* InterApp Lock UI : Single Auth Delegate : Description whilst retreving download URL */
+"AD is not installed. Details: BundleID" = "Die Authentifizierungsanwendung ist derzeit nicht verfügbar. Dies kann mehrere Gründe haben, darunter: Die Anwendung ist nicht installiert, noch nicht aktiviert oder erfordert ein Update.\n\nAbrufen der Anwendungsdetails:\nBundle-ID: %s";
+
+/* InterApp Lock UI : Multi-Auth Delegate : Description whilst retreving download URL */
+"AD are not installed. Details: BundleIDs" = "Die Authentifizierungsanwendungen sind derzeit nicht verfügbar. Dies kann mehrere Gründe haben, darunter: Die Anwendungen sind nicht installiert, noch nicht aktiviert oder erfordern ein Update.\n\nAbrufen der Anwendungsdetails:\nBundle-IDs: %s";
+
+/* InterApp Lock UI : Single Auth Delegate : Description whilst retreving download URL got name and version */
+"AD is not installed. Details: BundleID, Name, Version" = "Die Authentifizierungsanwendung ist derzeit nicht verfügbar. Dies kann mehrere Gründe haben, darunter: Die Anwendung ist nicht installiert, noch nicht aktiviert oder erfordert ein Update.\n\n\nAbrufen der Anwendungsdetails:\nBundle-ID: %s\nName: %s\nVersion: %s";
+
+/* InterApp Lock UI : Multi Auth Delegate : Description whilst retreving download URL got name and version */
+"AD are not installed. Details: BundleIDs, Names, Versions" = "Die Authentifizierungsanwendungen sind derzeit nicht verfügbar. Dies kann mehrere Gründe haben, darunter: Die Anwendungen sind nicht installiert, noch nicht aktiviert oder erfordern ein Update.\n\nAbrufen der Anwendungsdetails:\nBundle-ID: %s\nName: %s\nVersion: %s";
+
+/* This alert should display a list of the bundle IDs,names and version numbers for all the authenticator apps */
+
+/* InterApp Lock UI : Single Auth Delegate : Description retreived download URL */
+"AD is not installed. Details: BundleID, Name, Version, ObtainFrom" = "Die Authentifizierungsanwendung ist derzeit nicht verfügbar. Dies kann mehrere Gründe haben, darunter: Die Anwendung ist nicht installiert, noch nicht aktiviert oder erfordert ein Update.\n\nAnwendungsdetails:\nBundle-ID: %s\nName: %s\nVersion: %s\n\nVon folgender Quelle abrufen:\n%s";
+
+/* InterApp Lock UI : Multi-Auth Delegate : Description retreived download URL */
+"AD are not installed. Details: BundleIDs, Names, Versions, ObtainFrom" = "Die Authentifizierungsanwendungen sind derzeit nicht verfügbar. Dies kann mehrere Gründe haben, darunter: Die Anwendungen sind nicht installiert, noch nicht aktiviert oder erfordern ein Update.\n\nAnwendungsdetails:\nBundle-ID: %s\nName: %s\nVersion: %s\n\nVon folgender Quelle abrufen:\n%s";
+
+/* This alert should display a list of the bundle IDs,names, version numbers and location from where to download all the authenticator apps */
+
+/* InterApp Lock UI : Single Auth Delegate : Description has no download URL */
+"AD is not installed. Details: BundleID, Name, Version, no URL" = "Die Authentifizierungsanwendung ist derzeit nicht verfügbar. Dies kann mehrere Gründe haben, darunter: Die Anwendung ist nicht installiert, noch nicht aktiviert oder erfordert ein Update.\n\nAnwendungsdetails:\nBundle-ID: %s\nName: %s\nVersion: %s\n\nWenden Sie sich an Ihren IT-Administrator.";
+
+/* InterApp Lock UI : Multi Auth Delegate : Description got no download URL */
+"AD are not installed. Details: BundleIDs, Names, Versions, no URLs" = "Die Authentifizierungsanwendungen sind derzeit nicht verfügbar. Dies kann mehrere Gründe haben, darunter: Die Anwendungen sind nicht installiert, noch nicht aktiviert oder erfordern ein Update.\n\nAnwendungsdetails:\nBundle-ID: %s\nName: %s\nVersion: %s\n\nWenden Sie sich an Ihren IT-Administrator.";
+
+/* InterApp Lock UI : Title text */
+"Authorization Unavailable" = "Autorisierung nicht verfügbar";
+
+/* InterApp Lock UI : Retry button text */
+"Try again" = "Erneut versuchen";
+
+/* InterApp Lock UI : Retry message */
+"AD is unavailable. Details: BundleID, Name, Version, no URL" = "Für die Autorisierung ist folgende Anwendung erforderlich:\n\nName: %s\nIdentifikator: %s\nVersion: %s\n\nDie Anwendung steht nicht zur Authentifizierung zur Verfügung, wenn sie nicht installiert ist, nicht aktiviert ist oder aktualisiert wird. Zudem kann sie vorübergehend nicht verfügbar sein. In diesem Fall ist die Autorisierung bei einem erneuten Versuch verfügbar.";
+
+/* This alert should display a list of the bundle IDs,names, version numbers of all the authenticator apps */
+
+/* Wipe or Reset UI : Title */
+"Authentication failed" = "Authentifizierung verloren gegangen";
+
+/* Wipe or Reset UI : Message */
+"Auth delegate authentication failed" =
+"Wählen Sie \"Wiederherstellen\", um die Authentifizierung wiederherzustellen. Hierzu ist ein spezieller Code von Ihrem IT-Administrator erforderlich. Wählen Sie \"Löschen\", um Ihre Daten zu löschen, sodass die Authentifizierung wieder eingerichtet werden kann. Beim Einrichten der Authentifizierung muss eine erneute Aktivierung mit einem neuen Zugangsschlüssel erfolgen.";
+
+/* Recover */
+"InterApp lock description message" = "Verwenden Sie den Code, den Sie von Ihrer IT-Abteilung erhalten haben, um die Anwendung zu entsperren.\n\nHinweis: Wenn Sie den Code nicht haben, wenden Sie sich an Ihre IT-Abteilung, um Hilfe zu erhalten.";
+
+/* Wipe or Reset UI : Right button label text */
+"Reset Password" = "Wiederherstellen";
+
+/* Wipe or Reset UI : Left button label text */
+"Wipe" = "Löschen";
+
+/* Please Wait UI : Navigation Title */
+"Authenticating" = "Authentifizierung";
+
+/* Remote Lock UI : Navigation Title */
+"Remote Lock" = "Anwendung ferngesperrt";
+
+/* Remote Lock UI : Right button label text
+ Unlock UI : Right button label text */
+"Unlock" = "Entsperren";
+
+/* Remote Lock UI : Help Message */
+"Remote lock help message" = "Wenden Sie sich mit dem folgenden Entsperrcode an Ihren IT-Administrator, um ein temporäres Kennwort zum Entsperren dieser Anwendung zu erhalten.";
+
+/* Remote Lock UI : Password Field 1 accessibility label */
+"_PwdField1" = "Entsperrschlüssel - Feld 1 von 4";
+
+/* Remote Lock UI : Password Field 2 accessibility label */
+"_PwdField2" = "Entsperrschlüssel - Feld 2 von 4";
+
+/* Remote Lock UI : Password Field 3 accessibility label */
+"_PwdField3" = "Entsperrschlüssel - Feld 3 von 4";
+
+/* Remote Lock UI : Password Field 4 accessibility label */
+"_PwdField4" = "Entsperrschlüssel - Feld 4 von 4";
+
+/* Remote Lock UI : Error alertview message
+ * Unlock UI : Error alertview message
+ * Error Alert View : Title
+ */
+"Incorrect Password" = "Falsches Kennwort";
+
+/* Unlock UI : Placeholder text string for password textfield */
+"Password" = "Kennwort";
+
+/* Unlock UI : Label text for entering regular password */
+"Enter Password" = "Kennwort eingeben";
+
+/* Unlock UI : enter password accessibility label */
+"_EnterPassword" = "Kennwort eingeben";
+
+/* Unlock UI : Label text for entering PIN as password */
+"Enter PIN" = "Zugangsschlüssel eingeben";
+
+/* Unlock UI : Label text for entering unlock key as password */
+"Enter Unlock Key" = "Entsperrschlüssel eingeben";
+
+/* Application Unlock : Title */
+"Application Unlock" = "Entsperren der Anwendung";
+
+/* Application Unlock : Unlock assistance */
+"Unlock key required" = "Einen Schlüssel zum Entsperren erhalten Sie von BlackBerry oder einem IT-Administrator.";
+
+/* General UI : Clear button label */
+"Clear" = "Löschen";
+
+/* General UI : Next Button accessibility label */
+"_NextButton" = "Weiter";
+
+/* General UI : Next Button accessibility hint */
+"__NextButton" = "Wechselt zum nächsten Bildschirm.";
+
+/* General UI : Cancel Button accessibility label */
+"_CancelButton" = "Zurück";
+
+/* General UI : Cancel Button accessibility hint */
+"__CancelButton" = "Wechselt zurück zum letzten Bildschirm.";
+
+/* General UI : Close Button accessibility label */
+"_CloseButton" = "Schließen";
+
+/* General UI : Close Button accessibility hint */
+"__CloseButton" = "Schließt den aktuellen Bildschirm.";
+
+/* General UI : Info Button accessibility label */
+"_InfoButton" = "Informationen";
+
+/* General UI : Info Button accessibility hint */
+"__InfoButton" = "Zeigt eine ausführliche Erläuterung zu diesen Optionen an.";
+
+/* Help UI : webview accessibility label */
+"_HelpWebview" = "Beispiel-E-Mail";
+
+/* Error Alert View : Title
+ * Open URL : Error Alert View : Title
+ * Open WatchDox URL : Error Title
+ */
+"Error" = "Fehler";
+
+/* Error Alert View : Button label 
+ * Open WatchDox URL : Error Button Title
+ */
+"OK" = "OK";
+
+/* Error Alert View : Title */
+"Application Access Denied" = "Zugriff auf Anwendung verweigert";
+
+/* Error Alert View : Title */
+"Unauthorized User" = "Nicht autorisierter Benutzer";
+
+/* Device Wipe/Block UI: App Denied */
+"Wipe/Block App Denied" = "Die Anwendung ist nicht autorisiert.\n%@ %@\nWenden Sie sich an Ihren IT-Administrator.";
+
+/* Device Wipe/Block UI: Description Mobile Docs */
+"Wipe/Block key changed" = "Die Authentifizierungsanwendung ist fehlgeschlagen. Alle in dieser Anwendung gespeicherten Daten wurden gelöscht. Beenden Sie diese Anwendung, und starten Sie sie neu, um es erneut zu versuchen.";
+
+/* Device Wipe/Block UI: NEM mode Description */
+"Wipe/Block NEM Mode" = "Die Anwendung befindet sich im Simulationsmodus und kann nicht auf einem Gerät ausgeführt werden.";
+
+/* Device Wipe/Block UI: Incompliant library Description */
+"Wipe/Block Incompliant lib version" = "Die Anwendung basiert auf der BlackBerry Dynamics-Bibliothek der Version \"%@\" und ist daher unzulässig. Führen Sie ein Upgrade der Anwendung aus, oder aktivieren Sie diese Version in der Kompatibilitätsrichtlinie.";
+
+/* Device Wipe/Block UI: Incompliant device Description */
+"Wipe/Block Incompliant device" = "Die Gerätehardware-Version ist %@ und daher nicht zulässig. Installieren Sie die Anwendung auf einem zulässigen Gerät, oder aktivieren Sie diese Hardware in der Kompatibilitätsrichtlinie.";
+
+/* Device Wipe/Block UI: Incompliant OS Description */
+"Wipe/Block OS Incompliant device" = "Die aktuelle Version des Betriebssystems '%@' ist nicht zulässig. Weitere Informationen erhalten Sie von Ihrem Administrator.";
+
+/* Device Wipe/Block UI: Rooted Description */
+"Wipe/Block Rooted" = "Das Gerät wurde entsperrt (Jailbreak).";
+
+/* Device Wipe/Block UI: Connectivity in days Description */
+"Wipe/Block Connectivity in days" = "Diese Anwendung wurde in den letzten %d Tagen nicht verwendet.";
+
+/* Device Wipe/Block UI: Connectivity in hours Description */
+"Wipe/Block Connectivity in hours" = "Diese Anwendung wurde in den letzten %d Stunden nicht verwendet.";
+
+/* Device Wipe/Block UI: Max password attempts exceeded Description */
+"Wipe/Block Max password attemnts exceeded" = "Die maximale Anzahl ungültiger Kennworteingaben beträgt %d, und diese Anzahl wurde überschritten.";
+
+/* Device Wipe/Block UI: Data has been wiped */
+"Wipe/Block data removed" = " IT hat alle mit dieser Anwendung verknüpften Daten entfernt.";
+
+/* Device Wipe/Block UI: MDM policy is required but not yet installed */
+"Wipe/Block MDM required" = "Die Anwendung erfordert, dass eine Richtlinie für Mobile Device Management (MDM) auf diesem Gerät installiert wird.";
+
+/* Device Wipe/Block UI: MDM policy is required but agent is not up to date */
+"Wipe/Block MDM update required" = "Für die Anwendung muss eine Richtlinie für Mobile Device Management (MDM) auf diesem Gerät installiert werden, allerdings ist Ihr MDM-Agent nicht auf dem neuesten Stand.";
+
+/* Deny App by App version : Blocked */
+"The version of [App Name] is blocked" = "Version %s von %s  ist blockiert. Wenden Sie sich an Ihre IT-Abteilung, um Details zu erhalten.";
+
+/* Deny App by App version : Wiped */
+"The version of [App Name] has been wiped" = "Version %s von %s wurde gelöscht. Wenden Sie sich an Ihre IT-Abteilung, um Details zu erhalten.";
+
+/* GDiOS Event : App Permission Failed */
+"Error application not allowed for user" = "Fehler: Die Anwendung ist für Benutzer unzulässig.";
+
+/* GDiOS Event : Activation Failed */
+"Error device activation failed" = "Fehler: Die Geräteaktivierung ist fehlgeschlagen.";
+
+/* GDiOS Event : Provisioning Failed */
+"Error provisioning with enterprise failed" = "Fehler: Die Bereitstellung mit Enterprise ist fehlgeschlagen.";
+
+/* GDiOS Event : Push Connection Failed */
+"Error push connection failed to open" = "Fehler: Die Push-Verbindung wurde nicht geöffnet.";
+
+/* GDiOS Event : Security Failed */
+"Error unlocking secure container" = "Fehler beim Entsperren des sicheren Containers";
+
+/* GDiOS Event : Provision Cancelled */
+"Error user cancelled provisioning" = "Startfehler: Die Bereitstellung wurde durch den Benutzer abgebrochen.";
+
+/* GDiOS Event : OK */
+"Authorization OK" = "Autorisierung OK";
+
+/* GDiOS Event : Application Blocked */
+"Application access has been blocked" = "Anwendungszugriff wurde gesperrt";
+
+/* GDiOS Event : Application Wiped */
+"Application has been wiped" = "Anwendung wurde gelöscht";
+
+/* GDiOS Event : Application Idle Lockout */
+"Application idle timeout activated" = "Zeitüberschreitung bei Inaktivität der Anwendung aktiviert";
+
+/* GDiOS Event : Application Remote Locked */
+"Application has been remote locked" = "Anwendung wurde ferngesperrt";
+
+/* GDiOS Event: Password Change Required */
+"Password Change Required" = "Änderung des Kennworts erforderlich";
+
+/* [Simulated] : Simulated Title Append
+ * Displayed when the application is running in Enterprise Simulation mode
+ */
+"[Simulated]" = "[Simuliert]";
+
+/* Unlock UI : Label text for forgot password */
+"_ForgotPasswordLabel" = "Kennwort vergessen";
+
+/* Unlock UI : forgot password accessibility label */
+"_ForgotPasswordButton" = "Kennwort vergessen";
+
+/* Unlock UI : forgot password accessibility hint */
+"__ForgotPasswordButton" = "Fordert auf, das Zurücksetzen des Kennworts zu bestätigen.";
+
+/* Confirm Alert View : Title */
+"Lock For Reset?" = "Sperre für Zurücksetzung?";
+
+/* Confirm Alert View : Message */
+"Forgot password alert message" = "Beim Zurücksetzen des Kennworts ist ein spezieller Code von Ihrem IT-Administrator erforderlich. Die Anwendung wird gesperrt, sobald eine Zurücksetzung angefordert wird.";
+
+/* Forgot Password Learn More View : Message */
+"Forgot password learn more message" = "Beim Zurücksetzen des Kennworts ist ein spezieller Code von Ihrem IT-Administrator erforderlich.";
+
+/* Confirm Alert View : Positive Button */
+"Reset" = "Zurücksetzen";
+
+/* Application is not installed Alert View : Message */
+"Application not responding message" = "Die Anwendung hat nicht geantwortet.";
+
+/* Application is not activated Alert View : Message */
+"Application not active message" = "Die Anwendung wurde noch nicht eingerichtet, oder sie wurde deinstalliert und neu installiert.";
+
+/* Unlock UI : Keyboard Guide */
+"Touch 'Next' to unlock." = "Entsperren: 'Weiter' tippen";
+
+/* EULA UI : accept EULA accessibility label */
+"_AcceptEULAButton" = "Vertrag akzeptieren";
+
+/* EULA UI : accept EULA accessibility hint */
+"__AcceptEULAButton" = "Hiermit werden die Vertragsbedingungen akzeptiert.";
+
+/* EULA UI : decline EULA accessibility label */
+"_DeclineEULAButton" = "Vertrag ablehnen";
+
+/* EULA UI : accept EULA accessibility hint */
+"__DeclineEULAButton" = "Hiermit werden die Vertragsbedingungen abgelehnt.";
+
+/* EULA UI : UDID agreement text */
+"UDID Agreement" = "Lesen des UDID (eindeutigen Gerätebezeichners) zulassen?\n\nDie Anwendungsdaten waren zuvor mit dem UDID geschützt. Ohne Zugriff auf den UDID können Ihre gespeicherten Daten nicht abgerufen werden und müssen gelöscht werden.";
+
+/* Migrate UI : UDID Access Warning : Title */
+"UDID Access Warning Title" = "Zugriff auf UDID verweigert";
+
+/* Migrate UI : UDID Access Warning : Message */
+"UDID Access Warning Message" = "Anwendung zurücksetzen und deren Daten löschen?";
+
+/* Migrate UI : UDID Access Warning : OK */
+"UDID Access Warning OK" = "Löschen";
+
+/* Migrate UI : UDID Access Warning : Allow */
+"UDID Access Warning Allow" = "Zulassen";
+
+/* Request Unlock Key : Description */
+"Remote lock wipe reason unlock description" = "Wenden Sie sich an Ihren Administrator für einen Entsperrschlüssel.";
+
+/* Help UI : access key help message */
+"Access key help message" = "<br><div style=\"width:[OUTERWIDTH]px\"><style>DIV.PlainText { font-size:[FONTSIZE];font-family:monospace;background-color:#ffffff;color:#000000; -webkit-border-radius: 5px 5px 0px 0px; padding: [PADDING]px; background: -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,1.0)), to(rgba(255,255,255,0.0)), color-stop(.92,#ffffff));}</style>%@<br><br><font size=\"2\"><div style=\"padding:5px;margin:0px auto; width:[INNERWIDTH]px\" class=\"PlainText\">Sehr geehrte(r) <font color=808080><i>Ihr Name</i></font>,<br><br>Ihnen wurde Zugriff gewährt auf... <br><br>&nbsp;&nbsp; 1. Laden Sie die erforderliche Anwendung herunter.<br>&nbsp;&nbsp;&nbsp;...<br>&nbsp;&nbsp; 2. Geben Sie die folgenden Informationen ein, wenn Sie dazu <br>&nbsp;&nbsp; aufgefordert werden (keine Berücksichtigung von Groß- und Kleinschreibung):<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; E-MAIL-ADRESSE:&nbsp; <span style=\"background:yellow;color:808080\"><i>email@company.com</i></span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ZUGANGSSCHLÜSSEL: <span style=\"background:yellow;color:808080\"><i>xxxxx-xxxxx-xxxxx</i></span><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ablauf Ihres Zugangsschlüssels:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color=808080><i>Ablaufdatum</i></font><br><br>&nbsp;&nbsp; 3. Falls gefordert durch IT-Sicherheitsrichtlinie...<br><br><br></div></font></div>";
+
+/* Help UI : unlock access key help message */
+"Unlock access key help message" = "<br><div style=\"width:[OUTERWIDTH]px\"><style>DIV.PlainText { font-size:[FONTSIZE];font-family:monospace;background-color:#ffffff;color:#000000; -webkit-border-radius: 5px 5px 0px 0px; padding: [PADDING]px; background: -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,1.0)), to(rgba(255,255,255,0.0)), color-stop(.92,#ffffff));}</style>%@<br><br><font size=\"2\"><div style=\"padding:5px;margin:0px auto; width:[INNERWIDTH]px\" class=\"PlainText\">Sehr geehrte(r) <font color=808080><i>Ihr Name</i></font>,<br><br>Ihnen wurde Zugriff gewährt auf... <br><br>&nbsp;&nbsp; Geben Sie die folgenden Informationen ein, wenn Sie dazu <br>&nbsp;&nbsp; aufgefordert werden (keine Berücksichtigung von Groß- und Kleinschreibung):<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; E-MAIL-ADRESSE:&nbsp; <span style=\"background:yellow;color:808080\"><i>email@company.com</i></span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ENTSPERRSCHLÜSSEL: <span style=\"background:yellow;color:808080\"><i>xxxxx-xxxxx-xxxxx</i></span><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ablauf Ihres Zugangsschlüssels:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color=808080><i>Ablaufdatum</i></font><br><br>&nbsp;&nbsp;<br><br><br></div></font></div>";
+
+/* Help UI : access key help message non-html */
+"Access key help message non-html" = "Sehr geehrte(r) <Your Name>,\n\nIhnen wurde Zugriff gewährt auf ... \n\n1. Laden Sie die erforderliche Anwendung herunter...\n2. Geben Sie die folgenden Informationen ein, wenn Sie dazu aufgefordert werden (keine Berücksichtigung von Groß- und Kleinschreibung):\n\nE-MAIL-ADRESSE:  email@company.com\nZUGANGSSCHLÜSSEL: xxxxx-xxxxx-xxxxx\n\nAblauf Ihres Zugangsschlüssels: <expiration date>\n\n3. Falls gefordert durch IT-Sicherheitsrichtlinie, ...";
+
+/* Information UI : title */
+"Information" = "Informationen";
+
+/* The following are error messages for use in Secure Document Transfer
+ * These are used by the secure Preview Controller & secure document
+ * interaction controller
+ */
+
+/* Preview Controller : no apps message */
+"Preview controller has no apps message" = "Keine passenden Anwendungen.";
+
+/* Preview Controller : share denied title */
+"Preview controller share denied title" = "Vorgang nicht zugelassen.";
+
+/* Preview Controller : share denied message*/
+"Preview controller share denied" = "Dieser Vorgang ist laut der Richtlinie zur IT-Konformität nicht zugelassen.";
+
+/* Document Interaction Controller : error sending file title */
+"Document interaction controller error title" = "Fehler bei Dateiübertragung";
+
+/* Document Interaction Controller : error sending message */
+"Document interaction controller error message" = "Bei der Dateiübertragung ist ein Fehler aufgetreten.";
+
+/* Document Interaction Controller : try again title */
+"Document interaction controller try again title" = "Versuchen Sie es erneut.";
+
+/* Document Interaction Controller : try again message */
+"Document interaction controller try again message" = "Dateiübertragungen werden immer noch gesichert. Versuchen Sie es später erneut.";
+
+/* Unlock UI : Incorrect Password with max */
+"Unlock PIN incorrect with max attempts" = "Das eingegebene Kennwort ist falsch. Sie haben noch %d Versuche.";
+
+/* Unlock UI : Error alertview message
+ * Unlock UI : Incorrect Password
+ */
+"The password you entered is not correct." = "Das eingegebene Kennwort ist falsch.";
+
+/* EA password screen prompt */
+"Use your unlock password to allow." = "Entsperrkennwort zum Zulassen der Einrichtung verwenden.";
+
+/* EA password screen forgot pass prompt
+ * Unlock UI : Label text for forgot password
+ */
+"Forgot Password" = "Kennwort vergessen";
+
+/* EA password is requesting activation prompt */
+"is requesting setup." = "fordert Einrichtung an.";
+
+/* EA - access key prompt */
+"Set up using your Access Key" = "Einrichtung mit Ihrem Zugangsschlüssel";
+
+/* EA Learn more button label */
+"Learn More" = "Weitere Informationen";
+
+/* EA Report a Problem button label */
+"Report a Problem" = "Ein Problem melden";
+
+/* EA Secured By label */
+"Secured By" = "Gesichert von";
+
+/* EA Setup using label */
+"Set up using" = "Einrichtung mit";
+
+/* EA activation options format string */
+"Application for %s:" = "Anwendung für %s:";
+
+/* EA Error Alert View : Unable to launch EA delegate */
+"Unable to launch EA delegate" = "Starten des Aktivierungsdelegierten nicht möglich";
+
+/* EA Error Alert View : format string with code */
+"Error returned %d" = "Zurückgegebener Fehler: %d";
+
+/* EA app selection screen */
+"EA app selection screen help." = "%s kann mit dem Kennwort für eine der folgenden Anwendungen oder dem von einem Administrator bereitgestellten Zugangsschlüssel eingerichtet werden.";
+
+/* EA password screen prompt */
+"Enter the password for [App Name] to continue." = "Geben Sie zum Fortfahren das Kennwort für %s ein.";
+
+/* Easy Activation: 401 - Unauthorized:  The user cancelled the activation request.*/
+"Activation request was canceled" = "Aktivierungsanforderung wurde abgebrochen.";
+
+/* Easy Activation: 403 - Forbidden - The user is not entitled to activate the specified application/version.*/
+"You are not entitled to setup the specified app" = "Sie sind nicht zur Einrichtung der angegebenen Anwendung/Version berechtigt. Wenden Sie sich an Ihre IT-Abteilung, um Zugang zu erhalten.";
+
+/* Easy Activation: 404 - Not Found - The requesting application is not a recognized GD application.*/
+"EA app is not recognized" = "Die Anwendung, die Sie einrichten möchten, wird nicht erkannt. Wenden Sie sich an Ihre IT-Abteilung, um weitere Informationen zu erhalten.";
+
+/* Easy Activation: 423 - Activator is blocked - The requesting application is blocked by policy incomplience*/
+"EA app is locked" = "Die Aktivierung kann momentan nicht fortgesetzt werden. Versuchen Sie es erneut, wenn das Problem behoben ist.";
+
+/* CSR: 406 - Token matching failed.*/
+"CSR token matching failed" = "Von Managementkonsole abgelehnt.";
+
+/* Easy Activation: 500 - Unspecified error*/
+"EA request failed with unspecified error" = "Die Einrichtung ist fehlgeschlagen. Versuchen Sie es erneut, oder führen Sie die Einrichtung mit Ihrem Zugangsschlüssel durch.";
+
+/* Easy Activation: 502 - Bad Gateway - The request failed due to a network communication failure with or between the backend servers.*/
+"EA unable to connect error" = "Die Verbindung kann nicht hergestellt werden. Versuchen Sie es erneut.";
+
+/* Easy Activation: 503 - Unavailable - The responding application is not configured to act as an activation delegate.*/
+"EA app is not configured correctly as delegate" = "Die Einrichtung ist fehlgeschlagen. Stellen Sie sicher, dass die zur Unterstützung der Einrichtung ausgewählte Anwendung korrekt konfiguriert wurde, oder führen Sie die Einrichtung mit Ihrem Zugangsschlüssel durch.";
+
+/* EA Error Alert View : message error 506*/
+"EA app is remote locked" = "Aktivierungsanfrage fehlgeschlagen. Bitte wenden Sie sich zum Entsperren oder Einrichten mit Ihrem Zugangsschlüssel an Ihre IT-Abteilung.";
+
+/* Easy Activation: 507 - Mismatch - Address mismatch because the catalogue doesn't have the correct AppLocalAddress.*/
+"EA - slave app is misconfigured" = "Die Anwendung, die Sie einrichten möchten, ist falsch konfiguriert.  Wenden Sie sich an Ihre IT-Abteilung, um mehr Informationen zu erhalten.";
+
+/* Easy Activation Missing Application Title */
+"Missing Application" = "Fehlende Anwendung";
+
+/* Easy Activation Missing Application Message */
+"EA app missing" = "%s muss möglicherweise gelöscht werden. Wählen Sie eine andere Anwendung aus, oder verwenden Sie einen Zugangsschlüssel, um mit der Einrichtung fortzufahren.";
+
+/* Learn More: Requesting Activation Title */
+"Setup Options" = "Auswahl der Einrichtungsoption";
+
+/* Learn More: Requesting Activation */
+"Select an option to activate application." = "Führen Sie die Installation mithilfe der BlackBerry Dynamics Einrichtungsanwendung durch, oder holen Sie von Ihrem IT-Administrator einen Zugriffsschlüssel ein.";
+
+/* Learn More: Access Key Screen Title */
+"Setup App" = "Einrichtungsanwendung";
+
+/* Learn More: Access Key Screen */
+"Activate application" = "Um Ihre Anwendung einzurichten, benötigen Sie Ihre E-Mail-Adresse und den Zugangsschlüssel aus der Willkommensnachricht Ihres IT-Administrators.";
+
+/* Learn More : Lock Screen Title */
+"Complete Setup" = "Abschließen der Einrichtung";
+
+/* Learn More : EA Lock Screen */
+"EA unlock learn more description" = "Wenn Sie diese Aktivierung angefordert haben, geben Sie jetzt Ihr Kennwort ein. Wenn nicht, brechen Sie jetzt ab.";
+
+/* Learn More : Application Blocked */
+"Application access has been blocked. Please contact IT" = "Der Zugriff auf die Anwendung wurde gesperrt. Wenden Sie sich an Ihre IT-Abteilung, um weitere Informationen zu erhalten.";
+
+/*Unspecified error*/
+"Unspecified error" = "Nicht näher bezeichneter Fehler";
+
+/* Blocked/FIPS because of wrapping */
+"Wipe reason - FIPS cannot be enabled in this app" = "FIPS-Modus ist für Ihre Organisation erforderlich und kann in der aktuellen Anwendung nicht aktiviert werden. Wenden Sie sich an Ihre IT-Abteilung, um Unterstützung zu erhalten.";
+
+/* Blocked/FIPS because of arch (64bit) */
+"Wipe reason - FIPS is not available for 64bit arch" = "FIPS-Modus ist für Ihre Organisation erforderlich und ist mit Ihrem Gerät nicht kompatibel. Wenden Sie sich an Ihre IT-Abteilung, um Unterstützung zu erhalten.";
+
+/* Blocked/FIPS because it just failed for some reason to activate */
+"Wipe reason - FIPS failed to activate" = "FIPS-Modus ist für Ihre Organisation erforderlich und konnte nicht aktiviert werden. Wenden Sie sich an Ihre IT-Abteilung, um Unterstützung zu erhalten.";
+
+/* Mailto UI : Title */
+"Mail Service Restricted" = "E-Mail-Dienst eingeschränkt";
+
+/* Mailto Error Alert View : GFE send email service is unavailable */
+"Secure mail is not available in app" = "Für diese Anwendung ist kein sicherer E-Mail-Dienst verfügbar. Wenden Sie sich an Ihre IT-Abteilung, um Unterstützung zu erhalten.";
+
+/* Mailto Error Alert View : User prompt that displays when Data Leakage Prevention is on */
+"Secure mail it restricted by policies" = "Dieser Vorgang ist bei Ihren aktuellen Sicherheitseinstellungen nicht zulässig. Wenden Sie sich an Ihre IT, um Unterstützung zu erhalten.";
+
+/* Mailto Error Alert View : User prompt that displays when Data Leakage Prevention is off.*/
+"Select mail service" = "Wählen Sie einen E-Mail-Dienst.";
+
+/* Error Alert View : Button label */
+"BlackBerry Work (secure)" = "BlackBerry Work (sicher)";
+
+/* Error Alert View : Button label */
+"Mail" = "E-Mail";
+
+/* Upload Logs UI : Title */
+"Upload Logs" = "Protokolle hochladen";
+
+/* Upload Logs Alert View : Logs sent */
+"Log upload has been scheduled." = "Das Hochladen der Protokolle wurde den geplanten Aufgaben hinzugefügt.";
+
+/* EA Access Key : Message */
+"Retrieving Access Key" = "Zugriffsschlüssel wird abgerufen";
+
+/* CSR In Progress Key : Message */
+"Getting Certificate" = "Zertifikat erhalten";
+
+/* Open URL : Title */
+"Select Application to Open URL" = "Anwendung zum Öffnen der URL auswählen";
+
+/* Open URL : Error Message - No applications*/
+"No Applications installed to open URL" = "Keine Anwendungen zum Öffnen der URL installiert.";
+
+/* MDM : Initiate MDM */
+"InitiateMDM" = "MDM-Installation starten";
+
+/* Initiate MDM : button accessibility label */
+"_InitiateMDM" = "MDM-Installation starten";
+
+/* Initiate MDM : button accessibility hint */
+"__InitiateMDM" = "Startet MDM-Installation.";
+
+/* MDM : Install Good Agent or BES 12 Client */
+"InstallMdmAgent" = "MDM-Agent installieren";
+
+/* MDM : Update Good Agent or BES 12 Client */
+"UpdateMdmAgent" = "MDM-Agent aktualisieren";
+
+/* Dictation : Alert title */
+"Dictation Blocked Title" = "Diktat deaktiviert";
+
+/* Dictation : Blocked by IT Admin. */
+"Dictation Blocked Message" = "Der Administrator hat beschränkten Zugriff auf das Diktat.";
+
+/* Dictation: Dismiss Button */
+"Dictation Dismiss Button" = "OK";
+
+/* Custom Keyboard : Alert title */
+"Custom Keyboards Blocked Title" = "Angepasste Tatstaturen deaktiviert";
+
+/* Custom Keyboard : Blocked by IT Admin. */
+"Custom Keyboards Blocked Message" = "Administrator hat den Zugriff auf angepasste Tastaturen eingeschränkt.";
+
+/* string for Authenticatinon user by TouchID */
+"Authenticate using your finger" = "Authentifizierung mit Ihrem Finger.\n";
+
+/* Touch ID allowed : Title */
+"IT Administrator has allowed Touch ID" = "IT-Administrator hat Touch ID zugelassen";
+
+/* Touch ID allowed : First button title */
+"Use Touch ID" = "Touch ID verwenden";
+
+/*Touch ID allowed : Second button title */
+"Change Password and Use Touch ID"  = "Kennwort ändern und Touch ID verwenden";
+
+/* Touch ID allowed : Cancel button title */
+"Don't Use Touch ID"  = "Touch ID nicht verwenden";
+
+/* Touch ID disallowed : Title */
+"Touch ID disallowed title"  = "IT-Administrator hat die Kennwortrichtlinie geändert und die Verwendung von Touch ID entfernt";
+
+/* Touch ID disallowed : Cancel button title */
+"Don't Change Password"  = "Kennwort nicht ändern";
+
+/* Set Password UI : Touch ID label */
+"Touch ID"  = "Touch ID";
+
+/* GDMDM Event : Application Blocked */
+"Application access has been blocked (GDMDM)" = "Die Anwendung erfordert, dass eine Richtlinie für Mobile Device Management (MDM) auf diesem Gerät installiert wird.";
+
+/* URL Loading : Localized description for NSError NSURLErrorServerCertificateUntrusted */
+"Untrusted server certificate" = "Das Zertifikat für diesen Server ist ungültig. Sie stellen möglicherweise eine Verbindung zu einem Server her, der vorgibt, \"%s\" zu sein. Dadurch bestehen möglicherweise Risiken für Ihre vertraulichen Daten.";
+
+/* URL Loading : Localized recovery suggestion for NSError NSURLErrorServerCertificateUntrusted */
+"Untrusted server recovery suggestion" = "Möchten Sie die Verbindung zu diesem Server trotzdem herstellen?";
+
+/* URL Loading : Localized description for NSError NSURLErrorNetworkConnectionLost */
+"Network connection lost" = "Die Herstellung der Verbindung ist fehlgeschlagen, da die Netzwerkverbindung getrennt wurde.";
+
+/* URL Loading : Localized description for NSError NSURLErrorCannotConnectToHost */
+"Cannot connect to host" = "Keine Verbindung zum Server möglich.";
+
+/* URL Loading : Localized description for NSError NSURLErrorCancelled */
+"Cancelled operation" = "Der Vorgang konnte nicht abgeschlossen werden.";
+
+/* URL Loading : Localized description for NSError NSURLErrorUserCancelledAuthentication */
+"Authentication cancelled" = "Die Verbindung ist fehlgeschlagen, da der Benutzer die erforderliche Authentifizierung abgebrochen hat.";
+
+/* URL Loading : Localized description for NSError NSURLErrorUserAuthenticationRequired */
+"Authentication required" = "Die Verbindung ist fehlgeschlagen, das eine Authentifizierung erforderlich ist.";
+
+/* URL Loading : Localized description for NSError NSURLErrorTimedOut */
+"Connection timeout" = "Zeitüberschreitung bei der Verbindung.";
+
+/* URL Loading : Localized description for NSError NSURLErrorUnknown */
+"Unknown error" = "Ein unbekannter Fehler ist aufgetreten.";
+
+/* URL Loading : Localized description for NSError NSURLErrorClientCertificateRejected */
+"Client certificate rejected" = "Die sichere Verbindung ist fehlgeschlagen, da das Client-Zertifikat zurückgewiesen wurde.";
+
+/* URL Loading : Localized description for NSError NSURLErrorClientCertificateRequired */
+"Client certificate required" = "Die sichere Verbindung ist fehlgeschlagen, da der Server ein Client-Zertifikat erfordert.";
+
+/* Title text - Initial wearable framework screen*/
+"WF Start setup" = "Mit der Einrichtung beginnen";
+
+/* Body text - Initial wearable framework screen*/
+"WF Start body" = "Wir haben festgestellt, dass diese Anwendung eine Android Wear-Anwendung unterstützt. Damit diese Anwendungen kooperieren, muss eine sichere Verbindung zwischen Ihrem Telefon und Ihrer Uhr hergestellt werden.";
+
+/* List items - Initial wearable framework screen*/
+"WF Start item1" = "Drücken Sie auf die Schaltfläche \"Einrichten\" im unteren Bildschirmbereich, um den Vorgang zu starten.";
+"WF Start item2" = "Suchen Sie nach einer Benachrichtigung im Benachrichtigungsstrom Ihrer Uhr, und drücken Sie dann auf die Karte";
+"WF Start item3a" = "Bestätigen Sie den Code auf dem Telefon und der Uhr";
+"WF Start item3b" = "Bestätigen Sie den Code auf dem Telefon oder der Uhr";
+"WF Start item4" = "Fertig";
+
+/* Button items - Wearable setup */
+"WF Button Later" = "Später";
+"WF Button Setup" = "Einrichten";
+"WF Button Correct" = "Richtig";
+"WF Button Wrong" = "Falsch";
+"WF Button Done" = "Fertig";
+
+/* Title Text - Connecting Watch */
+"WF Connecting watch" = "Es wird eine Verbindung mit Ihrer Uhr hergestellt...";
+
+/* Body Text - Connecting Watch */
+"WF Connecting Watch body" = "Es wird nach einer Benachrichtigung in Ihrem Benachrichtigungsstrom gesucht...";
+
+/* Title Text - Connection confirmation */
+"WF Confirmation Title" = "Verbindung angefordert";
+
+/* Body Text - Connection confirmation */
+"WF Confirmation Body" = "Bestätigen Sie, dass der Verbindungscode übereinstimmt.";
+
+/* Body Text - Connection confirmation */
+"WF Confirmation Code" = "Verbindungscode";
+
+/* Title Text - Watch pairing */
+"WF Waiting Watch" = "Warten auf Uhr...";
+
+/* Body Title - Watch pairing */
+"WF Waiting Watch Body" = "Warten auf Bestätigung der Uhr.";
+"WF Waiting Watch Body2" = "Stellen Sie sicher, dass Sie auf die Schaltfläche \"Prüfen\" auf Ihrer Uhr gedrückt haben.";
+
+/* Title Text - Done Screen */
+"WF Done Title" = "Sie haben den Vorgang abgeschlossen";
+
+/* Watch Requested title */
+"WF Setup Requested " = "Einrichten angefordert.";
+
+/* Connecting with title */
+"WF Connecting title" = "Verbinden mit";
+
+/*Waiting titles */
+"Waiting Phone Title" = "Warten auf Telefon...";
+"Waiting Tablet Title" = "Warten auf Tablet...";
+"Waiting" = "Einen Moment bitte...";
+
+/* connection lost */
+"WF Connection Lost Title" = "Verbindung verloren";
+"WF Connection Lost Text" = "Verbindung zur Anwendung auf Ihrer Uhr nicht möglich";
+
+/* Retry case */
+"WF Retry Prompt" = "Zum Wiederholen tippen";
+"WF Retrying" = "Erneut versuchen...";
+
+/* Error cases */
+"WF System update required" = "Systemaktualisierung erforderlich";
+"WF System update required details" = "Diese Anwendung wird erst ausgeführt, wenn Sie das System aktualisieren.";
+"WF Application update required" = "Anwendungsaktualisierung erforderlich";
+"WF Application update required details" = "Diese Anwendung wird erst ausgeführt, wenn Google Play-Dienste aktualisiert werden.";
+"WF Wearable Disabled Title" = "Deaktiviert von Unternehmens-Admin";
+"WF Wearable Disabled details" = "Die Verwendung von Wearable-Anwendungen wurde durch Ihren Unternehmens-Admin deaktiviert.";
+"WF Unsupported Error Title" = "Fehler";
+"WF Unsupported Error details" = "Es tut uns leid, aber Ihr Wearable Framework funktioniert nicht auf Ihrem Gerät. Überprüfen Sie die notwendigen Anforderungen in den Versionshinweisen.";
+"WF Code not match Title" = "Nichtübereinstimmung bei Code";
+"WF Code not match Body" = "Bestätigungscode stimmt nicht überein";
+"WF General Error Title" = "Fehler";
+"WF General Error details" = "Es ist ein unerwarteter Fehler aufgetreten.";
+
+/* Device Block UI: Description */
+"Unauthorized version." = "Die von Ihnen installierte Anwendungsversion wurde noch nicht autorisiert. Wenden Sie sich an Ihren Administrator, um diese Version zu aktivieren.";
+
+/* GDCoveredDataUnavailableAlert */
+"GDCoveredDataUnavailableAlert Title" = "Abgedeckte Datennutzung nicht verfügbar";
+"GDCoveredDataUnavailableAlert messageKey" = "Alle ggf. anfallenden Datengebühren werden mit Ihrem persönlichen Datentarif abgerechnet und möglicherweise nicht von Ihrem Arbeitgeber erstattet. Klicken Sie auf \"Ich stimme zu\", um fortzufahren, oder deaktivieren Sie die mobilen Daten in den Geräteeinstellungen, um das Gerät im Offline- bzw. WLAN-Betrieb zu verwenden.";
+"GDCoveredDataUnavailableAlert dontShowAgain" = "Ich stimme zu und nicht erneut anzeigen";
+"GDCoveredDataUnavailableAlert positiveButtonKey" = "Ich stimme zu";
+"GDCoveredDataUnavailableAlert cancelButtonKey" = "Datenverbindung in Einstellungen deaktivieren";
+
+/* GDCoveredDataNoRoamingAlert */
+"GDCoveredDataNoRoamingAlert Title" = "Abgedeckte Datennutzung nicht verfügbar";
+"GDCoveredDataNoRoamingAlert messageKey" = "Alle ggf. anfallende Roaming-Gebühren werden mit Ihrem persönlichen Datentarif abgerechnet und möglicherweise nicht von Ihrem Arbeitgeber erstattet. Klicken Sie auf \"Ich stimme zu\", um fortzufahren, oder deaktivieren Sie die mobilen Daten in den Geräteeinstellungen, um das Gerät im Offline- bzw. WLAN-Betrieb zu verwenden.";
+"GDCoveredDataNoRoamingAlert positiveButtonKey" = "Ich stimme zu";
+"GDCoveredDataNoRoamingAlert cancelButtonKey" = "Datenverbindung in Einstellungen deaktivieren";
+
+/* GDRoamingDataBlockedAlert */
+"GDRoamingDataBlockedAlert Title" = "Abgedeckte Datennutzung nicht verfügbar";
+"GDRoamingDataBlockedAlert messageKey" = "Ihr Unternehmen lässt beim Roaming die Verwendung mobiler Daten in dieser Anwendung nicht zu.";
+"GDRoamingDataBlockedAlert cancelButtonKey" = "Offline verwenden";
+
+/* GDCoveredDataLimitAlert */
+"GDCoveredDataLimitAlert Title" = "Limit für abgedeckte Datennutzung";
+"GDCoveredDataLimitAlert messageKey" = "Das Datenlimit Ihres Unternehmens wurde erreicht. Alle anfallenden Datengebühren werden mit Ihrem persönlichen Datentarif abgerechnet und möglicherweise nicht von Ihrem Arbeitgeber erstattet. Klicken Sie auf \"Ich stimme zu\", um fortzufahren, oder deaktivieren Sie die mobilen Daten in den Geräteeinstellungen, um das Gerät im Offline- bzw. WLAN-Betrieb zu verwenden.";
+"GDCoveredDataLimitAlert dontShowAgain" = "Ich stimme zu und nicht erneut anzeigen";
+"GDCoveredDataLimitAlert positiveButtonKey" = "Ich stimme einmalig zu";
+"GDCoveredDataLimitAlert cancelButtonKey" = "Datenverbindung in Einstellungen deaktivieren";
+
+/* GDCoveredRoamingDataLimitAlert */
+"GDCoveredRoamingDataLimitAlert Title" = "Limit der abgedeckten Roaming-Nutzung";
+"GDCoveredRoamingDataLimitAlert messageKey" = "Das Roaming-Limit Ihres Unternehmens wurde erreicht. Zusätzliches Roaming wird mit Ihrem persönlichen Datentarif abgerechnet und möglicherweise nicht von Ihrem Arbeitgeber erstattet. Klicken Sie auf \"Ich stimme zu\", um fortzufahren, oder deaktivieren Sie mobile Daten in den Geräteeinstellungen, um das Gerät im Offline-Betrieb zu verwenden.";
+"GDCoveredRoamingDataLimitAlert dontShowAgain" = "Ich stimme zu und nicht erneut anzeigen";
+"GDCoveredRoamingDataLimitAlert positiveButtonKey" = "Ich stimme einmalig zu";
+"GDCoveredRoamingDataLimitAlert cancelButtonKey" = "Datenverbindung in Einstellungen deaktivieren";
+
+/* GDYouAreCoveredAlert */
+"GDYouAreCoveredAlert Title" = "# Abgedeckt!";
+"GDYouAreCoveredAlert messageKey" = "Wenn das Symbol # in der Statusleiste Ihres Geräts angezeigt wird, wird die Datennutzung für %s von Ihrem Arbeitgeber gemäß seiner Richtlinie abgedeckt und nicht mit Ihrem persönlichen Tarif abgerechnet. Sehen das Symbol hingegen nicht angezeigt wird, wird möglicherweise Ihr persönlicher Datentarif verwendet.";
+"GDYouAreCoveredAlert cancelButtonKey" = "OK";
+
+/* GDLeavingCoveredDataExitAlert */
+"GDLeavingCoveredDataExitAlert Title" = "Sie verlassen den Bereich mit abgedeckter Datennutzung";
+"GDLeavingCoveredDataExitAlert messageKey" = "Sie verlassen eine Anwendung, für die Ihr Arbeitgeber für anfallende Datengebühren aufkommt. Wenn Sie fortfahren, wird möglicherweise Ihr persönlicher Datentarif belastet. Klicken Sie auf \"Ich stimme zu\", um fortzufahren oder auf \"Abbrechen\", um zur Anwendung zurückzukehren.";
+"GDLeavingCoveredDataExitAlert dontShowAgain" = "Ich stimme zu und nicht erneut anzeigen";
+"GDLeavingCoveredDataExitAlert positiveButtonKey" = "Ich stimme einmalig zu";
+"GDLeavingCoveredDataExitAlert cancelButtonKey" = "Abbrechen";
+
+/* GDSplitBillingTutorial */
+"GDSplitBillingTutorial messageKey" = "Die Datennutzung für %s wird von Ihrem Arbeitgeber gemäß seiner Richtlinie abgedeckt, wenn Sie dieses Symbol in der Statusleiste Ihres Geräts sehen.";
+"GDSplitBillingTutorial textCovered" = "Abgedeckt";
+"GDSplitBillingTutorial textNotCovered" = "Nicht abgedeckt";
+"GDSplitBillingTutorial nextButtonKey" = "Weiter";
+"GDSplitBillingTutorial closeButtonKey" = "Schließen";
+
+/* Disclaimer Message */
+"Disclaimer UI right button label text" = "Akzeptieren";
+
+/* EA lock screen password prompt with Touch ID */
+"Touch ID EA Title" = "Touch ID für [App Name]";
+"Use Touch ID or enter the password" = "Verwenden Sie die Touch ID oder geben Sie das Kennwort ein, um die Einrichtung von [App Name] fortzusetzen.";
+"Touch ID positiveButtonKey" = "Kennwort eingeben";
+"Touch ID cancelButtonKey" = "Abbrechen";
+"TouchID reason - require password on start" = "Touch ID erfordert Ihr Kennwort, wenn [App Name] neu gestartet wird.";
+
+/* Touch ID requires password due to settings change */
+"TouchID reason - policy or TouchID changed" = "Aufgrund einer Änderung der Kennworteinstellungen oder der Touch ID des Geräts, müssen Sie Ihr Kennwort eingeben.";
+
+/* Touch ID periodically requires password */
+"Fingerprint requires password after some period"  = "Gemäß den Unternehmensrichtlinien muss Ihr Kennwort alle [period] Stunden eingegeben werden.";
+
+/* Certificate Sharing UI */
+"Certificate Sharing Alert Title" = "Zertifikat erforderlich";
+"Certificate Sharing Alert Message" = "Ihre Organisation schreibt den Import von Zertifikaten vor, um diese App zu benutzen. Sie können die Zertifikate mit %s importieren. Wenn %s nicht aktiviert ist, können Sie es jetzt aktivieren.";
+"Certificate Sharing Alert Next Button" = "Weiter";
+"Certificate Sharing Alert Error Missing Certificates Title" = "Fehlende Zertifikate";
+"Certificate Sharing Alert Error Missing Certificates" = "Es wurden nicht alle erforderlichen Zertifikate importiert. Es sind weitere Schritte mit %s erforderlich.";
+"Certificate Sharing Alert Error Missing App Title" = "Fehlende App";
+"Certificate Sharing Alert Error Missing App" = "%s ist nicht installiert. Installieren Sie %s oder wenden Sie sich an Ihren Adminsitrator.";
+"Certificate Sharing Alert Error Incompatible App Title" = "Inkompatible App";
+"Certificate Sharing Alert Error Incompatible App" = "%s ist nicht kompatibel. Aktualisieren Sie %s oder wenden Sie sich an Ihren Administrator.";
+"Certificate Sharing Alert Error App Locked Title" = "Gesperrte App";
+"Certificate Sharing Alert Error App Locked" = "Stellen Sie die Zertifikatanbieter-App (%s) bereit, bevor Sie BlackBerry Dynamics-Apps bereitstellen, die App-basierte Client-Zertifikate verwenden.";
+"Certificate Sharing Alert Error Wrong User Title" = "Nicht authorisierte App";
+"Certificate Sharing Alert Error Wrong User" = "%s-Nutzer wird nicht erkannt. Entfernen Sie %s und stellen Sie es neu bereit oder wenden Sie sich an Ihren Administrator.";
+"Certificate Sharing Alert Error Unknown Title" = "Zertifikatfehler";
+"Certificate Sharing Alert Error Unknown" = "Ein Fehler ist aufgetreten. Versuchen Sie es erneut oder wenden Sie sich an Ihren Administrator.";
+"Certificate Sharing Alert Retry Button" = "Erneut versuchen";
+"Certificate Sharing Expired Alert Title" = "Zertifikat abgelaufen";
+"Certificate Sharing Alert Connecting Message" = "Bitte warten Sie, während eine Verbindung hergestellt wird...";
+
+/* Common-generic Certificate Import and Enrollment stuff */
+"Certificate Alert OK Button" = "OK";
+"Certificate Alert Success Title" = "Erfolg";
+"Certificate Alert Skip Title" = "Ein anderes Mal";
+"Certificate Alert Later Message" = "Sie werden möglicherweise zu einem späteren Zeitpunkt zur Einrichtung aufgefordert.";
+"Certificate Alert Next Button" = "Weiter";
+"Certificate Alert Error Title" = "Fehler";
+"Certificate Alert Unavailable Title" = "Nicht verfügbar";
+"Certificate Alert Pending Title" = "Ausstehend";
+"Certificate Skip Setup Button" = "Abbrechen";
+"Certificate Okay Button" = "OK";
+
+/* Certificate import screen (PKCS12 file upload)*/
+"Certificate Import Password" = "Kennwort eingeben";
+"Certificate Import Information" = "Geben Sie das Kennwort ein, das Sie von Ihrem Administrator erhalten haben.";
+"Certificate Import Information No Password Required" = "Fahren Sie mit dem Importieren von Dateiinhalten fort.";
+"Certificate Import: Success Message" = "Ihr persönliches Zertifikat kann nun mit dieser App verwendet werden.";
+"Certificate Import: Success Next Message" = "Ihr persönliches Zertifikat wurde erfolgreich importiert. Eine andere Autorität erfordert Ihre Aufmerksamkeit.";
+"Cert Import Alert Incorrect Password Title" = "Falsches Kennwort";
+"Cert Import Alert Incorrect Password Message" = "Ihr Kennwort wurde nicht akzeptiert.";
+"Certificate Alert Weak Cipher Title" = "Nicht erlaubt";
+"Certificate Alert Weak Cipher Message" = "Die Zertifikat kann nicht importiert werden. Die Verschlüsselung entspricht nicht dem US-Bundesstandard für Informationsverarbeitung (FIPS), was durch die Richtlinien vorgeschrieben ist.";
+
+/* Certificate enrolment screen (on demand enrolment) */
+"Certificate Enrolment Password" = "Registrierungscode";
+"Certificate Enrolment Information" = "Geben Sie den Registrierungscode ein, den Sie von Ihrem Administrator erhalten haben.";
+"Certificate Enrolment Information No Password Required" = "Fahren Sie mit der Registrierung fort.";
+"Certificate Enrolment Alert Success Message" = "Sie wurden registriert.";
+"Certificate Enrolment Alert Success Next Message" = "Sie wurden registriert. Für eine weitere Registrierung ist Ihr Kennwort erforderlich.";
+"Certificate Enrolment Alert Pending Message" = "Ihre Registrierung wird noch bearbeitet. Sie werden benachrichtigt, wenn eine weitere Aktion erforderlich ist.";
+"Certificate Enrolment Alert Pending Next Message" = "Ihre Registrierung wird noch bearbeitet. Eine andere Autorität erfordert Ihre Aufmerksamkeit.";
+"Cert Enrolment Alert Incorrect Password Title" = "Falscher Code";
+"Cert Enrolment Alert Incorrect Password Message" = "Ihr Registrierungscode wurde nicht akzeptiert. Wenn das Problem weiterhin besteht, wenden Sie sich an Ihren Administrator.";
+"Certificate Enrolment Alert Error Message" = "Bei Ihrer Registrierung ist ein Problem aufgetreten. Wenn das Problem weiterhin besteht, wenden Sie sich an Ihren Administrator.";
+"Certificate Enrolment Alert Unavailable Message" = "Sie konnten nicht registriert werden, da der Dienst nicht verfügbar war. Wenn das Problem weiterhin besteht, wenden Sie sich an Ihren Administrator.";
+"Certificate Enrolment Alert Removed Message" = "Das Zertifikat wurde vom Administrator entfernt. Die Registrierung für diese Autorität wird übersprungen.";
+"Certificate Enrolment Alert Removed Next Message" = "Das Zertifikat wurde vom Administrator entfernt. Eine andere Autorität erfordert Ihre Aufmerksamkeit.";
+"Optional Certificate Title" = "Client-Zertifikat";
+"Required Certificate Title" = "Erforderliches Client-Zertifikat";
+
+/* Certificate import screen (Device Credential Store) */
+"Certificate Import Info from Device Credential Store" = "Identifizieren Sie im Anschluss Ihr persönliches Zertifikat aus dem Zugangsdatenspeicher des Geräts.";
+"Certificate Import Info from Device Credential Store Post First Time setup" = "Eine Genehmigung ist erforderlich, damit diese App ein persönliches Zertifikat aus dem Anmeldedatenspeicher des Geräts verwenden kann. Das korrekte Zertifikat wurde ermittelt.";
+"Certificate Import: Incorrect Certificate Selection Post First time setup" = "Ein persönliches Zertifikat wurde für dieses Profil bereits eingerichtet und Sie können das Zertifikat nicht ändern. Versuchen Sie es erneut. Wenn das Problem weiterhin besteht, wenden Sie sich an Ihren Administrator.";
+"Certificate Import: Deny Option Selection" = "Sie müssen ein persönliches Zertifikat auswählen. Ist das nötige Zertifikat nicht vorhanden, müssen Sie es möglicherweise installieren. Versuchen Sie es erneut.";
+"Certificate Import: Incorrect Certificate Selection" = "Das Zertifikat erfüllt nicht die Anforderung Ihrer Organisation für dieses Profil. Identifizieren oder installieren Sie ein geeignetes persönliches Zertifikat, oder wenden Sie sich an Ihren Administrator.";
+"Certificate Import: Profile Certificate Match" = "Dieses Zertifikat wurde bereits zur Verwendung mit einem anderen Profil ausgewählt. Möchten Sie dieses Zertifikat an das Profil von %s zuweisen?";
+"Certificate Import: Title In Use" = "Zertifikat in Verwendung";
+"Option Yes" = "Ja";
+"Option No" = "Nein";
+
+/* Open WatchDox URL : Error Title */
+"Cannot Open URL" = "URL kann nicht geöffnet werden";
+
+/* Open WatchDox URL : Error Message */
+"No secure application" = "Sie haben keine sichere Anwendung zum Öffnen der URL installiert. Installieren Sie eine zugelassene Anwendung oder wenden Sie sich für Unterstützung an Ihren IT-Administrator.";
+
+/* Open WatchDox URL : Selection UI Title */
+"Open WatchDox URL with" = "Öffnen der WatchDox-URL mit";
+
+/* Open WatchDox URL : Selection UI Option Button Title */
+"Defined by system" = "Durch System festgelegt";
+
+/* Open URL : Selection UI Title */
+"Open URL with" = "URL öffnen mit";
+
+/*Android Permission Required screen */
+"permissionrequiredheading" = "Berechtigung erforderlich";
+"phonePermissionText" = "Tätigen und verwalten Sie Telefonanrufe.";
+"permissionIntroText" = "Diese Anwendung kann nur mit dem folgenden Android-System %2$s! ausgeführt werden.";
+"permissionIntroTextpara2" = "%4$s! erforderlich zur Identifikation des Mobilgeräts auf der sicheren Infrastruktur von BlackBerry.";
+"gotoSettings" = "Rufen Sie die Anwendungseinstellungen für %1$s! auf, um %3$s! %4$s! zu aktivieren.";
+"singularPermission" = "Berechtigung";/*%2$s! wildcard*/
+"pluralPermission" = "Berechtigungen";/*%2$s! wildcard*/
+"pluralPermission2" = "Sie sind";/*%4$s! wildcard*/
+"singularPermission2" = "Es ist";/*%4$s! wildcard*/
+"pluralthese" = "diese";/*%3$s! wildcard*/
+"singularthis" = "diese(r)";/*%3$s! wildcard*/
+"gotoSettingsbutton" = "Einstellungen aufrufen";
+"deny" ="Verweigern";
+"allow" ="Zulassen";
+
+/* Fingerprint dialog : Button */
+"CANCEL"  = "ABBRECHEN";
+
+/* Fingerprint dialog : Button */
+"RETRY"  = "WIEDERHOLEN";
+
+/* Fingerprint enroll dialog : Title */
+"No Fingerprints"  = "Keine Fingerabdrücke";
+
+/* Fingerprint enroll dialog : Content */
+"To log in with a fingerprint you must enroll at least one"  = "Für die Anmeldung mit einem Fingerabdruck müssen Sie sich zuvor mindestens einmal angemeldet haben";
+
+/* Fingerprint enroll dialog for work profile: Title */
+"No Fingerprints in Work Profile"  = "Keine Fingerabdrücke im geschäftlichen Profil";
+
+/* Fingerprint enroll dialog for work profile : Content */
+"To log in with a fingerprint you must enroll at least one in your work profile"  = "Zur Anmeldung per Fingerabdruck müssen Sie in den Sicherheitseinstellungen Ihres geschäftlichen Profils mindestens einen Fingerabdruck anmelden";
+
+/* Fingerprint enroll dialog : Button */
+"ENROLL"  = "ANMELDEN";
+
+/* Fingerprint activation dialog : Title */
+"Activate fingerprint"  = "Fingerabdruck aktivieren";
+
+/* Fingerprint activation dialog : Content */
+"Fingerprint activation dialog message"  = "Verwenden Sie den Sensor Ihres Geräts, um die Fingerabdruckanmeldung zu aktivieren";
+
+/* 
+ * Fingerprint login dialog : Title
+ * Unlock UI : Navigation Title 
+ */
+"Login"  = "Anmeldung";
+
+/* Fingerprint login dialog : Content */
+"Use the sensor on your device to login"  = "Verwenden Sie den Sensor Ihres Geräts für die Anmeldung";
+
+/* Fingerprint login dialog : Button */
+"USE PASSWORD"  = "KENNWORT VERWENDEN";
+
+/* Fingerprint login dialog : Content */
+"Authenticated"  = "Authentifiziert";
+
+/* Fingerprint login dialog : Content */
+"The fingerprint is not an enrolled one"  = "Es handelt sich nicht um den angemeldeten Fingerabdruck";
+
+/* Fingerprint changed dialog : Title */
+"Fingerprints Changed"  = "Fingerabdrücke geändert";
+
+/* Fingerprint changed dialog : Content */
+"Fingerprint changed dialog message"  = "Die Fingerabdrücke haben sich seit der letzten Authentifizierung geändert";
+
+/* Fingerprint authentication failed dialog : Title */
+"Authentication Failed"  = "Authentifizierung fehlgeschlagen";
+
+/* Fingerprint authentication failed dialog : Content */
+"Fingerprint is not recognized too many times"  = "Zu viele Versuche. Versuchen Sie es später erneut.";
+
+/* Fingerprint time out dialog : Title */
+"Authentication Timed Out"  = "Zeitüberschreitung bei Authentifizierung";
+
+/* Fingerprint time out dialog : Content */
+"Fingerprint time out dialog message"  = "Geben Sie Ihr Kennwort ein oder versuchen Sie es erneut";
+
+/* Fingerprint settings page : Title */
+"Fingerprint Settings"  = "Fingerabdruckeinstellungen";
+
+/* Fingerprint settings page : Content */
+"Fingerprint settings page message"  = "IT-Richtlinie lässt Verwendung Ihres Fingerabdrucks für die Anmeldung zu";
+
+/* Fingerprint settings page : Content */
+"Fingerprint log in"  = "Fingerabdruckanmeldung";
+
+/* Fingerprint dialog : Content */
+"Confirm fingerprint to continue"  = "Zum Fortfahren den Fingerabdruck bestätigen";
+
+/* Fingerprint dialog : Content */
+"Fingerprint recognized"  = "Fingerabdruck erkannt";
+
+/* Fingerprint dialog : Content */
+"Fingerprint is not recognized dialog message" = "Fingerabdruck nicht erkannt. Versuchen Sie es erneut.";
+
+/* Fingerprint dialog : Content */
+"Touch sensor"  = "Sensor berühren";
+
+/* Fingerprint Crypto Failure error : Title */
+"Crypto Failure" = "Krypto fehlgeschlagen";
+
+/* Fingerprint Authentication Failed : Content */
+"Fingerprint authentication failed" = "Fingerabdruckfehler";
+
+/* Fingerprint Crypto Failure error : Content */
+"Internal error: Retry or restart" = "Interner Fehler: Versuchen Sie es erneut oder starten Sie neu.";
+
+/* No Screen Lock dialog : Title */
+"No Screen Lock"  = "Keine Bildschirmsperre";
+
+/* No Screen Lock dialog : Content */
+"Screen lock is required for Fingerprint"  = "Zur Anmeldung per Fingerabdruck müssen Sie zunächst die Bildschirmsperre aktivieren";
+
+/* No Screen Lock dialog : Button */
+"ENABLE"  = "AKTIVIEREN";
+
+/* Fingerprint requires password due to settings change */
+"Fingerprint requires password due settings changes"  = "Aufgrund einer Änderung der Fingerabdruck- oder Kennworteinstellungen müssen Sie Ihr Kennwort eingeben.";
+
+/* Biometry type is not allowed: unlock */
+"Biometry is not allowed for unlock" = "Die ausgewählte Biometrie-Option wird nicht unterstützt. Ändern Sie die bevorzugte Biometrie-Option in den Geräteeinstellungen zu Fingerabdruck oder geben Sie Ihr Kennwort ein.";
+
+/* Biometry type is not allowed: activation */
+/* Title */
+"Activation failure" = "Fehler bei der Aktivierung";
+
+/* Biometry type is not allowed: activation */
+"Biometry is not allowed for activation" = "Die ausgewählte Biometrie-Option wird nicht unterstützt. Ändern Sie die bevorzugte Biometrie-Option und versuchen Sie es erneut.";
+
+/* Notification string for going from  a Password required auth state to No Password mode*/
+"Password no longer required" = "Kennwort nicht mehr erforderlich";
+
+/* Notification string for going from No Password to a Password Required state */
+"Password now required" = "Kennwort jetzt erforderlich";
+
+/* Log upload UI : Log upload status label */
+"Log uploader status" = "Protokolluploadstatus";
+
+/* Log upload UI : upload button */
+"Button Upload" = "Hochladen";
+
+/* Log upload UI : cancel button */
+"Button Cancel" = "Abbrechen";
+
+/* Log upload UI : suspend button */
+"Button Suspend" = "Anhalten";
+
+/* Log upload UI : resume button */
+"Button Resume" = "Fortsetzen";
+
+/* Log upload UI : close button */
+"Button Close" = "Schließen";
+
+/* Log upload UI : completed status label */
+"Completed" = "Abgeschlossen";
+
+/* Log upload UI : suspended status label */
+"Suspended" = "Angehalten";
+
+/* Log upload UI : cancelled status label */
+"Cancelled" = "Abgebrochen";
+
+/* Log upload UI : resumed status label */
+"Resumed" = "Fortgesetzt";
+
+/* Log upload UI : in progress status label */
+"In progress" = "In Bearbeitung";
+
+/* Log upload UI : progress delimiter, e.g. 54 of 123 */
+"of" = "von";
+
+/* Device Block UI: Description */
+"This version is unauthorized to use." = "Es besteht keine Berechtigung zur Nutzung dieser Version.";
+
+/* Missing container alert info text */
+"Missing container alert text" = "Die mit dieser Anwendung verbundenen Daten wurden nicht gefunden oder wurden gelöscht. Sie müssen diese Anwendung erneut einrichten.";
+
+/* Keychain prompt: requires access body */
+"Keychain prompt: requires access body" = "%s erfordert zum Fortfahren Zugriff auf die im Schlüsselbund gespeicherten sicheren Bezeichner. Wählen Sie bei der nächsten Aufforderung \"Immer erlauben\".";
+
+/* Keychain prompt: keychain locked body */
+"Keychain prompt: keychain locked body" = "%s erfordert Zugriff auf die sicheren Kennungen in der Schlüsselkette. Entsperren Sie die Schlüsselkette, um fortzufahren.";
+
+/* Login screen button */
+"Forgot password?" = "Kennwort vergessen?";
+
+/* Learn More : Application Blocked Title */
+"Application Wiped" = "Anwendung wurde gelöscht";
+
+/* Keychain prompt: application will close title */
+"Application will now close" = "Anwendung wird jetzt geschlossen";
+
+/* Provision UI : LearnMore/Hide button text */
+"Hide" = "Ausblenden";
+
+/* Keychain prompt: requires access title */
+"Keychain access required" = "Zugriff auf den Schlüsselbund erforderlich";
+
+/* Missing container alert title */
+/* NOTE: %s will be replaced with application name */
+"%s: Data not found" = "%s: Daten nicht gefunden";
+
+/* Set Password UI : Error Message - Password Change Failure Wrond Old Password */
+"Old password input is incorrect." = "Die Eingabe des alten Kennworts ist nicht korrekt.";
+
+/* App Blocked UI : button accessibility label */
+"_Recover" = "_Wiederherstellen";
+
+/* Missing keychain alert info text */
+"Missing keychain alert info text" = "Der Schlüsselbund dieser Anwendung wurde nicht gefunden oder wurde gelöscht. Dadurch wurden Ihre Daten entfernt, und Sie müssen diese Anwendung erneut einrichten.";
+
+/* Missing keychain alert title */
+/* NOTE: %s will be replaced with application name */
+"%s: Keychain not found" = "%s: Schlüsselbund wurde nicht gefunden";
+
+/* macOS Keychain prompt: application close body */
+/* NOTE: %s will be replaced with application name */
+"Keychain prompt: application close body" = "%s kann ohne Zugriff auf die im Schlüsselbund gespeicherten sicheren Bezeichner nicht fortfahren.";
+
+/* macOS Keychain Keys: Application Specific Tag */
+/* NOTE: %s will be replaced with application name */
+"kGDHashKeysTag" = "Bezeichner von BlackBerry Dynamics: %@";
+
+/* macOS Keychain Keys: Description */
+"kGDHashKeysDescription" = "Sichere Bezeichner";
+
+/* macOS Keychain Keys: Comment */
+"kGDHashKeysComment" = "Die gesicherte Anwendung ist auf diesen Schlüsselbund angewiesen. Ändern oder löschen Sie diesen nicht.";
+
+/* macOS Keychain Keys: Service */
+"kGDHashKeysService" = "https://www.blackberry.com";
+
+/* macOS Keychain Keys: Shared Tag */
+"kGDHashKeysSharedTag" = "Geteilte Bezeichner von BlackBerry Dynamics";
+
+/* macOS Keychain Keys: Shared Account */
+"kGDHashKeysSharedAccount" = "Geteiltes Konto von BlackBerry Dynamics";
+
+/* macOS Uninstaller Script: Dialog Title */
+/* NOTE: $APP_BUNDLE_NAME will be replaced with application name */
+"$APP_BUNDLE_NAME Uninstaller" = "$APP_BUNDLE_NAME-Deinstallationsprogramm";
+
+/* macOS Uninstaller Script: Error Dialog Body */
+/* NOTE: $APP_BUNDLE_NAME will be replaced with application name 
+ * not used directly from bundle, just is copied to uninstall script
+ * key was changed to avoiding warnings which are raised 
+ * by localization validation Jenkins job
+ */
+"Uninstaller Script: Error Dialog Body" = "$APP_BUNDLE_NAME: Fehler - Anwendung wurde im aktuellen Verzeichnis nicht gefunden. Soll die Deinstallation fortgesetzt werden? In diesem Fall werden alle gefundenen Abhängigkeiten entfernt.";
+
+/* macOS Uninstaller Script: Continue Button */
+"Continue" = "Fortsetzen";
+
+/* macOS Uninstaller Script: Uninstall Prompt Body */
+/* NOTE: $APP_BUNDLE_NAME will be replaced with application name */
+"$APP_BUNDLE_NAME: uninstall and remove all dependencies?" = "$APP_BUNDLE_NAME: Alle Abhängigkeiten deinstallieren und entfernen?";
+
+/* macOS Uninstaller Script: Uninstall Button */
+"Uninstall" = "Deinstallieren";
+
+/* macOS Uninstaller Script: Uninstall Completed Message */
+"Uninstall complete" = "Alle deinstallieren";
+
+/* Provision Progress UI : State - TEE-TAM
+ * In this state:
+ * Request device preparation and trustlets from TAM
+ * Save trustlets to disk
+ */
+"TEE Activation" = "TEE-Aktivierung";
+
+/* Set Password UI : TEE active text */
+"TEE enabled" = "TEE aktiviert";
+
+/* Log Upload UI : Connection Status Title */
+"Connection Status"  = "Verbindungsstatus";
+
+/* Log Upload UI : Not Reachable Connection Status Text */
+"Unreachable Status"  = "Nicht erreichbar";
+
+/* Log Upload UI : Via Cellular Connected Status Text */
+"Via Cellular Status"  = "Per Mobiltelefon";
+
+/* Log Upload UI : Via Wi-Fi Connected Status Text */
+"Via Wi-Fi Status"  = "Per WLAN";
+
+/* Touch ID allowed : Accept button title */
+"Accept"  = "Akzeptieren";
+
+/* Touch ID allowed : Cancel button title */
+"Deny"  = "Verweigern";
+
+/* Screen Recording and Sharing Prevention Alert : Dismiss Button */
+"Recording Detected Alert Dismiss Button" = "OK";
+
+/* Screen Recording or Sharing Prevention Alert : Title */
+"Recording Detected Alert Title" = "Aufnahme oder Teilen erkannt";
+
+/* Screen Recording or Sharing Prevention Alert : Message */
+"Recording Detected Alert Message" = "Das Aufnehmen oder Teilen dieses Bildschirms ist nicht erlaubt, wenn diese Anwendung aktiv ist. Deaktivieren Sie alle Möglichkeiten zum Aufnehmen und Teilen, um fortzufahren.";
+
+/* Activation or Activation Progress UI : Recording or Sharing Status Label */
+"Recording or Sharing Status Label" = "Aufnahme";
+
+/* string for Authentication user by Face ID */
+"Authenticate using Face ID" = "Authentifizierung mit Face ID.";
+
+/* Face ID allowed : Title */
+"IT Administrator has allowed Face ID" = "Face ID jetzt durch Richtlinien erlaubt";
+
+/* Face ID allowed : First button title */
+"Use Face ID" = "Face ID nutzen";
+
+/* Face ID disallowed : Title */
+"Face ID disallowed title"  = "Face ID nicht mehr durch Richtlinien erlaubt";
+
+/* Set Password UI : Face ID label */
+"Face ID"  = "Face ID";
+
+/* EA lock screen password prompt with Face ID */
+"Use Face ID or enter the password" = "Nutzen Sie Face ID oder Kennworteingabe zum Fortsetzen der Einrichtung von [App Name].";
+"Face ID reason - require password on start" = "Das Passwort ist jedes Mal erforderlich, wenn  [App Name] gestartet wird.";
+
+/* Face ID requires password due to settings change */
+"Face ID reason - policy or Face ID changed" = "Aufgrund einer Änderung der Kennworteinstellungen oder der Face ID des Geräts, müssen Sie Ihr Kennwort eingeben.";
+
+/* Face ID periodically requires password */
+"Face ID requires password after some period"  = "Gemäß den Unternehmensrichtlinien muss Ihr Kennwort alle [period] Stunden eingegeben werden.";
+
+/* Face ID allowed : Accept button title */
+"Face ID Accept"  = "Akzeptieren";
+
+/* Face ID allowed : Cancel button title */
+"Face ID Deny"  = "Verweigern";
+
+/* Value for NSFaceIDUsageDescription key displayed to user on first attempt to use Face ID */
+"NSFaceIDUsageDescription" = "Ermöglicht die Authentifizierung ohne Passwort.";
+
+/* Action : Alert title */
+"Action Blocked Title" = "Gesperrt";
+
+/* Action : Blocked by DLP policy*/
+"Action Blocked Message" = "Aktion ist durch Richtlinie blockiert";
+
+/* iOS UIPreviewAction Keys: Add to Reading List */
+"Add to Reading List" = "Zur Leseliste hinzufügen";
+
+/* iOS UIPreviewAction Keys: Open Link */
+"Open Link" = "Link öffnen";
+
+/* Android Warning Dialog message */
+"WARNING_IDLE_TIMER" = "Ihre Sitzung wird aufgrund von Inaktivität ablaufen. Bitte tippen Sie auf eine beliebige Stelle, um fortzufahren.";
+
+/* Android Warning Dialog title */
+"WARNING_IDLE_TIMER_TITLE" = "Inaktivitätswarnung";
+
+/* iOS BBDLockWarningUI: Inactivity Warning Alert Title*/
+"Inactivity Warning" = "Inaktivitätswarnung";
+
+/* iOS BBDLockWarningUI: Inactivity Warning Alert Message*/
+"Your session is about to expire due to inactivity. Please tap OK to continue." = "Ihre Sitzung wird aufgrund von Inaktivität ablaufen. Bitte tippen Sie auf OK, um fortzufahren.";
+
+/* iOS BBDPinnedInfrastructureAlertUI title */
+"Infrastructure connection failed" = "Infrastrukturverbindung fehlgeschlagen";
+
+/* iOS BBDPinnedInfrastructureAlertUI message */
+"Connection to infrastructure services could not be established." = "Verbindung zu Infrastrukturdiensten konnte nicht hergestellt werden.\nBitten wenden Sie sich an Ihren IT-Administrator.";
+
+"deviceSettingsButton" = "Geräteeinstellungen";
+
+"<app name> does not fully support the version of Android on this device." = "%s bietet keine vollständige Unterstützung für die Android-Version auf diesem Gerät. Bitte aktualisieren Sie die Anwendung auf die neueste Version.";
+
