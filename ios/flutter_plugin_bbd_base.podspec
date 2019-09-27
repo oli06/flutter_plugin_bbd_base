@@ -4,13 +4,14 @@
 Pod::Spec.new do |s|
   s.name             = 'flutter_plugin_bbd_base'
   s.version          = '0.0.1'
-  s.summary          = 'A new flutter plugin project.'
+  s.summary          = 'Base plugin for Blackberry Dynamics Flutter integration'
   s.description      = <<-DESC
-A new flutter plugin project.
+This is the Base plugin. It adds all required configuration to enable using Blackberry Dynamics in your Flutter application. 
+All the other flutter_plugin_bbd_* plugins require Base plugin to be installed and work correctly.
                        DESC
-  s.homepage         = 'http://example.com'
+  s.homepage         = 'https://www.oliverzernikow.de'
   s.license          = { :file => '../LICENSE' }
-  s.author           = { 'Your Company' => 'email@example.com' }
+  s.author           = { 'Softwaredevelopment Oliver Zernikow' => 'contact@oliverzernikow.de' }
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
   s.public_header_files = 'Classes/**/*.h'
@@ -24,19 +25,4 @@ A new flutter plugin project.
 
   s.ios.deployment_target = '8.0'
   s.libraries = 'z', 'c++'
-  s.info_plist = {
-    'GDApplicationID' => 'com.example.gdappid',
-     'GDLibraryMode' => 'GDEnterpriseSimulation',
-     'GDApplicationVersion' => '1.0.0.0',
-     'NSFaceIDUsageDescription' => 'FaceID is used to unlock App without code'
-  }
-
-  s.app_spec 'Runner' do |app_spec|
-    app_spec.info_plist = {
-      'GDApplicationID' => 'com.example.gdappid',
-      'GDLibraryMode' => 'GDEnterpriseSimulation',
-      'GDApplicationVersion' => '1.0.0.0',
-      'NSFaceIDUsageDescription' => 'FaceID is used to unlock App without code'
-    }
-  end
 end
