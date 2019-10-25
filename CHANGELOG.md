@@ -1,3 +1,5 @@
-## 0.0.1
+## 0.1.0
 
-* TODO: Describe initial release.
+* Initial Open Source version
+* Support for iOS applications
+* [Readme.md](../README.md "Goto README.md") for further information.
