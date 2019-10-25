@@ -1,7 +1,7 @@
 name: flutter_plugin_bbd_base
 description: Flutter base plugin for Blackberry Dynamics integration.
 version: 0.1.0
-author:
+author: oli06
 homepage: https://github.com/oli06
 
 environment:
