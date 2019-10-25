@@ -1,8 +1,8 @@
 name: flutter_plugin_bbd_base
-description: A new flutter plugin project.
-version: 0.0.1
+description: Flutter base plugin for Blackberry Dynamics integration.
+version: 0.1.0
 author:
-homepage:
+homepage: https://github.com/oli06
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
