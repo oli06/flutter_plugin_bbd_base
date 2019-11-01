@@ -1,3 +1,7 @@
+## 0.1.1
+
+* Example Project for iOS
+
 ## 0.1.0
 
 * Initial Open Source version

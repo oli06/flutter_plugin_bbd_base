@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_plugin_bbd_application/flutter_plugin_bbd_application.dart';
 
 void main() => runApp(MyApp());
 
@@ -8,9 +9,19 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
+  String platformVersion = "";
+
   @override
   void initState() {
     super.initState();
+    loadVersion();
+  }
+
+  loadVersion() async {
+    final version = await FlutterPluginBbdApplication.getVersion;
+    setState(() {
+      platformVersion = version;
+    });
   }
 
   @override
@@ -18,10 +29,15 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('Plugin example app'),
+          title: const Text('flutter-plugin-bbd-base example'),
         ),
         body: Center(
-          child: Text('Running'),
+          child: Column(
+            children: <Widget>[
+              Text('Running'),
+              Text('BlackBerry Dynamics Version: $platformVersion'),
+            ],
+          ),
         ),
       ),
     );

@@ -1,0 +1,29 @@
+PODS:
+  - Flutter (1.0.0)
+  - flutter_plugin_bbd_application (0.0.1):
+    - Flutter
+    - flutter_plugin_bbd_base
+  - flutter_plugin_bbd_base (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `.symlinks/flutter/ios`)
+  - flutter_plugin_bbd_application (from `.symlinks/plugins/flutter_plugin_bbd_application/ios`)
+  - flutter_plugin_bbd_base (from `.symlinks/plugins/flutter_plugin_bbd_base/ios`)
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: ".symlinks/flutter/ios"
+  flutter_plugin_bbd_application:
+    :path: ".symlinks/plugins/flutter_plugin_bbd_application/ios"
+  flutter_plugin_bbd_base:
+    :path: ".symlinks/plugins/flutter_plugin_bbd_base/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 58dd7d1b27887414a370fcccb9e645c08ffd7a6a
+  flutter_plugin_bbd_application: cbc9985ce5111b60b05daa04baab5e7fa509ea1c
+  flutter_plugin_bbd_base: 3735037c969dba579b98bc1d8d5c0c12326cf1a3
+
+PODFILE CHECKSUM: 10ae9c18d12c9ffc2275c9a159a3b1e281990db0
+
+COCOAPODS: 1.8.4
