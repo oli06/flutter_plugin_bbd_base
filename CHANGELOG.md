@@ -1,3 +1,7 @@
+## 0.1.2
+
+* Fixing health issues
+
 ## 0.1.1
 
 * Example Project for iOS
